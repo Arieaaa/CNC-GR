@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 620" font-family="'PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif">
+  <rect width="1120" height="620" fill="#ffffff"/>
+  <text x="24" y="34" font-size="22" font-weight="700" fill="#1a1a1a">图2 2.4 GHz 信道栅格与"同信道 vs 分信道"</text>
+  <text x="24" y="58" font-size="14" fill="#555">信道 n 中心频率 ≈ 2407 + 5n MHz；本项目锁 20 MHz 带宽（源码默认 self.band = 20）</text>
+
+  <!-- ===== spectrum axis ===== -->
+  <line x1="60" y1="440" x2="770" y2="440" stroke="#333" stroke-width="1.5"/>
+  <g font-size="12" fill="#333" text-anchor="middle">
+    <line x1="60" y1="435" x2="60" y2="445" stroke="#333"/><text x="60" y="462">2390</text>
+    <line x1="236" y1="435" x2="236" y2="445" stroke="#333"/><text x="236" y="462">2412</text>
+    <line x1="356" y1="435" x2="356" y2="445" stroke="#333"/><text x="356" y="462">2427</text>
+    <line x1="436" y1="435" x2="436" y2="445" stroke="#333"/><text x="436" y="462">2437</text>
+    <line x1="556" y1="435" x2="556" y2="445" stroke="#333"/><text x="556" y="462">2452</text>
+    <line x1="636" y1="435" x2="636" y2="445" stroke="#333"/><text x="636" y="462">2462</text>
+    <line x1="756" y1="435" x2="756" y2="445" stroke="#333"/><text x="756" y="462">2477</text>
+    <text x="415" y="488" fill="#666">频率 (MHz)</text>
+  </g>
+
+  <!-- overlapping pair: ch1 and ch4 -->
+  <text x="60" y="98" font-size="15" font-weight="700" fill="#a3322c">① 中心只差 15 MHz（&lt; 20 MHz）→ 重叠，彼此是干扰源</text>
+  <rect x="156" y="110" width="160" height="34" fill="#f7c9c4" stroke="#a3322c"/>
+  <text x="166" y="132" font-size="13" fill="#7a1f1a">ch1 (2412)</text>
+  <rect x="276" y="150" width="160" height="34" fill="#f7c9c4" stroke="#a3322c" opacity="0.85"/>
+  <text x="286" y="172" font-size="13" fill="#7a1f1a">ch4 (2427)</text>
+  <rect x="276" y="110" width="40" height="74" fill="#a3322c" opacity="0.18"/>
+  <text x="286" y="204" font-size="12" fill="#7a1f1a">重叠带 276–316</text>
+
+  <!-- non-overlapping set -->
+  <text x="60" y="248" font-size="15" font-weight="700" fill="#1f6b2f">② 中心差 25 MHz（&gt; 20 MHz）→ {1, 6, 11} 非重叠组</text>
+  <rect x="156" y="260" width="160" height="34" fill="#cfe9cf" stroke="#1f6b2f"/>
+  <text x="166" y="282" font-size="13" fill="#154d22">ch1 (2412)</text>
+  <rect x="356" y="260" width="160" height="34" fill="#cfe9cf" stroke="#1f6b2f"/>
+  <text x="366" y="282" font-size="13" fill="#154d22">ch6 (2437)</text>
+  <rect x="556" y="260" width="160" height="34" fill="#cfe9cf" stroke="#1f6b2f"/>
+  <text x="566" y="282" font-size="13" fill="#154d22">ch11 (2462)</text>
+  <line x1="316" y1="277" x2="356" y2="277" stroke="#1f6b2f" stroke-dasharray="4 3"/>
+  <line x1="516" y1="277" x2="556" y2="277" stroke="#1f6b2f" stroke-dasharray="4 3"/>
+  <text x="318" y="270" font-size="11" fill="#1f6b2f">留 5 MHz</text>
+  <text x="518" y="270" font-size="11" fill="#1f6b2f">留 5 MHz</text>
+  <text x="60" y="316" font-size="12" fill="#666">40 MHz 宽度在 2.4 GHz 只剩一对可用组合，教室场景规划不开 → 本项目不用（参数表 R-03）</text>
+
+  <!-- all channels ticks: 信道 n 中心 x = 196 + 40n -->
+  <g font-size="10" fill="#999" text-anchor="middle">
+    <text x="236" y="340">1</text><text x="276" y="340">2</text><text x="316" y="340">3</text><text x="356" y="340">4</text>
+    <text x="396" y="340">5</text><text x="436" y="340">6</text><text x="476" y="340">7</text><text x="516" y="340">8</text>
+    <text x="556" y="340">9</text><text x="596" y="340">10</text><text x="636" y="340">11</text><text x="676" y="340">12</text><text x="716" y="340">13</text>
+  </g>
+  <text x="60" y="368" font-size="12" fill="#666">5 MHz 栅格：相邻信道中心间隔 5 MHz，20 MHz 信号左右各占 10 MHz</text>
+  <text x="60" y="392" font-size="12" fill="#a3322c">注意：平台 2 GHz 信道表止于 11（frequency.py:30）；写 12/13 时映射返回 None，会连带算坏参考损耗与覆盖圈（V-15）</text>
+  <text x="60" y="412" font-size="12" fill="#a3322c">mode='n' 在 frequency.py:10-11 被归入 5 GHz 表 —— 提速率请用显式 bw（R-15），不要改 mode</text>
+
+  <!-- ===== same vs split comparison ===== -->
+  <text x="60" y="524" font-size="15" font-weight="700" fill="#0b3d91">③ 实验A要对照的两种配置（位置/功率/终端数/方向必须完全一致）</text>
+  <g>
+    <rect x="60" y="536" width="330" height="60" fill="#fff4f4" stroke="#a3322c"/>
+    <text x="70" y="558" font-size="13" fill="#7a1f1a">同信道臂 ap1=ch1, ap2=ch1</text>
+    <text x="70" y="578" font-size="12" fill="#7a1f1a">邻区帧占住 NAV / 真冲突 → 空口时间被两个 BSS 瓜分</text>
+    <rect x="410" y="536" width="330" height="60" fill="#f1f8f1" stroke="#1f6b2f"/>
+    <text x="420" y="558" font-size="13" fill="#154d22">分信道臂 ap1=ch1, ap2=ch6</text>
+    <text x="420" y="578" font-size="12" fill="#154d22">两组各自竞争 → 可用时间近似翻倍（预期，须实测）</text>
+  </g>
+
+  <!-- ===== right: verification warning ===== -->
+  <rect x="790" y="98" width="300" height="380" fill="#f7f9fc" stroke="#c8d4e6"/>
+  <text x="806" y="124" font-size="15" font-weight="700" fill="#a3322c">2号的核查提醒</text>
+  <g font-size="12.5" fill="#222">
+    <text x="806" y="150">① 干扰模型里没有信道号字段。</text>
+    <text x="820" y="168">wmediumd interference 只吃</text>
+    <text x="820" y="184">positions / tx_powers /</text>
+    <text x="820" y="200">fading / noise_threshold。</text>
+    <text x="806" y="226">② 默认所有接口共享同一介质，</text>
+    <text x="820" y="242">队列排序跨全部接口；要隔离</text>
+    <text x="820" y="258">需显式 setInitialMediums。</text>
+    <text x="806" y="284">③ 结论：1/1 vs 1/6 的收益</text>
+    <text x="820" y="300">必须实测（C-04）。差异</text>
+    <text x="820" y="316">≤ 2 倍重复间标准差时，只能</text>
+    <text x="820" y="332">写"未观察到信道隔离收益"。</text>
+    <text x="806" y="358">④ 实际 channel/频率 以</text>
+    <text x="820" y="374">iw dev wlan0 info 为准（C-02）。</text>
+    <text x="806" y="400">⑤ 未显式设 bw 时，速率上限</text>
+    <text x="820" y="416">可能来自 mode 速率表（C-05）。</text>
+  </g>
+
+  <text x="24" y="612" font-size="12" fill="#777">依据：mn_wifi/link.py:1300（band=20）；wmediumdConnector.py:106-176；examples/wmediumd_multimedium.py:5,46；net.py:882（mininet-wifi master，2026-11-06 副本）</text>
+</svg>

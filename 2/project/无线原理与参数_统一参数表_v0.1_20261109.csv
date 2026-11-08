@@ -1,0 +1,58 @@
+编号,分组,参数,建议值,单位,设置方式,出处,影响实验,状态
+P-01,平台与环境,发行版与内核,记录实际值,-,uname -r; lsb_release -a,方案 §2.1 固定平台版本,全部,待环境核查
+P-02,平台与环境,mininet-wifi commit,记录 sha,-,git rev-parse HEAD,方案 §2.1,全部,待环境核查
+P-03,平台与环境,安装方式,util/install.sh -Wlnfv,-,脚本,get-started,全部,已核实
+P-04,平台与环境,hwsim_mgmt 存在,必须存在,-,which hwsim_mgmt,install.sh:256-265; link.py:219-223,A/B,已核实
+P-05,平台与环境,iw 版本,记录实际值,-,iw --version,install.sh:252,全部,待环境核查
+P-06,平台与环境,wmediumd 版本,记录实际值,-,包版本或 git sha,wmediumdConnector.py,A/B,待环境核查
+P-07,平台与环境,iperf3 版本(两端一致),记录实际值,-,iperf3 -v,方案 §5.2,A/B/C,待环境核查
+P-08,平台与环境,主机负载快照,运行前后各一次,-,nproc; free -m; uptime,方案 §2.1 表格,全部,组内约定
+P-09,平台与环境,Python 版本,记录实际值,-,python3 -V,install.sh:97-104,全部,待环境核查
+R-01,无线参数,mode,g,-,addAccessPoint(mode='g'),examples/mobility.py:20,全部,组内约定
+R-02,无线参数,频段,2.4,GHz,由 mode 分派,frequency.py:8-14 分派; :29-34 2GHz 表 1..11 -> 2.412..2.462,全部,已核实
+R-02b,无线参数,信道可用范围,仅 1-11,-,写 12/13 时 get_freq() 无兜底返回 None,"frequency.py:15-20, :30",全部,已核实+列入C-02
+R-02c,无线参数,mode=n 的坑,本项目不用,-,为提速率改 mode 会让 channel 1/6 落到 5GHz 表,frequency.py:10-11,全部,已核实+建议不改动
+R-03,无线参数,信道宽度 band,20,MHz,默认即 20,link.py:1300/1389/1434 self.band = 20,全部,已核实
+R-04,无线参数,channel,同信道臂 1/1；分信道臂 1/6（可用 1-11，见 R-02b）,-,addAccessPoint(channel='1'/'6'),方案 §2.2; frequency.py:30,A,组内约定+映射已核实
+R-05,无线参数,txpower,AP 14；终端不显式设,dBm,addAccessPoint(txpower='14'),"link.py:349-356 (iw set txpower fixed dBm*100, int 截断); node.py:186-194 (兜底 AP=14 非AP=20)",A/B/C,已核实+待环境核查
+R-06,无线参数,antennaGain,AP 5；终端 5,dBi,antennaGain='5',examples/propagationModel.py:18-20; link.py:328,A/B,组内约定
+R-07,无线参数,antennaHeight,1,m,antennaHeight='1',examples/propagationModel.py:18-19; link.py:334-337,A/B,组内约定
+R-08,无线参数,noise_th,-91(默认),dBm,Mininet_wifi(noise_th=-91),net.py:67/163; propagationModels.py:30,A/B/C,已核实
+R-09,无线参数,cca_th,-90(默认),dBm,Mininet_wifi(cca_th=-90),net.py:67; propagationModels.py:31,A/B/C,已核实
+R-10,无线参数,fading_cof,0(默认，正式阶段不引入衰落),-,Mininet_wifi(fading_cof=0),net.py:65/162; examples/wmediumd_interference.py:17 用 3,A/B/C,已核实+组内约定
+R-11,无线参数,wmediumd_mode,interference(=3),-,"Mininet_wifi(link=wmediumd, wmediumd_mode=interference)",wmediumdConnector.py:19-53 snr=1/error_prob=2/interference=3/spec_prob=4,全部,已核实
+R-12,无线参数,autoAssociation,True(默认),-,Mininet_wifi(autoAssociation=True),net.py:65,B,已核实
+R-13,无线参数,ac_method,实验B两臂 ssf / llf,-,Mininet_wifi(ac_method='ssf'),net.py:70/108/150/218-219; examples/associationControl.py:13-19; associationControl.py:14-45,B,已核实
+R-14,无线参数,SSID/加密,两 AP 不同 SSID；正式阶段不开 WPA,-,addAccessPoint(ssid='ap1-ssid'),examples/wmediumd_multimedium.py:24-28,B,组内约定
+R-15,无线参数,bw,必须显式设置并记录,Mbit/s,addAccessPoint/addStation/addLink(bw='...'),link.py:207-217 getCustomRate g=11 / getRate g=54; net.py:882 默认取 getCustomRate,A/B/C,已核实+待环境核查
+R-16,无线参数,接口 netem 整形,记录实际生效值,Mbit/s|ms|%,脚本自动下发,link.py:75-79 get_bw(); link.py:85-92 tc qdisc replace dev X root handle 2: netem rate,A/B/C,已核实+待环境核查
+R-17,无线参数,range 关联可行距离,默认按信号模型反算,m,不写 range= 时走 setDefaultRange,link.py:324-326; link.py:343-344; net.py:837-840 (dist>range 则不关联),A/B,已核实
+R-18,无线参数,static_range,记录实际值,-,addAccessPoint(static_range='...'),link.py:325,A/B,已核实+待环境核查
+X-01,传播与几何,传播模型 model,logDistance,-,"net.setPropagationModel(model='logDistance', exp=3)",propagationModels.py:20; net.py:1392-1393,A/B,已核实
+X-02,传播与几何,路径损耗指数 exp,3(默认),-,setPropagationModel(exp=3),propagationModels.py:21,A/B,已核实+组内约定
+X-03,传播与几何,阴影偏移 xg,0,dB,setPropagationModel(xg=0),propagationModels.py:23,A/B,已核实
+X-04,传播与几何,系统损耗 sL,1,线性,setPropagationModel(sL=1),propagationModels.py:24; :44-60,A/B,已核实
+X-05,传播与几何,参考距离 ref_d,1(常量不可调),m,-,propagationModels.py:103-120 (ref_d 在 :114),A/B,已核实
+X-06,传播与几何,场地图幅,100x100,m,"net.plotGraph(max_x=100, max_y=100)",官方示例,A/B,组内约定
+X-07,传播与几何,AP 位置,ap1=40.35.1 / ap2=40.65.1,m,"addAccessPoint(position='40,35,1')",方案 §3.1 位置一致,A/B,组内约定
+X-08,传播与几何,静止终端格点,12 个格点按序取前 N,m,"addStation(position='x,y,1')",方案 §3.1,A,组内约定
+X-09,传播与几何,移动路线,40.20.1 -> 40.80.1,m,net.startMobility/mobility/stopMobility,examples/mobility.py:40-53,B,已核实+组内约定
+X-10,传播与几何,随机性与 seed,正式阶段不用随机移动；用则记 seed,-,"setMobilityModel(..., seed=20); net.py:180 self.seed=1",examples/propagationModel.py:33-34; net.py:1539-1577,B,已核实+组内约定
+T-01,业务与流量,方向(A/B),终端->服务器,-,iperf3 -c <server>,方案 §2.2,A/B,组内约定
+T-02,业务与流量,方向(C),服务器->终端,-,iperf3 -c ... -R,方案 §2.2,C,组内约定+待环境核查
+T-03,业务与流量,时长 t,60(前10s不计入),s,iperf3 -t 60,方案 §5.2,A/B/C,组内约定
+T-04,业务与流量,报告间隔 i,1,s,iperf3 -i 1,时间序列粒度,A/B/C,组内约定
+T-05,业务与流量,并发流 P,1,-,iperf3 -P 1,方案 §3.1 每终端强度不变,A,组内约定
+T-06,业务与流量,TCP 包长,默认(不指定，日志留空),byte,-,方案 §5.2 留空规则,A/C,组内约定
+T-07,业务与流量,UDP 定速 b,300,kbit/s,iperf3 -u -b 300k,方案 §3.1,A/B/C,组内约定
+T-08,业务与流量,UDP 包长 l,160,byte,iperf3 -u -l 160,语音类小包口径,B/C,组内约定
+T-09,业务与流量,服务端口,5201+i 每终端独立,-,iperf3 -s -p,src/iperf.h:446 #define PORT 5201; 方案 §5.2,A/B/C,已核实
+T-10,业务与流量,连续探测,ping -i 0.5 -W 1,s,后台 ping,方案 §3.2/§5.1 需注明探测周期与超时,B,组内约定+待环境核查
+T-11,业务与流量,重复次数,>=3 (run01-03),-,文件名编号,方案 §5.2,A/B/C,组内约定
+T-12,业务与流量,QoS 聚合速率上限,待 6号 回填,kbit/s,tc htb rate,方案 §3.3,C,组内约定
+T-13,业务与流量,抖动口径,iperf3 报告 jitter(滑动平均),ms,iperf3 -u 输出,src/iperf_udp.c:211-232 RFC1889 式 jitter += (d-jitter)/16,B/C,已核实
+L-01,日志与命名,文件名,expX_配置键_runNN,-,例 expA_n12_ch1-6_run01.log,方案 §5.2,全部,组内约定
+L-02,日志与命名,运行元数据字段,实验/策略/终端数/信道/方向/速率/包长/时长/重复/版本,-,表头,方案 §5.2,全部,组内约定
+L-03,日志与命名,2号追加必填,exp / txpower实测 / bw设置,-,表头,本表 §6,全部,组内约定
+L-04,日志与命名,RSSI 字段名,rssi_model_dBm,-,由模型给出,link.py:219-227,全部,组内约定
+L-05,日志与命名,留空规则,不适用留空不填0,-,-,方案 §5.2,全部,组内约定

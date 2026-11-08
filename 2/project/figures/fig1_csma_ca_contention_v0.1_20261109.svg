@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 660" font-family="'PingFang SC','Microsoft YaHei',Helvetica,Arial,sans-serif">
+  <rect width="1120" height="660" fill="#ffffff"/>
+  <text x="24" y="34" font-size="22" font-weight="700" fill="#1a1a1a">图1 CSMA/CA：两个终端争用同一段空口</text>
+  <text x="24" y="58" font-size="14" fill="#555">上：随机退避让两次发送自然错开 ｜ 下：抽到同一个时隙才碰撞，代价是窗口翻倍 ｜ 右：本原型实际建模了什么</text>
+
+  <!-- axis -->
+  <text x="40" y="104" font-size="13" fill="#333">时间 →（每个格子 = 1 个时隙 slot）</text>
+
+  <!-- ============ Panel A ============ -->
+  <text x="40" y="132" font-size="16" font-weight="700" fill="#0b3d91">A. 正常情况：先听后说 + 随机退避 + 冻结</text>
+
+  <!-- medium bar row -->
+  <text x="40" y="168" font-size="13" fill="#333">介质</text>
+  <rect x="120" y="152" width="120" height="22" fill="#f3f3f3" stroke="#bbb"/>
+  <text x="150" y="167" font-size="12" fill="#777">DIFS 空闲</text>
+  <rect x="240" y="152" width="180" height="22" fill="#eaf6ea" stroke="#7cb87c"/>
+  <text x="252" y="167" font-size="12" fill="#256d25">空闲（倒数中）</text>
+  <rect x="420" y="152" width="120" height="22" fill="#fdecec" stroke="#e08080"/>
+  <text x="432" y="167" font-size="12" fill="#a33">忙：F1+ACK</text>
+  <rect x="540" y="152" width="60" height="22" fill="#eaf6ea" stroke="#7cb87c"/>
+  <rect x="600" y="152" width="120" height="22" fill="#fdecec" stroke="#e08080"/>
+  <text x="612" y="167" font-size="12" fill="#a33">忙：F2+ACK</text>
+  <rect x="720" y="152" width="60" height="22" fill="#eaf6ea" stroke="#7cb87c"/>
+  <text x="726" y="167" font-size="12" fill="#256d25">空闲</text>
+
+  <!-- sta2 track -->
+  <text x="40" y="212" font-size="13" fill="#333">sta2 退避</text>
+  <g stroke="#3b6fb5" fill="#e8f0fb">
+    <rect x="240" y="196" width="60" height="24"/>
+    <rect x="300" y="196" width="60" height="24"/>
+    <rect x="360" y="196" width="60" height="24"/>
+  </g>
+  <text x="252" y="213" font-size="12" fill="#1a4f8a">剩 3</text>
+  <text x="312" y="213" font-size="12" fill="#1a4f8a">剩 2</text>
+  <text x="372" y="213" font-size="12" fill="#1a4f8a">剩 1</text>
+  <rect x="420" y="196" width="120" height="24" fill="#3b6fb5"/>
+  <text x="428" y="213" font-size="12" fill="#fff">发送 F1 → 等 ACK</text>
+
+  <!-- sta1 track -->
+  <text x="40" y="248" font-size="13" fill="#333">sta1 退避</text>
+  <g stroke="#b06a1c" fill="#fdf3e3">
+    <rect x="240" y="232" width="60" height="24"/>
+    <rect x="300" y="232" width="60" height="24"/>
+    <rect x="360" y="232" width="60" height="24"/>
+  </g>
+  <text x="252" y="249" font-size="12" fill="#8a5212">剩 4</text>
+  <text x="312" y="249" font-size="12" fill="#8a5212">剩 3</text>
+  <text x="372" y="249" font-size="12" fill="#8a5212">剩 2</text>
+  <g stroke="#999" fill="#f0f0f0" stroke-dasharray="4 3">
+    <rect x="420" y="232" width="60" height="24"/>
+    <rect x="480" y="232" width="60" height="24"/>
+  </g>
+  <text x="426" y="249" font-size="12" fill="#666">听到忙→冻结</text>
+  <text x="486" y="249" font-size="12" fill="#666">仍冻结</text>
+  <rect x="540" y="232" width="60" height="24" stroke="#b06a1c" fill="#fdf3e3"/>
+  <text x="552" y="249" font-size="12" fill="#8a5212">剩 1</text>
+  <rect x="600" y="232" width="120" height="24" fill="#b06a1c"/>
+  <text x="608" y="249" font-size="12" fill="#fff">发送 F2 → 等 ACK</text>
+
+  <!-- annotations -->
+  <g font-size="12" fill="#333">
+    <text x="40" y="288">1) 发射前必须连续空闲一段 DIFS，然后各抽一个随机时隙数（窗口 [0, CW]）。</text>
+    <text x="40" y="308">2) 倒数过程中一旦听到别人发送，计数器冻结而不是清零 —— 只有"同一时隙同时归零"才会真碰撞。</text>
+    <text x="40" y="328">3) 每帧要 ACK：没等到 ACK 判为丢帧，CW 加倍后重传。一次冲突会拖慢之后所有人。</text>
+    <text x="40" y="348">4) NAV/RTS-CTS 属于虚拟载波侦听，用来处理"自己听不见但会撞车"的隐藏终端。</text>
+  </g>
+
+  <!-- ============ Panel B ============ -->
+  <text x="40" y="392" font-size="16" font-weight="700" fill="#a3322c">B. 碰撞情况：抽到同一个时隙</text>
+  <text x="40" y="424" font-size="13" fill="#333">sta2</text>
+  <rect x="120" y="408" width="60" height="24" stroke="#3b6fb5" fill="#e8f0fb"/><text x="132" y="425" font-size="12" fill="#1a4f8a">剩 2</text>
+  <rect x="180" y="408" width="60" height="24" stroke="#3b6fb5" fill="#e8f0fb"/><text x="192" y="425" font-size="12" fill="#1a4f8a">剩 1</text>
+  <rect x="240" y="408" width="80" height="24" fill="#a3322c"/><text x="248" y="425" font-size="12" fill="#fff">F1 发出</text>
+  <text x="40" y="458" font-size="13" fill="#333">sta1</text>
+  <rect x="120" y="442" width="60" height="24" stroke="#b06a1c" fill="#fdf3e3"/><text x="132" y="459" font-size="12" fill="#8a5212">剩 2</text>
+  <rect x="180" y="442" width="60" height="24" stroke="#b06a1c" fill="#fdf3e3"/><text x="192" y="459" font-size="12" fill="#8a5212">剩 1</text>
+  <rect x="240" y="442" width="80" height="24" fill="#a3322c"/><text x="248" y="459" font-size="12" fill="#fff">F2 发出</text>
+  <rect x="320" y="408" width="150" height="58" fill="#fff4f4" stroke="#a3322c"/>
+  <text x="330" y="432" font-size="13" fill="#a3322c">两帧在 AP 处叠加</text>
+  <text x="330" y="452" font-size="13" fill="#a3322c">→ 无 ACK → 双方重传</text>
+  <g font-size="12" fill="#333">
+    <text x="500" y="424">无线不能"边发边听"地检测冲突：自发射远强于收到的远端信号，</text>
+    <text x="500" y="444">所以只能避免（CA）+ 事后重传；窗口从 CW 变成约 2·CW（有上限）。</text>
+    <text x="500" y="466">两 AP 覆盖重叠时，邻区帧也会占住 NAV，等价于把可用时间瓜分掉。</text>
+  </g>
+
+  <!-- ============ right box: what this project models ============ -->
+  <rect x="40" y="496" width="1040" height="140" fill="#f7f9fc" stroke="#c8d4e6"/>
+  <text x="56" y="522" font-size="15" font-weight="700" fill="#0b3d91">本原型实际发生的是什么（汇报必须分栏说明）</text>
+  <g font-size="13" fill="#222">
+    <text x="56" y="548">· DIFS / 时隙 / 竞争窗口的逐帧时序：不建模。CSMA/CA 只用来解释"为什么密集接入时空口时间被瓜分"。</text>
+    <text x="56" y="568">· 信道质量与速率：由传播模型（logDistance, exp=3）算出 RSSI，再由 tc-netem 按距离公式下发 rate/latency/loss。</text>
+    <text x="56" y="588">· 丢包：来自干扰/信噪差错模型（wmediumd interference），iperf3 报 UDP 丢包与 TCP 重传。</text>
+    <text x="660" y="548">· 分信道收益是否成立：需实测（核查项 C-04）。</text>
+    <text x="660" y="568">· 单接口速率天花板：需实测（C-05）。</text>
+    <text x="660" y="588">· RSSI 措辞：模型给定，不是射频实测。</text>
+  </g>
+  <text x="56" y="626" font-size="12" fill="#777">依据：mn_wifi/link.py:75-79, 85-92, 219-227；wmediumdConnector.py:106-176；examples/wmediumd_multimedium.py:5（mininet-wifi master，2026-11-06 副本）</text>
+</svg>
