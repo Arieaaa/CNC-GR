@@ -1,0 +1,41 @@
+#!/bin/bash
+set -euo pipefail
+
+export PATH=/usr/sbin:/usr/bin:/sbin:/bin
+
+if [[ $# -eq 1 && $1 == --help ]]; then
+    printf '用法：sudo /usr/local/sbin/wifi-lab [终端数 2|4|8|12] [信道 1,1|1,6]\n'
+    exit 0
+fi
+
+stations=${1:-2}
+channels=${2:-1,6}
+if [[ $# -gt 2 || ! $stations =~ ^(2|4|8|12)$ || ! $channels =~ ^1,[16]$ ]]; then
+    printf '参数无效。用 wifi-lab --help 查看可用参数。\n' >&2
+    exit 2
+fi
+
+if (( EUID != 0 )); then
+    printf '请通过 sudo /usr/local/sbin/wifi-lab 运行。\n' >&2
+    exit 1
+fi
+
+# Let the service own the lock so a disconnected SSH client cannot release it early.
+result=0
+systemd-run --quiet --wait --pipe --collect --expand-environment=no \
+    --property=PrivateTmp=yes --property=RuntimeMaxSec=180s --property=UMask=0027 \
+    --property=TimeoutStopSec=20s \
+    --setenv=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin \
+    --setenv=MPLBACKEND=Agg --setenv=LC_ALL=C.UTF-8 \
+    /usr/bin/flock -F -n -E 75 /var/lib/wifi-lab/run.lock \
+    /usr/bin/python3 -IBu /opt/wifi-lab/topology.py "$stations" "$channels" "${SUDO_USER:-root}" \
+    </dev/null || result=$?
+
+if (( result == 75 )); then
+    printf '实验机正在运行另一组实验，请等当前运行结束后再试。\n' >&2
+elif (( result == 0 )); then
+    printf '基础验收通过。\n'
+else
+    printf '基础验收未通过，请查看本次的 status.txt 和 run.log。\n' >&2
+fi
+exit "$result"
