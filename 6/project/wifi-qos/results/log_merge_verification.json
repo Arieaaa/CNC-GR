@@ -1,0 +1,8 @@
+{
+  "format": "expc-raw-logs-jsonl-v1",
+  "merged_run_files": 11,
+  "original_files": 4343,
+  "restored_files": 4343,
+  "all_file_sha256_match": true,
+  "formal_experiment_runs": 6
+}

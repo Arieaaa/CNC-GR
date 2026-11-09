@@ -1,0 +1,33 @@
+#!/bin/bash
+set -euo pipefail
+export PATH=/usr/sbin:/usr/bin:/sbin:/bin
+
+if [[ $# -lt 2 || $# -gt 4 ]]; then
+    printf '用法：sudo /usr/local/sbin/wifi-expc capacity|udp-only|baseline|qos 重复编号 [总速率kbit 默认2000] [时长秒 默认60]\n' >&2
+    exit 2
+fi
+mode=$1
+run_number=$2
+total_kbit=${3:-2000}
+duration=${4:-60}
+if [[ ! $mode =~ ^(capacity|udp-only|baseline|qos)$ || ! $run_number =~ ^[1-9][0-9]?$ ||
+      ! $total_kbit =~ ^[1-9][0-9]{3,4}$ || ! $duration =~ ^[1-9][0-9]$ ]]; then
+    printf '参数无效。\n' >&2
+    exit 2
+fi
+if (( total_kbit < 1000 || total_kbit > 50000 || duration < 15 || duration > 90 )); then
+    printf '总速率须为1000至50000，时长须为15至90秒。\n' >&2
+    exit 2
+fi
+if (( EUID != 0 )); then
+    printf '请通过管理员部署的sudo入口运行。\n' >&2
+    exit 1
+fi
+systemd-run --quiet --wait --pipe --collect --expand-environment=no \
+    --property=PrivateTmp=yes --property=RuntimeMaxSec=300s --property=UMask=0027 \
+    --property=TimeoutStopSec=30s \
+    --setenv=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin \
+    --setenv=MPLBACKEND=Agg --setenv=LC_ALL=C.UTF-8 \
+    --setenv="WIFI_OPERATOR=${SUDO_USER:-root}" \
+    /usr/bin/python3 -IBu /opt/wifi-lab/expc.py "$mode" --run "$run_number" \
+    --total-kbit "$total_kbit" --seconds "$duration" </dev/null

@@ -1,0 +1,127 @@
+{
+  "format": "expc-raw-logs-jsonl-v1",
+  "total_original_files": 4343,
+  "runs": [
+    {
+      "run": "expC_baseline_c2000_run01_20261109T134207Z_4fs0o1wx",
+      "log_file": "expC_baseline_c2000_run01_20261109T134207Z_4fs0o1wx.jsonl",
+      "files": 631,
+      "original_bytes": 594330,
+      "sha256": "9c69784225642cfffc211abd181731b8d16bd23344a927790b1ce8ff0119bc7a",
+      "status": "PASS",
+      "mode": "baseline",
+      "repeat": 1,
+      "seconds": 60
+    },
+    {
+      "run": "expC_baseline_c2000_run02_20261109T134607Z_47qrkol0",
+      "log_file": "expC_baseline_c2000_run02_20261109T134607Z_47qrkol0.jsonl",
+      "files": 631,
+      "original_bytes": 593682,
+      "sha256": "d0f2220466a0b9fc2454cf13113800fcaafaab73d0b1cd39a43e1a8ef5fe2fcc",
+      "status": "PASS",
+      "mode": "baseline",
+      "repeat": 2,
+      "seconds": 60
+    },
+    {
+      "run": "expC_baseline_c2000_run03_20261109T134726Z_1n9j2ujo",
+      "log_file": "expC_baseline_c2000_run03_20261109T134726Z_1n9j2ujo.jsonl",
+      "files": 631,
+      "original_bytes": 594340,
+      "sha256": "a1d183b478302aee3ee993f9f007482efddc826d34b770ec9355023b9131caef",
+      "status": "PASS",
+      "mode": "baseline",
+      "repeat": 3,
+      "seconds": 60
+    },
+    {
+      "run": "expC_baseline_c2000_run90_20261109T133421Z_txsdqkvo",
+      "log_file": "expC_baseline_c2000_run90_20261109T133421Z_txsdqkvo.jsonl",
+      "files": 47,
+      "original_bytes": 47264,
+      "sha256": "97d598cb9044d4954783347bbe07fe162bb0115b9d1821e9b8b211f1edea3f5c",
+      "status": "FAIL",
+      "mode": "baseline",
+      "repeat": 90,
+      "seconds": 15
+    },
+    {
+      "run": "expC_baseline_c2000_run91_20261109T133603Z_ai7qfv9_",
+      "log_file": "expC_baseline_c2000_run91_20261109T133603Z_ai7qfv9_.jsonl",
+      "files": 226,
+      "original_bytes": 222667,
+      "sha256": "02d3396cf4fccbe84e352abe16e582ee54dc5c677d92e9ce50958d994afc8479",
+      "status": "PASS",
+      "mode": "baseline",
+      "repeat": 91,
+      "seconds": 15
+    },
+    {
+      "run": "expC_capacity_c2000_run01_20261109T133227Z_i4wp4wn8",
+      "log_file": "expC_capacity_c2000_run01_20261109T133227Z_i4wp4wn8.jsonl",
+      "files": 45,
+      "original_bytes": 155589,
+      "sha256": "0e3c2a7bb01cb5cfc2fd3e3c34d87415dbde04e26ba62282532de6ce95e5c4d4",
+      "status": "PASS",
+      "mode": "capacity",
+      "repeat": 1,
+      "seconds": 30
+    },
+    {
+      "run": "expC_qos_c2000_run01_20261109T134327Z__02q2oah",
+      "log_file": "expC_qos_c2000_run01_20261109T134327Z__02q2oah.jsonl",
+      "files": 631,
+      "original_bytes": 747253,
+      "sha256": "41f234c95584360a685d5d5ddcc4bea3e7c98cf2f821f5378198fbd9e3fbbf66",
+      "status": "PASS",
+      "mode": "qos",
+      "repeat": 1,
+      "seconds": 60
+    },
+    {
+      "run": "expC_qos_c2000_run02_20261109T134447Z_0439qzhl",
+      "log_file": "expC_qos_c2000_run02_20261109T134447Z_0439qzhl.jsonl",
+      "files": 631,
+      "original_bytes": 747978,
+      "sha256": "1bdd7c0b3d3776733cb2c020b768fabda33ac95529f0539ba1342126aa15bd16",
+      "status": "PASS",
+      "mode": "qos",
+      "repeat": 2,
+      "seconds": 60
+    },
+    {
+      "run": "expC_qos_c2000_run03_20261109T134846Z_izzzov02",
+      "log_file": "expC_qos_c2000_run03_20261109T134846Z_izzzov02.jsonl",
+      "files": 631,
+      "original_bytes": 746684,
+      "sha256": "ca245badcd3ae3876ed54fe29e3eb41fa9ff18c3c3150f6d6267ad690f6f16a2",
+      "status": "PASS",
+      "mode": "qos",
+      "repeat": 3,
+      "seconds": 60
+    },
+    {
+      "run": "expC_qos_c2000_run90_20261109T133656Z_2bv1iz3i",
+      "log_file": "expC_qos_c2000_run90_20261109T133656Z_2bv1iz3i.jsonl",
+      "files": 226,
+      "original_bytes": 265968,
+      "sha256": "8eba12e4d416e63b008d6b0f8689979f9580a6a75dedba616438f4c1cb178e9a",
+      "status": "PASS",
+      "mode": "qos",
+      "repeat": 90,
+      "seconds": 15
+    },
+    {
+      "run": "smoke_20261109T114006Z_0ycyd4go",
+      "log_file": "smoke_20261109T114006Z_0ycyd4go.jsonl",
+      "files": 13,
+      "original_bytes": 13188,
+      "sha256": "9308b63a3514d8e231188d14c42d8e4b1ff6e0e8ac1631566896f2604740a72c",
+      "status": "PASS",
+      "mode": "802.11g",
+      "repeat": null,
+      "seconds": null
+    }
+  ]
+}

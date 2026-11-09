@@ -1,0 +1,3 @@
+station,direction,seconds,tcp_received_mbps,kind
+sta1,station to server,3,35.59451412901315,smoke only
+sta2,station to server,3,35.921340010949024,smoke only
