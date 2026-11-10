@@ -1,0 +1,32 @@
+{
+  "policy": "llf",
+  "repeat": 1,
+  "phase": "pilot",
+  "utc": "20261110T060426Z",
+  "stations": 4,
+  "positions": [
+    "15,25,0",
+    "14,24,0",
+    "15,26,0",
+    "16,24,0"
+  ],
+  "channels": [
+    1,
+    6
+  ],
+  "background_kbps_each": 256,
+  "udp_payload_bytes": 512,
+  "direction": "sta2-4 to srv",
+  "ports": [
+    5202,
+    5203,
+    5204
+  ],
+  "duration_s": 75,
+  "probe_period_s": 0.2,
+  "probe_timeout_s": 1,
+  "route": "sta1: x=15+min(max(t-10,0),55), y=25, z=0",
+  "operator": "wifi05",
+  "run_b.py_sha256": "357022da42a8486e17a5b1bd92a0acf66de22bd9075bd0153d1ab4c56b9b64cb",
+  "collect.py_sha256": "71ea3ce92933b30713ca5c64904306c53449343069b37c50b90e97ec7de49bd2"
+}

@@ -1,0 +1,49 @@
+{
+  "kind": "smoke",
+  "started_utc": "2026-11-10T05:57:34.354657+00:00",
+  "operator": "wifi05",
+  "kernel": "6.8.0-138-generic",
+  "architecture": "x86_64",
+  "mininet_wifi_version": "2.7",
+  "stations": 2,
+  "channels": [
+    1,
+    6
+  ],
+  "ssid": "campus-lab",
+  "channel_width_mhz": 20,
+  "mode": "802.11g",
+  "medium": "wmediumd interference",
+  "propagation": {
+    "model": "logDistance",
+    "exp": 3
+  },
+  "ap_positions_m": [
+    [
+      15,
+      25,
+      0
+    ],
+    [
+      70,
+      25,
+      0
+    ]
+  ],
+  "requested_ap_range_m": 36,
+  "station_positions_m": [
+    [
+      20,
+      23,
+      0
+    ],
+    [
+      75,
+      23,
+      0
+    ]
+  ],
+  "server_ip": "10.44.0.100",
+  "iperf3_direction": "station to server",
+  "iperf3_seconds_per_station": 3
+}

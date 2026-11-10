@@ -1,0 +1,1 @@
+{"t": 350136.937511833, "args": ["timeout", "5", "iw", "dev", "sta1-wlan0", "connect", "-w", "campus-lab", "2437", "02:00:00:00:05:00"], "stdout": "sta1-wlan0 (phy #136): connected to 02:00:00:00:05:00\n", "stderr": "", "rc": 0}

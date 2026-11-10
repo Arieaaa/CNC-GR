@@ -1,0 +1,30 @@
+[
+  {
+    "old_bssid": "02:00:00:00:04:00",
+    "new_bssid": "02:00:00:00:05:00",
+    "last_old_s": 37.80007013096474,
+    "first_new_s": 38.10584803594975,
+    "first_new_x_m": 43.00064653198933,
+    "last_old_signal_dBm": "-72",
+    "first_new_signal_dBm": "-72",
+    "nearby_replies": [
+      {
+        "t_s": 37.75399112701416,
+        "seq": 183,
+        "rtt_ms": 0.665
+      },
+      {
+        "t_s": 37.95352911949158,
+        "seq": 184,
+        "rtt_ms": 0.271
+      },
+      {
+        "t_s": 39.09175729751587,
+        "seq": 185,
+        "rtt_ms": 929.0
+      }
+    ],
+    "max_adjacent_reply_gap_ms": 1138.228178024292,
+    "missing_seq_near_event": 0
+  }
+]

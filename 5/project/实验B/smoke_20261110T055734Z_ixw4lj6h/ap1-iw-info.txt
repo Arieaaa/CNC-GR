@@ -1,0 +1,12 @@
+Interface ap1-wlan1
+	ifindex 273
+	wdev 0x6200000001
+	addr 02:00:00:00:02:00
+	ssid campus-lab
+	type AP
+	wiphy 98
+	channel 1 (2412 MHz), width: 20 MHz (no HT), center1: 2412 MHz
+	txpower 1.00 dBm
+	multicast TXQ:
+		qsz-byt	qsz-pkt	flows	drops	marks	overlmt	hashcol	tx-bytes	tx-packets
+		0	0	0	0	0	0	0	0		0
