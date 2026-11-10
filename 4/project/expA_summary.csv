@@ -1,0 +1,13 @@
+﻿experiment,stations,channels,run,tcp_total_mbps,tcp_per_station_avg_mbps,rtt_avg_max_ms,rtt_p95_max_ms,udp_loss_avg_pct,udp_loss_max_pct,udp_jitter_max_ms,udp_rate_per_station,udp_datagram_bytes,tcp_seconds,udp_seconds,omit_seconds,ping_interval_s,direction,raw_dir
+expA,12,1-1,01,72.91,6.076,24.473,29.2,0.0062,0.028000746686578308,1.999,2M,1400,60,60,10,0.2,station to server,/var/lib/wifi-lab/runs/expA_n12_ch1-1_run01
+expA,12,1-1,02,72.015,6.001,23.874,28.9,0.0117,0.02800336040324839,1.89,2M,1400,60,60,10,0.2,station to server,/var/lib/wifi-lab/runs/expA_n12_ch1-1_run02
+expA,12,1-1,03,72.348,6.029,25.058,29.8,0.035,0.056001493373156616,2.036,2M,1400,60,60,10,0.2,station to server,/var/lib/wifi-lab/runs/expA_n12_ch1-1_run03
+expA,12,1-6,01,73.03,6.086,24.226,29.0,0.0249,0.056001493373156616,3.032,2M,1400,60,60,10,0.2,station to server,/var/lib/wifi-lab/runs/expA_n12_ch1-6_run01
+expA,12,1-6,02,73.03,6.086,34.854,29.8,0.0202,0.037337813870997855,2.042,2M,1400,60,60,10,0.2,station to server,/var/lib/wifi-lab/runs/expA_n12_ch1-6_run02
+expA,12,1-6,03,72.385,6.032,24.502,29.4,0.0272,0.0653289780681288,1.805,2M,1400,60,60,10,0.2,station to server,/var/lib/wifi-lab/runs/expA_n12_ch1-6_run03
+expA,4,1-6,01,71.922,17.98,9.432,12.3,0.0,0,0.605,2M,1400,60,60,10,0.2,station to server,/var/lib/wifi-lab/runs/expA_n4_ch1-6_run01
+expA,4,1-6,02,71.856,17.964,9.216,12.5,0.0,0,1.347,2M,1400,60,60,10,0.2,station to server,/var/lib/wifi-lab/runs/expA_n4_ch1-6_run02
+expA,4,1-6,03,71.759,17.94,9.126,12.4,0.0,0,1.364,2M,1400,60,60,10,0.2,station to server,/var/lib/wifi-lab/runs/expA_n4_ch1-6_run03
+expA,8,1-6,01,71.984,8.998,16.855,22.4,0.0,0,0.715,2M,1400,60,60,10,0.2,station to server,/var/lib/wifi-lab/runs/expA_n8_ch1-6_run01
+expA,8,1-6,02,72.006,9.001,16.987,21.9,0.0,0,1.146,2M,1400,60,60,10,0.2,station to server,/var/lib/wifi-lab/runs/expA_n8_ch1-6_run02
+expA,8,1-6,03,71.955,8.994,16.163,21.8,0.0,0,1.132,2M,1400,60,60,10,0.2,station to server,/var/lib/wifi-lab/runs/expA_n8_ch1-6_run03

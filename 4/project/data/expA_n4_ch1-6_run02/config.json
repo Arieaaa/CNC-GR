@@ -1,0 +1,80 @@
+{
+  "kind": "expA",
+  "started_utc": "2026-11-10T14:18:23.355203+00:00",
+  "operator": "wifi04",
+  "kernel": "6.8.0-138-generic",
+  "architecture": "x86_64",
+  "mininet_wifi_version": "2.7",
+  "stations": 4,
+  "channels": [
+    1,
+    6
+  ],
+  "run": "02",
+  "ssid": "campus-lab",
+  "channel_width_mhz": 20,
+  "mode": "802.11g",
+  "medium": "wmediumd interference",
+  "propagation": {
+    "model": "logDistance",
+    "exp": 3
+  },
+  "ap_positions_m": [
+    [
+      15,
+      25,
+      0
+    ],
+    [
+      70,
+      25,
+      0
+    ]
+  ],
+  "station_positions_m": [
+    [
+      20,
+      23,
+      0
+    ],
+    [
+      75,
+      23,
+      0
+    ],
+    [
+      20,
+      24,
+      0
+    ],
+    [
+      75,
+      24,
+      0
+    ]
+  ],
+  "server_ip": "10.44.0.100",
+  "direction": "station to server",
+  "tcp_seconds": 60,
+  "udp_seconds": 60,
+  "omit_seconds": 10,
+  "udp_rate_per_station": "2M",
+  "udp_datagram_bytes": 1400,
+  "ping_interval_s": 0.2,
+  "iperf3_ports": [
+    5201,
+    5202,
+    5203,
+    5204
+  ],
+  "phases": {
+    "tcp": {
+      "start_utc": "2026-11-10T14:18:37.345575+00:00",
+      "end_utc": "2026-11-10T14:19:47.393644+00:00"
+    },
+    "udp": {
+      "start_utc": "2026-11-10T14:19:47.393654+00:00",
+      "end_utc": "2026-11-10T14:20:57.417749+00:00"
+    }
+  }
+}

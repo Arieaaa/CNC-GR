@@ -1,0 +1,10 @@
+Connected to 02:00:00:00:03:00 (on sta2-wlan0)
+	SSID: campus-lab
+	freq: 2437.0
+	RX: 487 bytes (10 packets)
+	TX: 312 bytes (4 packets)
+	signal: -51 dBm
+	tx bitrate: 1.0 MBit/s
+	bss flags: short-slot-time
+	dtim period: 2
+	beacon int: 100

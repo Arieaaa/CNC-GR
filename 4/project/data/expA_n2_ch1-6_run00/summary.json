@@ -1,0 +1,38 @@
+{
+  "experiment": "expA",
+  "stations": 2,
+  "channels": [
+    1,
+    6
+  ],
+  "run": "00",
+  "tcp_per_station_mbps": {
+    "sta1": 36.062,
+    "sta2": 36.013
+  },
+  "tcp_total_mbps": 72.075,
+  "udp_per_station": {
+    "sta1": {
+      "lost_percent": 0,
+      "jitter_ms": 0.367619316414221,
+      "received_mbps": 2.0
+    },
+    "sta2": {
+      "lost_percent": 0,
+      "jitter_ms": 0.06413101605382675,
+      "received_mbps": 2.0
+    }
+  },
+  "rtt_ms": {
+    "sta1": {
+      "avg_ms": 7.012,
+      "p95_ms": 9.66,
+      "samples": 97
+    },
+    "sta2": {
+      "avg_ms": 6.573,
+      "p95_ms": 9.31,
+      "samples": 100
+    }
+  }
+}

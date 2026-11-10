@@ -1,0 +1,104 @@
+{
+  "experiment": "expA",
+  "stations": 8,
+  "channels": [
+    1,
+    6
+  ],
+  "run": "03",
+  "tcp_per_station_mbps": {
+    "sta1": 8.807,
+    "sta2": 8.702,
+    "sta3": 9.348,
+    "sta4": 9.034,
+    "sta5": 8.788,
+    "sta6": 9.139,
+    "sta7": 9.033,
+    "sta8": 9.103
+  },
+  "tcp_total_mbps": 71.955,
+  "udp_per_station": {
+    "sta1": {
+      "lost_percent": 0,
+      "jitter_ms": 0.5985300186569745,
+      "received_mbps": 2.0
+    },
+    "sta2": {
+      "lost_percent": 0,
+      "jitter_ms": 0.48784697364040636,
+      "received_mbps": 2.0
+    },
+    "sta3": {
+      "lost_percent": 0,
+      "jitter_ms": 0.9033530284772162,
+      "received_mbps": 2.0
+    },
+    "sta4": {
+      "lost_percent": 0,
+      "jitter_ms": 0.4376334171643952,
+      "received_mbps": 2.0
+    },
+    "sta5": {
+      "lost_percent": 0,
+      "jitter_ms": 0.585384909821704,
+      "received_mbps": 2.0
+    },
+    "sta6": {
+      "lost_percent": 0,
+      "jitter_ms": 0.7960057402122578,
+      "received_mbps": 2.0
+    },
+    "sta7": {
+      "lost_percent": 0,
+      "jitter_ms": 1.1323102001030867,
+      "received_mbps": 2.0
+    },
+    "sta8": {
+      "lost_percent": 0,
+      "jitter_ms": 0.902126857383192,
+      "received_mbps": 2.0
+    }
+  },
+  "rtt_ms": {
+    "sta1": {
+      "avg_ms": 16.099,
+      "p95_ms": 20.9,
+      "samples": 288
+    },
+    "sta2": {
+      "avg_ms": 15.82,
+      "p95_ms": 21.7,
+      "samples": 291
+    },
+    "sta3": {
+      "avg_ms": 16.033,
+      "p95_ms": 20.8,
+      "samples": 288
+    },
+    "sta4": {
+      "avg_ms": 15.521,
+      "p95_ms": 21.1,
+      "samples": 291
+    },
+    "sta5": {
+      "avg_ms": 16.037,
+      "p95_ms": 20.9,
+      "samples": 289
+    },
+    "sta6": {
+      "avg_ms": 15.682,
+      "p95_ms": 21.2,
+      "samples": 284
+    },
+    "sta7": {
+      "avg_ms": 16.163,
+      "p95_ms": 21.6,
+      "samples": 290
+    },
+    "sta8": {
+      "avg_ms": 15.836,
+      "p95_ms": 21.8,
+      "samples": 289
+    }
+  }
+}

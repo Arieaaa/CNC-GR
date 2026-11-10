@@ -1,0 +1,148 @@
+{
+  "experiment": "expA",
+  "stations": 12,
+  "channels": [
+    1,
+    6
+  ],
+  "run": "03",
+  "tcp_per_station_mbps": {
+    "sta1": 6.307,
+    "sta2": 6.307,
+    "sta3": 6.098,
+    "sta4": 6.587,
+    "sta5": 5.957,
+    "sta6": 5.993,
+    "sta7": 5.713,
+    "sta8": 5.782,
+    "sta9": 5.934,
+    "sta10": 5.676,
+    "sta11": 6.359,
+    "sta12": 5.671
+  },
+  "tcp_total_mbps": 72.385,
+  "udp_per_station": {
+    "sta1": {
+      "lost_percent": 0.0653289780681288,
+      "jitter_ms": 1.5382263501697335,
+      "received_mbps": 2.0
+    },
+    "sta2": {
+      "lost_percent": 0.04666791114429718,
+      "jitter_ms": 0.7219625316899564,
+      "received_mbps": 2.0
+    },
+    "sta3": {
+      "lost_percent": 0.037334328915437746,
+      "jitter_ms": 1.4961573942333146,
+      "received_mbps": 2.0
+    },
+    "sta4": {
+      "lost_percent": 0.018667164457718873,
+      "jitter_ms": 0.7568728724087067,
+      "received_mbps": 2.0
+    },
+    "sta5": {
+      "lost_percent": 0.04666791114429718,
+      "jitter_ms": 1.774702770305569,
+      "received_mbps": 2.0
+    },
+    "sta6": {
+      "lost_percent": 0,
+      "jitter_ms": 0.986676116916808,
+      "received_mbps": 2.0
+    },
+    "sta7": {
+      "lost_percent": 0.0373308446103593,
+      "jitter_ms": 1.3823954076751859,
+      "received_mbps": 2.0
+    },
+    "sta8": {
+      "lost_percent": 0.009332711152589827,
+      "jitter_ms": 1.80520719354358,
+      "received_mbps": 2.0
+    },
+    "sta9": {
+      "lost_percent": 0.018668906935498927,
+      "jitter_ms": 1.1763597559857477,
+      "received_mbps": 2.0
+    },
+    "sta10": {
+      "lost_percent": 0,
+      "jitter_ms": 1.6254855943175086,
+      "received_mbps": 2.0
+    },
+    "sta11": {
+      "lost_percent": 0.018667164457718873,
+      "jitter_ms": 1.265035868975044,
+      "received_mbps": 2.0
+    },
+    "sta12": {
+      "lost_percent": 0.027998133457769483,
+      "jitter_ms": 0.8981440629165347,
+      "received_mbps": 2.0
+    }
+  },
+  "rtt_ms": {
+    "sta1": {
+      "avg_ms": 24.162,
+      "p95_ms": 28.7,
+      "samples": 293
+    },
+    "sta2": {
+      "avg_ms": 24.26,
+      "p95_ms": 28.9,
+      "samples": 288
+    },
+    "sta3": {
+      "avg_ms": 24.146,
+      "p95_ms": 28.7,
+      "samples": 291
+    },
+    "sta4": {
+      "avg_ms": 24.464,
+      "p95_ms": 29.2,
+      "samples": 290
+    },
+    "sta5": {
+      "avg_ms": 24.209,
+      "p95_ms": 28.7,
+      "samples": 287
+    },
+    "sta6": {
+      "avg_ms": 24.443,
+      "p95_ms": 29.3,
+      "samples": 290
+    },
+    "sta7": {
+      "avg_ms": 24.071,
+      "p95_ms": 29.1,
+      "samples": 289
+    },
+    "sta8": {
+      "avg_ms": 24.406,
+      "p95_ms": 28.9,
+      "samples": 289
+    },
+    "sta9": {
+      "avg_ms": 23.993,
+      "p95_ms": 28.7,
+      "samples": 288
+    },
+    "sta10": {
+      "avg_ms": 24.388,
+      "p95_ms": 29.0,
+      "samples": 290
+    },
+    "sta11": {
+      "avg_ms": 24.138,
+      "p95_ms": 28.9,
+      "samples": 287
+    },
+    "sta12": {
+      "avg_ms": 24.502,
+      "p95_ms": 29.4,
+      "samples": 290
+    }
+  }
+}

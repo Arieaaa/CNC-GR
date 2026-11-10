@@ -1,0 +1,60 @@
+{
+  "experiment": "expA",
+  "stations": 4,
+  "channels": [
+    1,
+    6
+  ],
+  "run": "03",
+  "tcp_per_station_mbps": {
+    "sta1": 17.754,
+    "sta2": 17.71,
+    "sta3": 18.139,
+    "sta4": 18.156
+  },
+  "tcp_total_mbps": 71.759,
+  "udp_per_station": {
+    "sta1": {
+      "lost_percent": 0,
+      "jitter_ms": 1.3642198811530648,
+      "received_mbps": 2.0
+    },
+    "sta2": {
+      "lost_percent": 0,
+      "jitter_ms": 0.5364255767909195,
+      "received_mbps": 2.0
+    },
+    "sta3": {
+      "lost_percent": 0,
+      "jitter_ms": 0.19666704348390895,
+      "received_mbps": 2.0
+    },
+    "sta4": {
+      "lost_percent": 0,
+      "jitter_ms": 0.235353466380101,
+      "received_mbps": 2.0
+    }
+  },
+  "rtt_ms": {
+    "sta1": {
+      "avg_ms": 9.126,
+      "p95_ms": 12.4,
+      "samples": 290
+    },
+    "sta2": {
+      "avg_ms": 8.789,
+      "p95_ms": 11.6,
+      "samples": 293
+    },
+    "sta3": {
+      "avg_ms": 9.121,
+      "p95_ms": 12.4,
+      "samples": 297
+    },
+    "sta4": {
+      "avg_ms": 9.03,
+      "p95_ms": 12.0,
+      "samples": 294
+    }
+  }
+}

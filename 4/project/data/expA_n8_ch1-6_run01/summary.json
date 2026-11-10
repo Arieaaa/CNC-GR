@@ -1,0 +1,104 @@
+{
+  "experiment": "expA",
+  "stations": 8,
+  "channels": [
+    1,
+    6
+  ],
+  "run": "01",
+  "tcp_per_station_mbps": {
+    "sta1": 9.033,
+    "sta2": 8.789,
+    "sta3": 8.945,
+    "sta4": 8.911,
+    "sta5": 8.875,
+    "sta6": 8.963,
+    "sta7": 9.137,
+    "sta8": 9.331
+  },
+  "tcp_total_mbps": 71.984,
+  "udp_per_station": {
+    "sta1": {
+      "lost_percent": 0,
+      "jitter_ms": 0.5449060509628926,
+      "received_mbps": 2.0
+    },
+    "sta2": {
+      "lost_percent": 0,
+      "jitter_ms": 0.39419541754944676,
+      "received_mbps": 2.0
+    },
+    "sta3": {
+      "lost_percent": 0,
+      "jitter_ms": 0.559123913326228,
+      "received_mbps": 2.0
+    },
+    "sta4": {
+      "lost_percent": 0,
+      "jitter_ms": 0.6217070703726225,
+      "received_mbps": 2.0
+    },
+    "sta5": {
+      "lost_percent": 0,
+      "jitter_ms": 0.4679787480036143,
+      "received_mbps": 2.0
+    },
+    "sta6": {
+      "lost_percent": 0,
+      "jitter_ms": 0.6975264774136878,
+      "received_mbps": 2.0
+    },
+    "sta7": {
+      "lost_percent": 0,
+      "jitter_ms": 0.5134124468732874,
+      "received_mbps": 2.0
+    },
+    "sta8": {
+      "lost_percent": 0,
+      "jitter_ms": 0.7147554043972053,
+      "received_mbps": 2.0
+    }
+  },
+  "rtt_ms": {
+    "sta1": {
+      "avg_ms": 16.516,
+      "p95_ms": 21.3,
+      "samples": 286
+    },
+    "sta2": {
+      "avg_ms": 16.828,
+      "p95_ms": 21.9,
+      "samples": 288
+    },
+    "sta3": {
+      "avg_ms": 16.453,
+      "p95_ms": 21.4,
+      "samples": 293
+    },
+    "sta4": {
+      "avg_ms": 16.817,
+      "p95_ms": 22.4,
+      "samples": 290
+    },
+    "sta5": {
+      "avg_ms": 16.75,
+      "p95_ms": 21.7,
+      "samples": 288
+    },
+    "sta6": {
+      "avg_ms": 16.828,
+      "p95_ms": 21.9,
+      "samples": 286
+    },
+    "sta7": {
+      "avg_ms": 16.672,
+      "p95_ms": 21.6,
+      "samples": 288
+    },
+    "sta8": {
+      "avg_ms": 16.855,
+      "p95_ms": 22.0,
+      "samples": 288
+    }
+  }
+}

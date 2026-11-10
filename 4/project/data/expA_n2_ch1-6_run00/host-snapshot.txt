@@ -1,0 +1,12 @@
+--- start 2026-11-10T14:05:27.772479+00:00 ---
+0.13 0.03 0.01 5/190 1475933
+               total        used        free      shared  buff/cache   available
+Mem:            1967         556         341           2        1274        1411
+Swap:           1987           0        1987
+
+--- end 2026-11-10T14:06:31.632922+00:00 ---
+0.90 0.24 0.08 2/197 1476716
+               total        used        free      shared  buff/cache   available
+Mem:            1967         558         338           2        1275        1409
+Swap:           1987           0        1987
+

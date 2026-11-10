@@ -1,0 +1,104 @@
+{
+  "experiment": "expA",
+  "stations": 8,
+  "channels": [
+    1,
+    6
+  ],
+  "run": "02",
+  "tcp_per_station_mbps": {
+    "sta1": 8.981,
+    "sta2": 8.789,
+    "sta3": 9.121,
+    "sta4": 8.964,
+    "sta5": 8.736,
+    "sta6": 8.964,
+    "sta7": 9.121,
+    "sta8": 9.331
+  },
+  "tcp_total_mbps": 72.006,
+  "udp_per_station": {
+    "sta1": {
+      "lost_percent": 0,
+      "jitter_ms": 1.1224959744484637,
+      "received_mbps": 2.0
+    },
+    "sta2": {
+      "lost_percent": 0,
+      "jitter_ms": 1.1458597969072393,
+      "received_mbps": 2.0
+    },
+    "sta3": {
+      "lost_percent": 0,
+      "jitter_ms": 0.918714772260288,
+      "received_mbps": 2.0
+    },
+    "sta4": {
+      "lost_percent": 0,
+      "jitter_ms": 0.7603064916152575,
+      "received_mbps": 2.0
+    },
+    "sta5": {
+      "lost_percent": 0,
+      "jitter_ms": 0.7671887122684045,
+      "received_mbps": 2.0
+    },
+    "sta6": {
+      "lost_percent": 0,
+      "jitter_ms": 0.7376792438312987,
+      "received_mbps": 2.0
+    },
+    "sta7": {
+      "lost_percent": 0,
+      "jitter_ms": 1.05877806096012,
+      "received_mbps": 2.0
+    },
+    "sta8": {
+      "lost_percent": 0,
+      "jitter_ms": 0.8200372522309116,
+      "received_mbps": 2.0
+    }
+  },
+  "rtt_ms": {
+    "sta1": {
+      "avg_ms": 16.865,
+      "p95_ms": 21.6,
+      "samples": 288
+    },
+    "sta2": {
+      "avg_ms": 16.366,
+      "p95_ms": 21.8,
+      "samples": 291
+    },
+    "sta3": {
+      "avg_ms": 16.987,
+      "p95_ms": 21.6,
+      "samples": 288
+    },
+    "sta4": {
+      "avg_ms": 16.505,
+      "p95_ms": 21.6,
+      "samples": 289
+    },
+    "sta5": {
+      "avg_ms": 16.65,
+      "p95_ms": 21.5,
+      "samples": 291
+    },
+    "sta6": {
+      "avg_ms": 16.564,
+      "p95_ms": 21.7,
+      "samples": 288
+    },
+    "sta7": {
+      "avg_ms": 16.864,
+      "p95_ms": 21.1,
+      "samples": 287
+    },
+    "sta8": {
+      "avg_ms": 16.571,
+      "p95_ms": 21.9,
+      "samples": 292
+    }
+  }
+}
