@@ -1,0 +1,17 @@
+﻿实验,配置,指标,单位,原正式轮,单次复跑,变化（复跑减原轮）,变化单位,统计窗口,原正式轮ID,复跑ID,原指标键
+A,4 终端／信道 1/6,逐终端 TCP 接收吞吐之和,Mbit/s,71.921530,71.923787,0.002257,Mbit/s,iperf3 预热 10 s 后统计 60 s（该抽样对）,expA_n4_ch1-6_run01,expA_n4_ch1-6_run04,汇总/tcp_sum_station_mbps
+A,4 终端／信道 1/6,sta1 UDP 丢包率,%,0.000000,0.000000,0.000000,百分点,iperf3 预热 10 s 后统计 60 s（该抽样对）,expA_n4_ch1-6_run01,expA_n4_ch1-6_run04,sta1/udp_loss_pct
+A,4 终端／信道 1/6,sta2 UDP 丢包率,%,0.000000,0.000000,0.000000,百分点,iperf3 预热 10 s 后统计 60 s（该抽样对）,expA_n4_ch1-6_run01,expA_n4_ch1-6_run04,sta2/udp_loss_pct
+A,4 终端／信道 1/6,sta3 UDP 丢包率,%,0.000000,0.000000,0.000000,百分点,iperf3 预热 10 s 后统计 60 s（该抽样对）,expA_n4_ch1-6_run01,expA_n4_ch1-6_run04,sta3/udp_loss_pct
+A,4 终端／信道 1/6,sta4 UDP 丢包率,%,0.000000,0.000000,0.000000,百分点,iperf3 预热 10 s 后统计 60 s（该抽样对）,expA_n4_ch1-6_run01,expA_n4_ch1-6_run04,sta4/udp_loss_pct
+B,LLF,首次观测到 AP2 的 X 坐标,m,34.00047,34.00007,-0.00040,m,关联观测时间线,expB_formal_llf_3_20261110T061812Z_6r0xpbng,expB_formal_llf_4_20261111T055242Z_0q1vozbs,sta1/first_new_ap_position_m
+B,LLF,最大相邻成功回包间隔,ms,1242.881,1251.199,8.318,ms,切换附近窗口,expB_formal_llf_3_20261110T061812Z_6r0xpbng,expB_formal_llf_4_20261111T055242Z_0q1vozbs,sta1/event_max_reply_gap_ms
+B,LLF,成功应答 P95 RTT,ms,1.13,1.01,-0.12,ms,全轮成功应答，最近秩,expB_formal_llf_3_20261110T061812Z_6r0xpbng,expB_formal_llf_4_20261111T055242Z_0q1vozbs,sta1/rtt_p95_ms
+B,LLF,探测发送数,个,375,375,0,个,全轮,expB_formal_llf_3_20261110T061812Z_6r0xpbng,expB_formal_llf_4_20261111T055242Z_0q1vozbs,sta1/ping_sent
+B,LLF,成功回包数,个,375,375,0,个,全轮,expB_formal_llf_3_20261110T061812Z_6r0xpbng,expB_formal_llf_4_20261111T055242Z_0q1vozbs,sta1/ping_received
+C,共享 FIFO（2 Mbit/s）,UDP 丢包数,个,42,232,190,个,接收端 10–60 s，完整间隔,expC_baseline_c2000_run02_20261109T134607Z_47qrkol0,expC_baseline_c2000_run04_20261111T055440Z_vtjcuwro,sta1/udp_udp_lost_packets
+C,共享 FIFO（2 Mbit/s）,UDP 总包数,个,11721,11718,-3,个,接收端 10–60 s，完整间隔,expC_baseline_c2000_run02_20261109T134607Z_47qrkol0,expC_baseline_c2000_run04_20261111T055440Z_vtjcuwro,sta1/udp_udp_packets
+C,共享 FIFO（2 Mbit/s）,UDP 丢包率,%,0.358331,1.979860,1.621529,百分点,接收端 10–60 s，完整间隔,expC_baseline_c2000_run02_20261109T134607Z_47qrkol0,expC_baseline_c2000_run04_20261111T055440Z_vtjcuwro,sta1/udp_udp_loss_percent
+C,共享 FIFO（2 Mbit/s）,后台 TCP 接收吞吐,Mbit/s,1.551892,1.572864,0.020972,Mbit/s,接收端 10–60 s，完整间隔,expC_baseline_c2000_run02_20261109T134607Z_47qrkol0,expC_baseline_c2000_run04_20261111T055440Z_vtjcuwro,sta2/tcp_received_mbps
+C,共享 FIFO（2 Mbit/s）,成功应答 P95 RTT,ms,130,139,9,ms,10 ≤ 相对回包时刻 < 60 s，最近秩,expC_baseline_c2000_run02_20261109T134607Z_47qrkol0,expC_baseline_c2000_run04_20261111T055440Z_vtjcuwro,sta1/rtt_p95_ms
+C,共享 FIFO（2 Mbit/s）,成功应答样本数,个,250,246,-4,个,10 ≤ 相对回包时刻 < 60 s,expC_baseline_c2000_run02_20261109T134607Z_47qrkol0,expC_baseline_c2000_run04_20261111T055440Z_vtjcuwro,sta1/rtt_success_count
