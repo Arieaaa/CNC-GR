@@ -1,0 +1,19 @@
+*** ap1-wlan1: minimum tx power (1 dBm) yields 36.00m for requested 36.00m (delta +0.00m)
+*** ap2-wlan1: minimum tx power (1 dBm) yields 36.00m for requested 36.00m (delta +0.00m)
+*** Connecting to wmediumd server /var/run/wmediumd.sock
+*** Starting controller(s)
+*** Starting L2 nodes
+s1 ap1 ap2 ......
+*** Stopping 0 controllers
+
+*** Stopping 7 links
+.......
+*** Stopping switches/access points
+s1 ap1 ap2 
+*** Stopping nodes
+srv sta1 sta2 
+
+*** Removing WiFi module and Configurations
+*** Killing mac80211_hwsim
+
+*** Done

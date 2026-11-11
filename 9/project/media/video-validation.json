@@ -1,0 +1,8 @@
+{
+  "full_decode_exit": 0,
+  "decode_errors": "",
+  "duration_seconds": 240,
+  "chapters": 6,
+  "audio": "Microsoft Huihui Desktop synthetic narration",
+  "capture": "gdigrab dedicated window; real SSH output"
+}

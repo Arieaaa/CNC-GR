@@ -1,0 +1,7 @@
+{
+  "command": "sudo -n /usr/local/sbin/wifi-lab 2 1,6",
+  "stdout": "本次日志目录 /var/lib/wifi-lab/runs/smoke_20261111T043303Z_gt1112v7\n基础验收通过。\n",
+  "stderr": "",
+  "exit_code": 0,
+  "utc": "2026-11-11T04:33:28Z"
+}
