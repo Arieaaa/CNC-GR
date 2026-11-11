@@ -1,0 +1,2 @@
+﻿run_id,kind,operator,started_utc,status,station_count,ap_channels,ssid,channel_width_mhz,direction,raw_dir,source_ref
+smoke_20261107T101304Z_rriph1zz,smoke,wifi07,2026-11-07T10:13:04.195393+00:00,PASS,2,1/6,campus-lab,20,station to server,原始日志/smoke_20261107T101304Z_rriph1zz,config.json;status.txt

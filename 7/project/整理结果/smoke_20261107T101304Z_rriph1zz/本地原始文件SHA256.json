@@ -1,0 +1,15 @@
+{
+  "ap1-iw-info.txt": "afc529fc351d1c0008d12caf83db44ebdb684af70e88626bf5cad966c1d45aa9",
+  "ap2-iw-info.txt": "fe9883b5a042538cb5110e2d4b8703d2ea63c28256409344e0c1c2d986accdeb",
+  "config.json": "0802ea3289c8191e28fb0dd7d294d88067193a875ed887b42d36e40b7e724c57",
+  "iperf3-server.txt": "3fc1e1260d54fd08078d80d0760abdd7c768e94f6d8abfacc63b2c324d8d84ad",
+  "run.log": "49427be77fb7a84d9c77a83cc83f026918aeb6d644b9a3baf1af7c59d536e071",
+  "source-versions.txt": "0fc092cefbb9c10e7e9d007eed35ef948057b54b419ceeb1d9c685f16f8be3c5",
+  "sta1-iperf3.json": "290e0c54084cd175b9b9af1eb6a3a0f9fda7f71f421c98d2fc378cb82a7930f0",
+  "sta1-iw-link.txt": "e5ef1b40d8053822921952b05169ff2ed8b8f408a0bc3b8a422d2170f64c5933",
+  "sta1-ping.txt": "009ddc1cd4754e1167a5cdbe85085f46fa3a7909bdef93c1a99fba97bb16ef88",
+  "sta2-iperf3.json": "a6f4be5de2af90d0160427cad7ff7603b0ebb5f9b0f86090d68577903d9050a1",
+  "sta2-iw-link.txt": "801b877ecf120e16a529f63eb02f9b712c5128af1b07d7352ed920f791b4ed97",
+  "sta2-ping.txt": "7bda66680f40ef109ea75670e73dec4ca52904514b63743f7a0af7a74f470e8e",
+  "status.txt": "c26de83abdc9496cd1301470918ec39ecca1cf389ef0ae1c6504da1800d1c431"
+}

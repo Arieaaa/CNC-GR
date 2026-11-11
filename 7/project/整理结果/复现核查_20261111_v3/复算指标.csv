@@ -1,0 +1,107 @@
+﻿run_id,station,metric,value,unit,window,source
+expA_n4_ch1-6_run01,sta1,tcp_receiver_mbps,17.77127922132331,Mbit/s,iperf3 omit=10s; measured=60s,sta1-tcp-iperf3.json:end.sum_received
+expA_n4_ch1-6_run01,sta1,udp_lost_packets,0,packets,iperf3 omit=10s; measured=60s,sta1-udp-iperf3.json:end.sum
+expA_n4_ch1-6_run01,sta1,udp_packets,10714,packets,iperf3 omit=10s; measured=60s,sta1-udp-iperf3.json:end.sum
+expA_n4_ch1-6_run01,sta1,udp_loss_pct,0.0,%,iperf3 omit=10s; measured=60s,sta1-udp-iperf3.json:end.sum
+expA_n4_ch1-6_run01,sta1,udp_jitter_ms,0.030309769177022033,ms,iperf3 omit=10s; measured=60s,sta1-udp-iperf3.json:end.sum.jitter_ms
+expA_n4_ch1-6_run01,sta1,ping_success_count,296,samples,ping full phase; no warmup exclusion,sta1-ping.txt
+expA_n4_ch1-6_run01,sta1,rtt_mean_ms,9.385405405405406,ms,ping full phase; no warmup exclusion,sta1-ping.txt
+expA_n4_ch1-6_run01,sta1,rtt_p95_ms,12.3,ms,ping full phase; no warmup exclusion,sta1-ping.txt
+expA_n4_ch1-6_run01,sta2,tcp_receiver_mbps,17.98046673720642,Mbit/s,iperf3 omit=10s; measured=60s,sta2-tcp-iperf3.json:end.sum_received
+expA_n4_ch1-6_run01,sta2,udp_lost_packets,0,packets,iperf3 omit=10s; measured=60s,sta2-udp-iperf3.json:end.sum
+expA_n4_ch1-6_run01,sta2,udp_packets,10714,packets,iperf3 omit=10s; measured=60s,sta2-udp-iperf3.json:end.sum
+expA_n4_ch1-6_run01,sta2,udp_loss_pct,0.0,%,iperf3 omit=10s; measured=60s,sta2-udp-iperf3.json:end.sum
+expA_n4_ch1-6_run01,sta2,udp_jitter_ms,0.6054620444331068,ms,iperf3 omit=10s; measured=60s,sta2-udp-iperf3.json:end.sum.jitter_ms
+expA_n4_ch1-6_run01,sta2,ping_success_count,297,samples,ping full phase; no warmup exclusion,sta2-ping.txt
+expA_n4_ch1-6_run01,sta2,rtt_mean_ms,9.105791245791245,ms,ping full phase; no warmup exclusion,sta2-ping.txt
+expA_n4_ch1-6_run01,sta2,rtt_p95_ms,12.3,ms,ping full phase; no warmup exclusion,sta2-ping.txt
+expA_n4_ch1-6_run01,sta3,tcp_receiver_mbps,18.207509001385088,Mbit/s,iperf3 omit=10s; measured=60s,sta3-tcp-iperf3.json:end.sum_received
+expA_n4_ch1-6_run01,sta3,udp_lost_packets,0,packets,iperf3 omit=10s; measured=60s,sta3-udp-iperf3.json:end.sum
+expA_n4_ch1-6_run01,sta3,udp_packets,10714,packets,iperf3 omit=10s; measured=60s,sta3-udp-iperf3.json:end.sum
+expA_n4_ch1-6_run01,sta3,udp_loss_pct,0.0,%,iperf3 omit=10s; measured=60s,sta3-udp-iperf3.json:end.sum
+expA_n4_ch1-6_run01,sta3,udp_jitter_ms,0.29398693500327355,ms,iperf3 omit=10s; measured=60s,sta3-udp-iperf3.json:end.sum.jitter_ms
+expA_n4_ch1-6_run01,sta3,ping_success_count,297,samples,ping full phase; no warmup exclusion,sta3-ping.txt
+expA_n4_ch1-6_run01,sta3,rtt_mean_ms,9.431717171717171,ms,ping full phase; no warmup exclusion,sta3-ping.txt
+expA_n4_ch1-6_run01,sta3,rtt_p95_ms,12.2,ms,ping full phase; no warmup exclusion,sta3-ping.txt
+expA_n4_ch1-6_run01,sta4,tcp_receiver_mbps,17.962274621959615,Mbit/s,iperf3 omit=10s; measured=60s,sta4-tcp-iperf3.json:end.sum_received
+expA_n4_ch1-6_run01,sta4,udp_lost_packets,0,packets,iperf3 omit=10s; measured=60s,sta4-udp-iperf3.json:end.sum
+expA_n4_ch1-6_run01,sta4,udp_packets,10714,packets,iperf3 omit=10s; measured=60s,sta4-udp-iperf3.json:end.sum
+expA_n4_ch1-6_run01,sta4,udp_loss_pct,0.0,%,iperf3 omit=10s; measured=60s,sta4-udp-iperf3.json:end.sum
+expA_n4_ch1-6_run01,sta4,udp_jitter_ms,0.1319541940291819,ms,iperf3 omit=10s; measured=60s,sta4-udp-iperf3.json:end.sum.jitter_ms
+expA_n4_ch1-6_run01,sta4,ping_success_count,294,samples,ping full phase; no warmup exclusion,sta4-ping.txt
+expA_n4_ch1-6_run01,sta4,rtt_mean_ms,9.10061224489796,ms,ping full phase; no warmup exclusion,sta4-ping.txt
+expA_n4_ch1-6_run01,sta4,rtt_p95_ms,12.0,ms,ping full phase; no warmup exclusion,sta4-ping.txt
+expA_n4_ch1-6_run01,,tcp_sum_station_mbps,71.92152958187444,Mbit/s,sum of per-station iperf3 reports; not exact common window,sta*-tcp-iperf3.json:end.sum_received
+expA_n4_ch1-6_run04,sta1,tcp_receiver_mbps,18.051217155068045,Mbit/s,iperf3 omit=10s; measured=60s,sta1-tcp-iperf3.json:end.sum_received
+expA_n4_ch1-6_run04,sta1,udp_lost_packets,0,packets,iperf3 omit=10s; measured=60s,sta1-udp-iperf3.json:end.sum
+expA_n4_ch1-6_run04,sta1,udp_packets,10714,packets,iperf3 omit=10s; measured=60s,sta1-udp-iperf3.json:end.sum
+expA_n4_ch1-6_run04,sta1,udp_loss_pct,0.0,%,iperf3 omit=10s; measured=60s,sta1-udp-iperf3.json:end.sum
+expA_n4_ch1-6_run04,sta1,udp_jitter_ms,0.16377084489199878,ms,iperf3 omit=10s; measured=60s,sta1-udp-iperf3.json:end.sum.jitter_ms
+expA_n4_ch1-6_run04,sta1,ping_success_count,296,samples,ping full phase; no warmup exclusion,sta1-ping.txt
+expA_n4_ch1-6_run04,sta1,rtt_mean_ms,9.261547297297298,ms,ping full phase; no warmup exclusion,sta1-ping.txt
+expA_n4_ch1-6_run04,sta1,rtt_p95_ms,12.6,ms,ping full phase; no warmup exclusion,sta1-ping.txt
+expA_n4_ch1-6_run04,sta2,tcp_receiver_mbps,17.405100600461495,Mbit/s,iperf3 omit=10s; measured=60s,sta2-tcp-iperf3.json:end.sum_received
+expA_n4_ch1-6_run04,sta2,udp_lost_packets,0,packets,iperf3 omit=10s; measured=60s,sta2-udp-iperf3.json:end.sum
+expA_n4_ch1-6_run04,sta2,udp_packets,10714,packets,iperf3 omit=10s; measured=60s,sta2-udp-iperf3.json:end.sum
+expA_n4_ch1-6_run04,sta2,udp_loss_pct,0.0,%,iperf3 omit=10s; measured=60s,sta2-udp-iperf3.json:end.sum
+expA_n4_ch1-6_run04,sta2,udp_jitter_ms,0.965837232461956,ms,iperf3 omit=10s; measured=60s,sta2-udp-iperf3.json:end.sum.jitter_ms
+expA_n4_ch1-6_run04,sta2,ping_success_count,289,samples,ping full phase; no warmup exclusion,sta2-ping.txt
+expA_n4_ch1-6_run04,sta2,rtt_mean_ms,8.894948096885813,ms,ping full phase; no warmup exclusion,sta2-ping.txt
+expA_n4_ch1-6_run04,sta2,rtt_p95_ms,11.7,ms,ping full phase; no warmup exclusion,sta2-ping.txt
+expA_n4_ch1-6_run04,sta3,tcp_receiver_mbps,17.876572580008123,Mbit/s,iperf3 omit=10s; measured=60s,sta3-tcp-iperf3.json:end.sum_received
+expA_n4_ch1-6_run04,sta3,udp_lost_packets,0,packets,iperf3 omit=10s; measured=60s,sta3-udp-iperf3.json:end.sum
+expA_n4_ch1-6_run04,sta3,udp_packets,10714,packets,iperf3 omit=10s; measured=60s,sta3-udp-iperf3.json:end.sum
+expA_n4_ch1-6_run04,sta3,udp_loss_pct,0.0,%,iperf3 omit=10s; measured=60s,sta3-udp-iperf3.json:end.sum
+expA_n4_ch1-6_run04,sta3,udp_jitter_ms,0.2600668736478398,ms,iperf3 omit=10s; measured=60s,sta3-udp-iperf3.json:end.sum.jitter_ms
+expA_n4_ch1-6_run04,sta3,ping_success_count,288,samples,ping full phase; no warmup exclusion,sta3-ping.txt
+expA_n4_ch1-6_run04,sta3,rtt_mean_ms,9.121840277777778,ms,ping full phase; no warmup exclusion,sta3-ping.txt
+expA_n4_ch1-6_run04,sta3,rtt_p95_ms,11.8,ms,ping full phase; no warmup exclusion,sta3-ping.txt
+expA_n4_ch1-6_run04,sta4,tcp_receiver_mbps,18.590896629096616,Mbit/s,iperf3 omit=10s; measured=60s,sta4-tcp-iperf3.json:end.sum_received
+expA_n4_ch1-6_run04,sta4,udp_lost_packets,0,packets,iperf3 omit=10s; measured=60s,sta4-udp-iperf3.json:end.sum
+expA_n4_ch1-6_run04,sta4,udp_packets,10714,packets,iperf3 omit=10s; measured=60s,sta4-udp-iperf3.json:end.sum
+expA_n4_ch1-6_run04,sta4,udp_loss_pct,0.0,%,iperf3 omit=10s; measured=60s,sta4-udp-iperf3.json:end.sum
+expA_n4_ch1-6_run04,sta4,udp_jitter_ms,0.1182255677686548,ms,iperf3 omit=10s; measured=60s,sta4-udp-iperf3.json:end.sum.jitter_ms
+expA_n4_ch1-6_run04,sta4,ping_success_count,292,samples,ping full phase; no warmup exclusion,sta4-ping.txt
+expA_n4_ch1-6_run04,sta4,rtt_mean_ms,8.859520547945205,ms,ping full phase; no warmup exclusion,sta4-ping.txt
+expA_n4_ch1-6_run04,sta4,rtt_p95_ms,12.0,ms,ping full phase; no warmup exclusion,sta4-ping.txt
+expA_n4_ch1-6_run04,,tcp_sum_station_mbps,71.92378696463427,Mbit/s,sum of per-station iperf3 reports; not exact common window,sta*-tcp-iperf3.json:end.sum_received
+expB_formal_llf_3_20261110T061812Z_6r0xpbng,sta1,ping_sent,375,packets,full run,observations/ping.txt
+expB_formal_llf_3_20261110T061812Z_6r0xpbng,sta1,ping_received,375,packets,full run,observations/ping.txt
+expB_formal_llf_3_20261110T061812Z_6r0xpbng,sta1,rtt_mean_ms,8.616749333333333,ms,full run successful replies,observations/ping.txt
+expB_formal_llf_3_20261110T061812Z_6r0xpbng,sta1,rtt_p95_ms,1.13,ms,full run successful replies; nearest-rank,observations/ping.txt
+expB_formal_llf_3_20261110T061812Z_6r0xpbng,sta1,first_new_ap_position_m,34.000468707003165,m,first observed change,observations/samples.csv
+expB_formal_llf_3_20261110T061812Z_6r0xpbng,sta1,event_max_reply_gap_ms,1242.8808212280273,ms,last old/first new samples with surrounding successful replies,observations/samples.csv;observations/ping.txt;observations/clock.json
+expB_formal_llf_4_20261111T055242Z_0q1vozbs,sta1,ping_sent,375,packets,full run,observations/ping.txt
+expB_formal_llf_4_20261111T055242Z_0q1vozbs,sta1,ping_received,375,packets,full run,observations/ping.txt
+expB_formal_llf_4_20261111T055242Z_0q1vozbs,sta1,rtt_mean_ms,8.746712,ms,full run successful replies,observations/ping.txt
+expB_formal_llf_4_20261111T055242Z_0q1vozbs,sta1,rtt_p95_ms,1.01,ms,full run successful replies; nearest-rank,observations/ping.txt
+expB_formal_llf_4_20261111T055242Z_0q1vozbs,sta1,first_new_ap_position_m,34.000070440000854,m,first observed change,observations/samples.csv
+expB_formal_llf_4_20261111T055242Z_0q1vozbs,sta1,event_max_reply_gap_ms,1251.1990070343018,ms,last old/first new samples with surrounding successful replies,observations/samples.csv;observations/ping.txt;observations/clock.json
+expC_baseline_c2000_run02_20261109T134607Z_47qrkol0,sta1,udp_received_mbps,0.2989824239185939,Mbit/s,receiver 10–60 s; complete intervals,udp-receiver.json:intervals[].streams[0]
+expC_baseline_c2000_run02_20261109T134607Z_47qrkol0,sta1,udp_analyzed_seconds,49.999996,s,receiver 10–60 s; complete intervals,udp-receiver.json:intervals[].streams[0]
+expC_baseline_c2000_run02_20261109T134607Z_47qrkol0,sta1,udp_interval_count,50,count,receiver 10–60 s; complete intervals,udp-receiver.json:intervals[].streams[0]
+expC_baseline_c2000_run02_20261109T134607Z_47qrkol0,sta1,udp_udp_loss_percent,0.3583312004095214,%,receiver 10–60 s; complete intervals,udp-receiver.json:intervals[].streams[0]
+expC_baseline_c2000_run02_20261109T134607Z_47qrkol0,sta1,udp_udp_packets,11721,count,receiver 10–60 s; complete intervals,udp-receiver.json:intervals[].streams[0]
+expC_baseline_c2000_run02_20261109T134607Z_47qrkol0,sta1,udp_udp_lost_packets,42,count,receiver 10–60 s; complete intervals,udp-receiver.json:intervals[].streams[0]
+expC_baseline_c2000_run02_20261109T134607Z_47qrkol0,sta1,udp_udp_jitter_interval_mean_ms,5.456840333537386,ms,receiver 10–60 s; complete intervals,udp-receiver.json:intervals[].streams[0]
+expC_baseline_c2000_run02_20261109T134607Z_47qrkol0,sta1,udp_udp_jitter_last_ms,5.132551479830354,ms,receiver 10–60 s; complete intervals,udp-receiver.json:intervals[].streams[0]
+expC_baseline_c2000_run02_20261109T134607Z_47qrkol0,sta2,tcp_received_mbps,1.5518918902810817,Mbit/s,receiver 10–60 s; complete intervals,tcp-receiver.json:intervals[].streams[0]
+expC_baseline_c2000_run02_20261109T134607Z_47qrkol0,sta2,tcp_analyzed_seconds,50.000019,s,receiver 10–60 s; complete intervals,tcp-receiver.json:intervals[].streams[0]
+expC_baseline_c2000_run02_20261109T134607Z_47qrkol0,sta2,tcp_interval_count,50,count,receiver 10–60 s; complete intervals,tcp-receiver.json:intervals[].streams[0]
+expC_baseline_c2000_run02_20261109T134607Z_47qrkol0,sta1,rtt_mean_ms,94.8008,ms,ping replies received 10–60 s; nearest-rank,ping.txt;config.json:traffic_started_utc
+expC_baseline_c2000_run02_20261109T134607Z_47qrkol0,sta1,rtt_p95_ms,130.0,ms,ping replies received 10–60 s; nearest-rank,ping.txt;config.json:traffic_started_utc
+expC_baseline_c2000_run02_20261109T134607Z_47qrkol0,sta1,rtt_success_count,250,samples,ping replies received 10–60 s; nearest-rank,ping.txt;config.json:traffic_started_utc
+expC_baseline_c2000_run04_20261111T055440Z_vtjcuwro,sta1,udp_received_mbps,0.29404151766837505,Mbit/s,receiver 10–60 s; complete intervals,udp-receiver.json:intervals[].streams[0]
+expC_baseline_c2000_run04_20261111T055440Z_vtjcuwro,sta1,udp_analyzed_seconds,50.000014,s,receiver 10–60 s; complete intervals,udp-receiver.json:intervals[].streams[0]
+expC_baseline_c2000_run04_20261111T055440Z_vtjcuwro,sta1,udp_interval_count,50,count,receiver 10–60 s; complete intervals,udp-receiver.json:intervals[].streams[0]
+expC_baseline_c2000_run04_20261111T055440Z_vtjcuwro,sta1,udp_udp_loss_percent,1.9798600443761734,%,receiver 10–60 s; complete intervals,udp-receiver.json:intervals[].streams[0]
+expC_baseline_c2000_run04_20261111T055440Z_vtjcuwro,sta1,udp_udp_packets,11718,count,receiver 10–60 s; complete intervals,udp-receiver.json:intervals[].streams[0]
+expC_baseline_c2000_run04_20261111T055440Z_vtjcuwro,sta1,udp_udp_lost_packets,232,count,receiver 10–60 s; complete intervals,udp-receiver.json:intervals[].streams[0]
+expC_baseline_c2000_run04_20261111T055440Z_vtjcuwro,sta1,udp_udp_jitter_interval_mean_ms,5.589951012160421,ms,receiver 10–60 s; complete intervals,udp-receiver.json:intervals[].streams[0]
+expC_baseline_c2000_run04_20261111T055440Z_vtjcuwro,sta1,udp_udp_jitter_last_ms,5.39890757738116,ms,receiver 10–60 s; complete intervals,udp-receiver.json:intervals[].streams[0]
+expC_baseline_c2000_run04_20261111T055440Z_vtjcuwro,sta2,tcp_received_mbps,1.5728639685427206,Mbit/s,receiver 10–60 s; complete intervals,tcp-receiver.json:intervals[].streams[0]
+expC_baseline_c2000_run04_20261111T055440Z_vtjcuwro,sta2,tcp_analyzed_seconds,50.000001,s,receiver 10–60 s; complete intervals,tcp-receiver.json:intervals[].streams[0]
+expC_baseline_c2000_run04_20261111T055440Z_vtjcuwro,sta2,tcp_interval_count,50,count,receiver 10–60 s; complete intervals,tcp-receiver.json:intervals[].streams[0]
+expC_baseline_c2000_run04_20261111T055440Z_vtjcuwro,sta1,rtt_mean_ms,100.63373983739838,ms,ping replies received 10–60 s; nearest-rank,ping.txt;config.json:traffic_started_utc
+expC_baseline_c2000_run04_20261111T055440Z_vtjcuwro,sta1,rtt_p95_ms,139.0,ms,ping replies received 10–60 s; nearest-rank,ping.txt;config.json:traffic_started_utc
+expC_baseline_c2000_run04_20261111T055440Z_vtjcuwro,sta1,rtt_success_count,246,samples,ping replies received 10–60 s; nearest-rank,ping.txt;config.json:traffic_started_utc

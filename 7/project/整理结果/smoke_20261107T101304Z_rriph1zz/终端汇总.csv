@@ -1,0 +1,3 @@
+﻿run_id,station,bssid,signal_model_dbm,ping_sent,ping_received,ping_loss_pct,rtt_mean_ms,tcp_receiver_mbps,tcp_window_s,tcp_client_ip,source_ref
+smoke_20261107T101304Z_rriph1zz,sta1,02:00:00:00:02:00,-51,3,3,0,2.140,35.935694390976956,3.005461,10.44.0.1,sta1-iw-link.txt;sta1-ping.txt;sta1-iperf3.json
+smoke_20261107T101304Z_rriph1zz,sta2,02:00:00:00:03:00,-51,3,3,0,1.122,35.94958159970708,3.0043,10.44.0.2,sta2-iw-link.txt;sta2-ping.txt;sta2-iperf3.json

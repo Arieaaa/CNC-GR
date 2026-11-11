@@ -1,0 +1,41 @@
+{
+  "selected_utc": "2026-11-11T02:52:04.025308+00:00",
+  "method": "secrets.choice: equal probability per formal run within each experiment; excludes pilot and failed runs",
+  "candidates": {
+    "A": [
+      "expA_n4_ch1-6_run01",
+      "expA_n4_ch1-6_run02",
+      "expA_n4_ch1-6_run03",
+      "expA_n8_ch1-6_run01",
+      "expA_n8_ch1-6_run02",
+      "expA_n8_ch1-6_run03",
+      "expA_n12_ch1-6_run01",
+      "expA_n12_ch1-6_run02",
+      "expA_n12_ch1-6_run03",
+      "expA_n12_ch1-1_run01",
+      "expA_n12_ch1-1_run02",
+      "expA_n12_ch1-1_run03"
+    ],
+    "B": [
+      "expB_formal_llf_1_20261110T061129Z_vbx2dsyh",
+      "expB_formal_llf_2_20261110T061309Z_yg10dbu7",
+      "expB_formal_llf_3_20261110T061812Z_6r0xpbng",
+      "expB_formal_ssf_1_20261110T060949Z_7oreq5yg",
+      "expB_formal_ssf_2_20261110T061450Z_7h98zj68",
+      "expB_formal_ssf_3_20261110T061631Z_v42z8knc"
+    ],
+    "C": [
+      "expC_baseline_c2000_run01_20261109T134207Z_4fs0o1wx",
+      "expC_baseline_c2000_run02_20261109T134607Z_47qrkol0",
+      "expC_baseline_c2000_run03_20261109T134726Z_1n9j2ujo",
+      "expC_qos_c2000_run01_20261109T134327Z__02q2oah",
+      "expC_qos_c2000_run02_20261109T134447Z_0439qzhl",
+      "expC_qos_c2000_run03_20261109T134846Z_izzzov02"
+    ]
+  },
+  "selected": {
+    "A": "expA_n4_ch1-6_run01",
+    "B": "expB_formal_llf_3_20261110T061812Z_6r0xpbng",
+    "C": "expC_baseline_c2000_run02_20261109T134607Z_47qrkol0"
+  }
+}
