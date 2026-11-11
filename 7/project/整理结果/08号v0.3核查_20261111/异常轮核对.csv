@@ -1,0 +1,5 @@
+﻿run_id,check,evidence,source,note
+expA_n12_ch1-6_run02,sta7_ping,"{""count"": 294, ""mean_ms"": 34.85374149659864, ""first_5_by_seq_ms"": {""1"": 1059.0, ""2"": 851.0, ""3"": 640.0, ""4"": 435.0, ""5"": 229.0}, ""remaining_count"": 289, ""remaining_mean_ms"": 24.335640138408305}",sta7-ping.txt,按探测序号剔除前五项仅作描述，不用于正式统计；无逐包绝对时间
+expA_n12_ch1-6_run02,sta8_ping,"{""count"": 292, ""mean_ms"": 34.513698630136986, ""first_5_by_seq_ms"": {""1"": 1048.0, ""2"": 844.0, ""3"": 638.0, ""4"": 430.0, ""5"": 223.0}, ""remaining_count"": 287, ""remaining_mean_ms"": 24.024390243902438}",sta8-ping.txt,按探测序号剔除前五项仅作描述，不用于正式统计；无逐包绝对时间
+expC_baseline_c2000_run02_20261109T134607Z_47qrkol0,udp_10_60s,"{""intervals"": 50, ""nonzero"": 8, ""lost"": 42, ""packets"": 11721, ""five_10s_lost"": [10, 0, 26, 6, 0]}",udp-receiver.json:intervals[].streams[0],10–60 s 完整区间；边界容差 20/100 ms
+expC_baseline_c2000_run04_20261111T055440Z_vtjcuwro,udp_10_60s,"{""intervals"": 50, ""nonzero"": 32, ""lost"": 232, ""packets"": 11718, ""five_10s_lost"": [26, 42, 42, 78, 44]}",udp-receiver.json:intervals[].streams[0],10–60 s 完整区间；边界容差 20/100 ms

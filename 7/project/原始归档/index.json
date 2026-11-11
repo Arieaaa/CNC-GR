@@ -46,5 +46,59 @@
     "files": 13,
     "archive": "smoke_20261107T101304Z_rriph1zz.jsonl",
     "archive_sha256": "5ca86e4d321538242e48da84cdba0e00af09a4e683c614e36bf4d47e48e6c4fe"
+  },
+  {
+    "run_id": "expA_n12_ch1-6_run02",
+    "files": 68,
+    "archive": "expA_n12_ch1-6_run02.jsonl",
+    "archive_sha256": "eef0cd7fb0a468815068bffa3752f3036b9ccb8ca034b8ecf878a341b7550b3b"
+  },
+  {
+    "run_id": "expB_pilot_llf_91_20261111T081001Z_ci_a6ueh",
+    "files": 23,
+    "archive": "expB_pilot_llf_91_20261111T081001Z_ci_a6ueh.jsonl",
+    "archive_sha256": "770e1a27d1c984f8c4537ee4c8fe2ea76e41b374f52d168582689f8ddda80a8d"
+  },
+  {
+    "run_id": "expB_pilot_ssf_91_20261111T082617Z_9am2o4k0",
+    "files": 23,
+    "archive": "expB_pilot_ssf_91_20261111T082617Z_9am2o4k0.jsonl",
+    "archive_sha256": "c626fe719bf8f7981f0d76cbf785a5fa2539e05a63cf6c955dd911ba5b55ff2b"
+  },
+  {
+    "run_id": "expC_baseline_c2000_run91_20261111T081218Z_kfgfiezu",
+    "files": 631,
+    "archive": "expC_baseline_c2000_run91_20261111T081218Z_kfgfiezu.jsonl",
+    "archive_sha256": "6181ace12fc76adf3d5a676dcd2002c2a0b7166b8ae981b96191b805c59fdd16"
+  },
+  {
+    "run_id": "expC_qos_c2000_run91_20261111T081339Z_dqeo4lqq",
+    "files": 631,
+    "archive": "expC_qos_c2000_run91_20261111T081339Z_dqeo4lqq.jsonl",
+    "archive_sha256": "2d2087592a3ea19ffae7a314ccd22f7cb6be407d71947269feb7aa774ded3db9"
+  },
+  {
+    "run_id": "expC_baseline_c2000_run92_20261111T081500Z_cwk7asta",
+    "files": 631,
+    "archive": "expC_baseline_c2000_run92_20261111T081500Z_cwk7asta.jsonl",
+    "archive_sha256": "aa39149f62ceb470f5ccd435b41ec468403eb41aaf6b540900a11d8586baf9e4"
+  },
+  {
+    "run_id": "expC_qos_c2000_run92_20261111T081620Z_n66pfhki",
+    "files": 631,
+    "archive": "expC_qos_c2000_run92_20261111T081620Z_n66pfhki.jsonl",
+    "archive_sha256": "4d18d56ab2daa92097cf770fcb552e37170bbe56e353cf6322f8df705a0fcedb"
+  },
+  {
+    "run_id": "expC_baseline_c2000_run93_20261111T081741Z_c8_hpoz0",
+    "files": 631,
+    "archive": "expC_baseline_c2000_run93_20261111T081741Z_c8_hpoz0.jsonl",
+    "archive_sha256": "4881cd85dd308f4dc9b9a81d9f8d478e584b1c822b185de1f5ab808418ad8aca"
+  },
+  {
+    "run_id": "expC_qos_c2000_run93_20261111T081901Z_f9k3dom6",
+    "files": 631,
+    "archive": "expC_qos_c2000_run93_20261111T081901Z_f9k3dom6.jsonl",
+    "archive_sha256": "441139eedb37ba4e71aa941df6569bc7913d42bbf1b61064d2f19aeb7b4552e3"
   }
 ]
