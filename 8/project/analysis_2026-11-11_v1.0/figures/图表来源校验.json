@@ -1,0 +1,8 @@
+{
+  "formal_table_sha256": "85e2ea288e6ce989fb3f2eeddc32566b7150abe51799ff9a0db3b5aa4a8a7d0e",
+  "diagnostic_input_sha256": "e33675662989d08d19f0ca326013d3003fe9ec46bf77218d9dcb82bd8a1d9018",
+  "diagnostic_source_git_blob_sha1": "bd094cc04fe9d4c00813670d83bd9fa991392289",
+  "diagnostic_source": "https://github.com/Arieaaa/CNC-GR/blob/65e4e94f447a485de9c8217b094fe414d74cab06/7/project/诊断试验/C交错复测_20261111.csv",
+  "formal_plot_source": "../inputs/formal_run_metrics.csv",
+  "note": "使用正式逐轮指标与 7 号诊断输入；图中 A 窗口按 12 个 config 核对。"
+}

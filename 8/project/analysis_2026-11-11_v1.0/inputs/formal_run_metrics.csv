@@ -1,0 +1,187 @@
+﻿experiment,config_id,config_label,repeat,run_id,metric_id,metric_label,unit,value,window
+A,A_n04_ch1-6,4 终端 · 信道 1/6,1,expA_n4_ch1-6_run01,rtt_mean_station_max,各终端平均 RTT 的最大值,ms,9.432,TCP 分轮：ping 先于 TCP 启动，约 60 秒，未剔除预热。
+A,A_n04_ch1-6,4 终端 · 信道 1/6,2,expA_n4_ch1-6_run02,rtt_mean_station_max,各终端平均 RTT 的最大值,ms,9.216,TCP 分轮：ping 先于 TCP 启动，约 60 秒，未剔除预热。
+A,A_n04_ch1-6,4 终端 · 信道 1/6,3,expA_n4_ch1-6_run03,rtt_mean_station_max,各终端平均 RTT 的最大值,ms,9.126,TCP 分轮：ping 先于 TCP 启动，约 60 秒，未剔除预热。
+A,A_n04_ch1-6,4 终端 · 信道 1/6,1,expA_n4_ch1-6_run01,rtt_p95_station_max,各终端 P95 RTT 的最大值,ms,12.3,TCP 分轮：ping 先于 TCP 启动，约 60 秒，未剔除预热。
+A,A_n04_ch1-6,4 终端 · 信道 1/6,2,expA_n4_ch1-6_run02,rtt_p95_station_max,各终端 P95 RTT 的最大值,ms,12.5,TCP 分轮：ping 先于 TCP 启动，约 60 秒，未剔除预热。
+A,A_n04_ch1-6,4 终端 · 信道 1/6,3,expA_n4_ch1-6_run03,rtt_p95_station_max,各终端 P95 RTT 的最大值,ms,12.4,TCP 分轮：ping 先于 TCP 启动，约 60 秒，未剔除预热。
+A,A_n04_ch1-6,4 终端 · 信道 1/6,1,expA_n4_ch1-6_run01,tcp_station_avg,单终端平均 TCP 吞吐量,Mbit/s,17.98,TCP 分轮：iperf3 预热 10 秒后统计 60 秒；各流窗口不严格对齐。
+A,A_n04_ch1-6,4 终端 · 信道 1/6,2,expA_n4_ch1-6_run02,tcp_station_avg,单终端平均 TCP 吞吐量,Mbit/s,17.964,TCP 分轮：iperf3 预热 10 秒后统计 60 秒；各流窗口不严格对齐。
+A,A_n04_ch1-6,4 终端 · 信道 1/6,3,expA_n4_ch1-6_run03,tcp_station_avg,单终端平均 TCP 吞吐量,Mbit/s,17.94,TCP 分轮：iperf3 预热 10 秒后统计 60 秒；各流窗口不严格对齐。
+A,A_n04_ch1-6,4 终端 · 信道 1/6,1,expA_n4_ch1-6_run01,tcp_total,TCP 总接收吞吐量,Mbit/s,71.922,TCP 分轮：iperf3 预热 10 秒后统计 60 秒；各流窗口不严格对齐。
+A,A_n04_ch1-6,4 终端 · 信道 1/6,2,expA_n4_ch1-6_run02,tcp_total,TCP 总接收吞吐量,Mbit/s,71.856,TCP 分轮：iperf3 预热 10 秒后统计 60 秒；各流窗口不严格对齐。
+A,A_n04_ch1-6,4 终端 · 信道 1/6,3,expA_n4_ch1-6_run03,tcp_total,TCP 总接收吞吐量,Mbit/s,71.759,TCP 分轮：iperf3 预热 10 秒后统计 60 秒；各流窗口不严格对齐。
+A,A_n04_ch1-6,4 终端 · 信道 1/6,1,expA_n4_ch1-6_run01,udp_jitter_station_max,各终端 UDP 抖动的最大值,ms,0.605,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n04_ch1-6,4 终端 · 信道 1/6,2,expA_n4_ch1-6_run02,udp_jitter_station_max,各终端 UDP 抖动的最大值,ms,1.347,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n04_ch1-6,4 终端 · 信道 1/6,3,expA_n4_ch1-6_run03,udp_jitter_station_max,各终端 UDP 抖动的最大值,ms,1.364,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n04_ch1-6,4 终端 · 信道 1/6,1,expA_n4_ch1-6_run01,udp_loss_station_max,各终端 UDP 丢包率的最大值,%,0.0,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n04_ch1-6,4 终端 · 信道 1/6,2,expA_n4_ch1-6_run02,udp_loss_station_max,各终端 UDP 丢包率的最大值,%,0.0,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n04_ch1-6,4 终端 · 信道 1/6,3,expA_n4_ch1-6_run03,udp_loss_station_max,各终端 UDP 丢包率的最大值,%,0.0,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n04_ch1-6,4 终端 · 信道 1/6,1,expA_n4_ch1-6_run01,udp_loss_station_mean,各终端 UDP 丢包率的平均值,%,0.0,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n04_ch1-6,4 终端 · 信道 1/6,2,expA_n4_ch1-6_run02,udp_loss_station_mean,各终端 UDP 丢包率的平均值,%,0.0,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n04_ch1-6,4 终端 · 信道 1/6,3,expA_n4_ch1-6_run03,udp_loss_station_mean,各终端 UDP 丢包率的平均值,%,0.0,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n08_ch1-6,8 终端 · 信道 1/6,1,expA_n8_ch1-6_run01,rtt_mean_station_max,各终端平均 RTT 的最大值,ms,16.855,TCP 分轮：ping 先于 TCP 启动，约 60 秒，未剔除预热。
+A,A_n08_ch1-6,8 终端 · 信道 1/6,2,expA_n8_ch1-6_run02,rtt_mean_station_max,各终端平均 RTT 的最大值,ms,16.987,TCP 分轮：ping 先于 TCP 启动，约 60 秒，未剔除预热。
+A,A_n08_ch1-6,8 终端 · 信道 1/6,3,expA_n8_ch1-6_run03,rtt_mean_station_max,各终端平均 RTT 的最大值,ms,16.163,TCP 分轮：ping 先于 TCP 启动，约 60 秒，未剔除预热。
+A,A_n08_ch1-6,8 终端 · 信道 1/6,1,expA_n8_ch1-6_run01,rtt_p95_station_max,各终端 P95 RTT 的最大值,ms,22.4,TCP 分轮：ping 先于 TCP 启动，约 60 秒，未剔除预热。
+A,A_n08_ch1-6,8 终端 · 信道 1/6,2,expA_n8_ch1-6_run02,rtt_p95_station_max,各终端 P95 RTT 的最大值,ms,21.9,TCP 分轮：ping 先于 TCP 启动，约 60 秒，未剔除预热。
+A,A_n08_ch1-6,8 终端 · 信道 1/6,3,expA_n8_ch1-6_run03,rtt_p95_station_max,各终端 P95 RTT 的最大值,ms,21.8,TCP 分轮：ping 先于 TCP 启动，约 60 秒，未剔除预热。
+A,A_n08_ch1-6,8 终端 · 信道 1/6,1,expA_n8_ch1-6_run01,tcp_station_avg,单终端平均 TCP 吞吐量,Mbit/s,8.998,TCP 分轮：iperf3 预热 10 秒后统计 60 秒；各流窗口不严格对齐。
+A,A_n08_ch1-6,8 终端 · 信道 1/6,2,expA_n8_ch1-6_run02,tcp_station_avg,单终端平均 TCP 吞吐量,Mbit/s,9.001,TCP 分轮：iperf3 预热 10 秒后统计 60 秒；各流窗口不严格对齐。
+A,A_n08_ch1-6,8 终端 · 信道 1/6,3,expA_n8_ch1-6_run03,tcp_station_avg,单终端平均 TCP 吞吐量,Mbit/s,8.994,TCP 分轮：iperf3 预热 10 秒后统计 60 秒；各流窗口不严格对齐。
+A,A_n08_ch1-6,8 终端 · 信道 1/6,1,expA_n8_ch1-6_run01,tcp_total,TCP 总接收吞吐量,Mbit/s,71.984,TCP 分轮：iperf3 预热 10 秒后统计 60 秒；各流窗口不严格对齐。
+A,A_n08_ch1-6,8 终端 · 信道 1/6,2,expA_n8_ch1-6_run02,tcp_total,TCP 总接收吞吐量,Mbit/s,72.006,TCP 分轮：iperf3 预热 10 秒后统计 60 秒；各流窗口不严格对齐。
+A,A_n08_ch1-6,8 终端 · 信道 1/6,3,expA_n8_ch1-6_run03,tcp_total,TCP 总接收吞吐量,Mbit/s,71.955,TCP 分轮：iperf3 预热 10 秒后统计 60 秒；各流窗口不严格对齐。
+A,A_n08_ch1-6,8 终端 · 信道 1/6,1,expA_n8_ch1-6_run01,udp_jitter_station_max,各终端 UDP 抖动的最大值,ms,0.715,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n08_ch1-6,8 终端 · 信道 1/6,2,expA_n8_ch1-6_run02,udp_jitter_station_max,各终端 UDP 抖动的最大值,ms,1.146,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n08_ch1-6,8 终端 · 信道 1/6,3,expA_n8_ch1-6_run03,udp_jitter_station_max,各终端 UDP 抖动的最大值,ms,1.132,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n08_ch1-6,8 终端 · 信道 1/6,1,expA_n8_ch1-6_run01,udp_loss_station_max,各终端 UDP 丢包率的最大值,%,0.0,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n08_ch1-6,8 终端 · 信道 1/6,2,expA_n8_ch1-6_run02,udp_loss_station_max,各终端 UDP 丢包率的最大值,%,0.0,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n08_ch1-6,8 终端 · 信道 1/6,3,expA_n8_ch1-6_run03,udp_loss_station_max,各终端 UDP 丢包率的最大值,%,0.0,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n08_ch1-6,8 终端 · 信道 1/6,1,expA_n8_ch1-6_run01,udp_loss_station_mean,各终端 UDP 丢包率的平均值,%,0.0,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n08_ch1-6,8 终端 · 信道 1/6,2,expA_n8_ch1-6_run02,udp_loss_station_mean,各终端 UDP 丢包率的平均值,%,0.0,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n08_ch1-6,8 终端 · 信道 1/6,3,expA_n8_ch1-6_run03,udp_loss_station_mean,各终端 UDP 丢包率的平均值,%,0.0,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n12_ch1-1,12 终端 · 信道 1/1,1,expA_n12_ch1-1_run01,rtt_mean_station_max,各终端平均 RTT 的最大值,ms,24.473,TCP 分轮：ping 先于 TCP 启动，约 60 秒，未剔除预热。
+A,A_n12_ch1-1,12 终端 · 信道 1/1,2,expA_n12_ch1-1_run02,rtt_mean_station_max,各终端平均 RTT 的最大值,ms,23.874,TCP 分轮：ping 先于 TCP 启动，约 60 秒，未剔除预热。
+A,A_n12_ch1-1,12 终端 · 信道 1/1,3,expA_n12_ch1-1_run03,rtt_mean_station_max,各终端平均 RTT 的最大值,ms,25.058,TCP 分轮：ping 先于 TCP 启动，约 60 秒，未剔除预热。
+A,A_n12_ch1-1,12 终端 · 信道 1/1,1,expA_n12_ch1-1_run01,rtt_p95_station_max,各终端 P95 RTT 的最大值,ms,29.2,TCP 分轮：ping 先于 TCP 启动，约 60 秒，未剔除预热。
+A,A_n12_ch1-1,12 终端 · 信道 1/1,2,expA_n12_ch1-1_run02,rtt_p95_station_max,各终端 P95 RTT 的最大值,ms,28.9,TCP 分轮：ping 先于 TCP 启动，约 60 秒，未剔除预热。
+A,A_n12_ch1-1,12 终端 · 信道 1/1,3,expA_n12_ch1-1_run03,rtt_p95_station_max,各终端 P95 RTT 的最大值,ms,29.8,TCP 分轮：ping 先于 TCP 启动，约 60 秒，未剔除预热。
+A,A_n12_ch1-1,12 终端 · 信道 1/1,1,expA_n12_ch1-1_run01,tcp_station_avg,单终端平均 TCP 吞吐量,Mbit/s,6.076,TCP 分轮：iperf3 预热 10 秒后统计 60 秒；各流窗口不严格对齐。
+A,A_n12_ch1-1,12 终端 · 信道 1/1,2,expA_n12_ch1-1_run02,tcp_station_avg,单终端平均 TCP 吞吐量,Mbit/s,6.001,TCP 分轮：iperf3 预热 10 秒后统计 60 秒；各流窗口不严格对齐。
+A,A_n12_ch1-1,12 终端 · 信道 1/1,3,expA_n12_ch1-1_run03,tcp_station_avg,单终端平均 TCP 吞吐量,Mbit/s,6.029,TCP 分轮：iperf3 预热 10 秒后统计 60 秒；各流窗口不严格对齐。
+A,A_n12_ch1-1,12 终端 · 信道 1/1,1,expA_n12_ch1-1_run01,tcp_total,TCP 总接收吞吐量,Mbit/s,72.91,TCP 分轮：iperf3 预热 10 秒后统计 60 秒；各流窗口不严格对齐。
+A,A_n12_ch1-1,12 终端 · 信道 1/1,2,expA_n12_ch1-1_run02,tcp_total,TCP 总接收吞吐量,Mbit/s,72.015,TCP 分轮：iperf3 预热 10 秒后统计 60 秒；各流窗口不严格对齐。
+A,A_n12_ch1-1,12 终端 · 信道 1/1,3,expA_n12_ch1-1_run03,tcp_total,TCP 总接收吞吐量,Mbit/s,72.348,TCP 分轮：iperf3 预热 10 秒后统计 60 秒；各流窗口不严格对齐。
+A,A_n12_ch1-1,12 终端 · 信道 1/1,1,expA_n12_ch1-1_run01,udp_jitter_station_max,各终端 UDP 抖动的最大值,ms,1.999,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n12_ch1-1,12 终端 · 信道 1/1,2,expA_n12_ch1-1_run02,udp_jitter_station_max,各终端 UDP 抖动的最大值,ms,1.89,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n12_ch1-1,12 终端 · 信道 1/1,3,expA_n12_ch1-1_run03,udp_jitter_station_max,各终端 UDP 抖动的最大值,ms,2.036,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n12_ch1-1,12 终端 · 信道 1/1,1,expA_n12_ch1-1_run01,udp_loss_station_max,各终端 UDP 丢包率的最大值,%,0.028000746686578308,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n12_ch1-1,12 终端 · 信道 1/1,2,expA_n12_ch1-1_run02,udp_loss_station_max,各终端 UDP 丢包率的最大值,%,0.02800336040324839,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n12_ch1-1,12 终端 · 信道 1/1,3,expA_n12_ch1-1_run03,udp_loss_station_max,各终端 UDP 丢包率的最大值,%,0.056001493373156616,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n12_ch1-1,12 终端 · 信道 1/1,1,expA_n12_ch1-1_run01,udp_loss_station_mean,各终端 UDP 丢包率的平均值,%,0.0062,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n12_ch1-1,12 终端 · 信道 1/1,2,expA_n12_ch1-1_run02,udp_loss_station_mean,各终端 UDP 丢包率的平均值,%,0.0117,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n12_ch1-1,12 终端 · 信道 1/1,3,expA_n12_ch1-1_run03,udp_loss_station_mean,各终端 UDP 丢包率的平均值,%,0.035,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n12_ch1-6,12 终端 · 信道 1/6,1,expA_n12_ch1-6_run01,rtt_mean_station_max,各终端平均 RTT 的最大值,ms,24.226,TCP 分轮：ping 先于 TCP 启动，约 60 秒，未剔除预热。
+A,A_n12_ch1-6,12 终端 · 信道 1/6,2,expA_n12_ch1-6_run02,rtt_mean_station_max,各终端平均 RTT 的最大值,ms,34.854,TCP 分轮：ping 先于 TCP 启动，约 60 秒，未剔除预热。
+A,A_n12_ch1-6,12 终端 · 信道 1/6,3,expA_n12_ch1-6_run03,rtt_mean_station_max,各终端平均 RTT 的最大值,ms,24.502,TCP 分轮：ping 先于 TCP 启动，约 60 秒，未剔除预热。
+A,A_n12_ch1-6,12 终端 · 信道 1/6,1,expA_n12_ch1-6_run01,rtt_p95_station_max,各终端 P95 RTT 的最大值,ms,29.0,TCP 分轮：ping 先于 TCP 启动，约 60 秒，未剔除预热。
+A,A_n12_ch1-6,12 终端 · 信道 1/6,2,expA_n12_ch1-6_run02,rtt_p95_station_max,各终端 P95 RTT 的最大值,ms,29.8,TCP 分轮：ping 先于 TCP 启动，约 60 秒，未剔除预热。
+A,A_n12_ch1-6,12 终端 · 信道 1/6,3,expA_n12_ch1-6_run03,rtt_p95_station_max,各终端 P95 RTT 的最大值,ms,29.4,TCP 分轮：ping 先于 TCP 启动，约 60 秒，未剔除预热。
+A,A_n12_ch1-6,12 终端 · 信道 1/6,1,expA_n12_ch1-6_run01,tcp_station_avg,单终端平均 TCP 吞吐量,Mbit/s,6.086,TCP 分轮：iperf3 预热 10 秒后统计 60 秒；各流窗口不严格对齐。
+A,A_n12_ch1-6,12 终端 · 信道 1/6,2,expA_n12_ch1-6_run02,tcp_station_avg,单终端平均 TCP 吞吐量,Mbit/s,6.086,TCP 分轮：iperf3 预热 10 秒后统计 60 秒；各流窗口不严格对齐。
+A,A_n12_ch1-6,12 终端 · 信道 1/6,3,expA_n12_ch1-6_run03,tcp_station_avg,单终端平均 TCP 吞吐量,Mbit/s,6.032,TCP 分轮：iperf3 预热 10 秒后统计 60 秒；各流窗口不严格对齐。
+A,A_n12_ch1-6,12 终端 · 信道 1/6,1,expA_n12_ch1-6_run01,tcp_total,TCP 总接收吞吐量,Mbit/s,73.03,TCP 分轮：iperf3 预热 10 秒后统计 60 秒；各流窗口不严格对齐。
+A,A_n12_ch1-6,12 终端 · 信道 1/6,2,expA_n12_ch1-6_run02,tcp_total,TCP 总接收吞吐量,Mbit/s,73.03,TCP 分轮：iperf3 预热 10 秒后统计 60 秒；各流窗口不严格对齐。
+A,A_n12_ch1-6,12 终端 · 信道 1/6,3,expA_n12_ch1-6_run03,tcp_total,TCP 总接收吞吐量,Mbit/s,72.385,TCP 分轮：iperf3 预热 10 秒后统计 60 秒；各流窗口不严格对齐。
+A,A_n12_ch1-6,12 终端 · 信道 1/6,1,expA_n12_ch1-6_run01,udp_jitter_station_max,各终端 UDP 抖动的最大值,ms,3.032,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n12_ch1-6,12 终端 · 信道 1/6,2,expA_n12_ch1-6_run02,udp_jitter_station_max,各终端 UDP 抖动的最大值,ms,2.042,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n12_ch1-6,12 终端 · 信道 1/6,3,expA_n12_ch1-6_run03,udp_jitter_station_max,各终端 UDP 抖动的最大值,ms,1.805,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n12_ch1-6,12 终端 · 信道 1/6,1,expA_n12_ch1-6_run01,udp_loss_station_max,各终端 UDP 丢包率的最大值,%,0.056001493373156616,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n12_ch1-6,12 终端 · 信道 1/6,2,expA_n12_ch1-6_run02,udp_loss_station_max,各终端 UDP 丢包率的最大值,%,0.037337813870997855,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n12_ch1-6,12 终端 · 信道 1/6,3,expA_n12_ch1-6_run03,udp_loss_station_max,各终端 UDP 丢包率的最大值,%,0.0653289780681288,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n12_ch1-6,12 终端 · 信道 1/6,1,expA_n12_ch1-6_run01,udp_loss_station_mean,各终端 UDP 丢包率的平均值,%,0.0249,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n12_ch1-6,12 终端 · 信道 1/6,2,expA_n12_ch1-6_run02,udp_loss_station_mean,各终端 UDP 丢包率的平均值,%,0.0202,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+A,A_n12_ch1-6,12 终端 · 信道 1/6,3,expA_n12_ch1-6_run03,udp_loss_station_mean,各终端 UDP 丢包率的平均值,%,0.0272,UDP 分轮：iperf3 预热 10 秒后统计 60 秒，每终端 2 Mbit/s、1400 B。
+B,B_llf,LLF,1,expB_formal_llf_1_20261110T061129Z_vbx2dsyh,ap2_first_x,首次观测到 AP2 的 X 坐标,m,34.00007161300164,关联观测，周期约 0.2 秒
+B,B_llf,LLF,2,expB_formal_llf_2_20261110T061309Z_yg10dbu7,ap2_first_x,首次观测到 AP2 的 X 坐标,m,34.000073196948506,关联观测，周期约 0.2 秒
+B,B_llf,LLF,3,expB_formal_llf_3_20261110T061812Z_6r0xpbng,ap2_first_x,首次观测到 AP2 的 X 坐标,m,34.000468707003165,关联观测，周期约 0.2 秒
+B,B_llf,LLF,1,expB_formal_llf_1_20261110T061129Z_vbx2dsyh,association_events,实际关联变化数,次,1.0,全轮 BSSID 观测
+B,B_llf,LLF,2,expB_formal_llf_2_20261110T061309Z_yg10dbu7,association_events,实际关联变化数,次,1.0,全轮 BSSID 观测
+B,B_llf,LLF,3,expB_formal_llf_3_20261110T061812Z_6r0xpbng,association_events,实际关联变化数,次,1.0,全轮 BSSID 观测
+B,B_llf,LLF,1,expB_formal_llf_1_20261110T061129Z_vbx2dsyh,event_reply_gap,切换附近最大相邻成功回包间隔,ms,1257.0600509643555,切换事件窗口，两侧延伸至最近成功回包
+B,B_llf,LLF,2,expB_formal_llf_2_20261110T061309Z_yg10dbu7,event_reply_gap,切换附近最大相邻成功回包间隔,ms,2274.6520042419434,切换事件窗口，两侧延伸至最近成功回包
+B,B_llf,LLF,3,expB_formal_llf_3_20261110T061812Z_6r0xpbng,event_reply_gap,切换附近最大相邻成功回包间隔,ms,1242.8808212280273,切换事件窗口，两侧延伸至最近成功回包
+B,B_llf,LLF,1,expB_formal_llf_1_20261110T061129Z_vbx2dsyh,ping_loss,全轮探测丢失率,%,0.0,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+B,B_llf,LLF,2,expB_formal_llf_2_20261110T061309Z_yg10dbu7,ping_loss,全轮探测丢失率,%,0.0,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+B,B_llf,LLF,3,expB_formal_llf_3_20261110T061812Z_6r0xpbng,ping_loss,全轮探测丢失率,%,0.0,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+B,B_llf,LLF,1,expB_formal_llf_1_20261110T061129Z_vbx2dsyh,ping_received,全轮探测收到数,包,375.0,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+B,B_llf,LLF,2,expB_formal_llf_2_20261110T061309Z_yg10dbu7,ping_received,全轮探测收到数,包,375.0,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+B,B_llf,LLF,3,expB_formal_llf_3_20261110T061812Z_6r0xpbng,ping_received,全轮探测收到数,包,375.0,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+B,B_llf,LLF,1,expB_formal_llf_1_20261110T061129Z_vbx2dsyh,ping_sent,全轮探测发送数,包,375.0,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+B,B_llf,LLF,2,expB_formal_llf_2_20261110T061309Z_yg10dbu7,ping_sent,全轮探测发送数,包,375.0,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+B,B_llf,LLF,3,expB_formal_llf_3_20261110T061812Z_6r0xpbng,ping_sent,全轮探测发送数,包,375.0,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+B,B_llf,LLF,1,expB_formal_llf_1_20261110T061129Z_vbx2dsyh,policy_requests,策略切换请求数,次,1.0,全轮策略日志
+B,B_llf,LLF,2,expB_formal_llf_2_20261110T061309Z_yg10dbu7,policy_requests,策略切换请求数,次,1.0,全轮策略日志
+B,B_llf,LLF,3,expB_formal_llf_3_20261110T061812Z_6r0xpbng,policy_requests,策略切换请求数,次,1.0,全轮策略日志
+B,B_llf,LLF,1,expB_formal_llf_1_20261110T061129Z_vbx2dsyh,rtt_mean,全轮平均 RTT,ms,8.823096,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+B,B_llf,LLF,2,expB_formal_llf_2_20261110T061309Z_yg10dbu7,rtt_mean,全轮平均 RTT,ms,30.565138666666666,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+B,B_llf,LLF,3,expB_formal_llf_3_20261110T061812Z_6r0xpbng,rtt_mean,全轮平均 RTT,ms,8.616749333333333,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+B,B_llf,LLF,1,expB_formal_llf_1_20261110T061129Z_vbx2dsyh,rtt_p95,全轮 P95 RTT,ms,0.848,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+B,B_llf,LLF,2,expB_formal_llf_2_20261110T061309Z_yg10dbu7,rtt_p95,全轮 P95 RTT,ms,1.01,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+B,B_llf,LLF,3,expB_formal_llf_3_20261110T061812Z_6r0xpbng,rtt_p95,全轮 P95 RTT,ms,1.13,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+B,B_ssf,SSF,1,expB_formal_ssf_1_20261110T060949Z_7oreq5yg,ap2_first_x,首次观测到 AP2 的 X 坐标,m,43.00007116299821,关联观测，周期约 0.2 秒
+B,B_ssf,SSF,2,expB_formal_ssf_2_20261110T061450Z_7h98zj68,ap2_first_x,首次观测到 AP2 的 X 坐标,m,43.00064653198933,关联观测，周期约 0.2 秒
+B,B_ssf,SSF,3,expB_formal_ssf_3_20261110T061631Z_v42z8knc,ap2_first_x,首次观测到 AP2 的 X 坐标,m,43.00007148401346,关联观测，周期约 0.2 秒
+B,B_ssf,SSF,1,expB_formal_ssf_1_20261110T060949Z_7oreq5yg,association_events,实际关联变化数,次,1.0,全轮 BSSID 观测
+B,B_ssf,SSF,2,expB_formal_ssf_2_20261110T061450Z_7h98zj68,association_events,实际关联变化数,次,1.0,全轮 BSSID 观测
+B,B_ssf,SSF,3,expB_formal_ssf_3_20261110T061631Z_v42z8knc,association_events,实际关联变化数,次,1.0,全轮 BSSID 观测
+B,B_ssf,SSF,1,expB_formal_ssf_1_20261110T060949Z_7oreq5yg,event_reply_gap,切换附近最大相邻成功回包间隔,ms,1040.2450561523438,切换事件窗口，两侧延伸至最近成功回包
+B,B_ssf,SSF,2,expB_formal_ssf_2_20261110T061450Z_7h98zj68,event_reply_gap,切换附近最大相邻成功回包间隔,ms,1138.228178024292,切换事件窗口，两侧延伸至最近成功回包
+B,B_ssf,SSF,3,expB_formal_ssf_3_20261110T061631Z_v42z8knc,event_reply_gap,切换附近最大相邻成功回包间隔,ms,626.6520023345947,切换事件窗口，两侧延伸至最近成功回包
+B,B_ssf,SSF,1,expB_formal_ssf_1_20261110T060949Z_7oreq5yg,ping_loss,全轮探测丢失率,%,1.0666666666666667,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+B,B_ssf,SSF,2,expB_formal_ssf_2_20261110T061450Z_7h98zj68,ping_loss,全轮探测丢失率,%,0.0,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+B,B_ssf,SSF,3,expB_formal_ssf_3_20261110T061631Z_v42z8knc,ping_loss,全轮探测丢失率,%,0.5333333333333333,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+B,B_ssf,SSF,1,expB_formal_ssf_1_20261110T060949Z_7oreq5yg,ping_received,全轮探测收到数,包,371.0,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+B,B_ssf,SSF,2,expB_formal_ssf_2_20261110T061450Z_7h98zj68,ping_received,全轮探测收到数,包,375.0,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+B,B_ssf,SSF,3,expB_formal_ssf_3_20261110T061631Z_v42z8knc,ping_received,全轮探测收到数,包,373.0,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+B,B_ssf,SSF,1,expB_formal_ssf_1_20261110T060949Z_7oreq5yg,ping_sent,全轮探测发送数,包,375.0,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+B,B_ssf,SSF,2,expB_formal_ssf_2_20261110T061450Z_7h98zj68,ping_sent,全轮探测发送数,包,375.0,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+B,B_ssf,SSF,3,expB_formal_ssf_3_20261110T061631Z_v42z8knc,ping_sent,全轮探测发送数,包,375.0,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+B,B_ssf,SSF,1,expB_formal_ssf_1_20261110T060949Z_7oreq5yg,policy_requests,策略切换请求数,次,1.0,全轮策略日志
+B,B_ssf,SSF,2,expB_formal_ssf_2_20261110T061450Z_7h98zj68,policy_requests,策略切换请求数,次,1.0,全轮策略日志
+B,B_ssf,SSF,3,expB_formal_ssf_3_20261110T061631Z_v42z8knc,policy_requests,策略切换请求数,次,1.0,全轮策略日志
+B,B_ssf,SSF,1,expB_formal_ssf_1_20261110T060949Z_7oreq5yg,rtt_mean,全轮平均 RTT,ms,0.3540026954177898,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+B,B_ssf,SSF,2,expB_formal_ssf_2_20261110T061450Z_7h98zj68,rtt_mean,全轮平均 RTT,ms,7.241314666666667,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+B,B_ssf,SSF,3,expB_formal_ssf_3_20261110T061631Z_v42z8knc,rtt_mean,全轮平均 RTT,ms,0.3604825737265416,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+B,B_ssf,SSF,1,expB_formal_ssf_1_20261110T060949Z_7oreq5yg,rtt_p95,全轮 P95 RTT,ms,0.719,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+B,B_ssf,SSF,2,expB_formal_ssf_2_20261110T061450Z_7h98zj68,rtt_p95,全轮 P95 RTT,ms,1.36,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+B,B_ssf,SSF,3,expB_formal_ssf_3_20261110T061631Z_v42z8knc,rtt_p95,全轮 P95 RTT,ms,1.05,全轮探测，每轮 375 包，间隔 0.2 秒，RTT 仅成功应答
+C,C_baseline,共享 FIFO,1,expC_baseline_c2000_run01_20261109T134207Z_4fs0o1wx,rtt_internal_gaps,RTT 序列的内部缺号数,个,2.0,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_baseline,共享 FIFO,2,expC_baseline_c2000_run02_20261109T134607Z_47qrkol0,rtt_internal_gaps,RTT 序列的内部缺号数,个,0.0,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_baseline,共享 FIFO,3,expC_baseline_c2000_run03_20261109T134726Z_1n9j2ujo,rtt_internal_gaps,RTT 序列的内部缺号数,个,1.0,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_baseline,共享 FIFO,1,expC_baseline_c2000_run01_20261109T134207Z_4fs0o1wx,rtt_mean,成功应答的平均 RTT,ms,99.00685483870967,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_baseline,共享 FIFO,2,expC_baseline_c2000_run02_20261109T134607Z_47qrkol0,rtt_mean,成功应答的平均 RTT,ms,94.8008,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_baseline,共享 FIFO,3,expC_baseline_c2000_run03_20261109T134726Z_1n9j2ujo,rtt_mean,成功应答的平均 RTT,ms,100.68273092369478,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_baseline,共享 FIFO,1,expC_baseline_c2000_run01_20261109T134207Z_4fs0o1wx,rtt_p95,成功应答的 P95 RTT,ms,142.0,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_baseline,共享 FIFO,2,expC_baseline_c2000_run02_20261109T134607Z_47qrkol0,rtt_p95,成功应答的 P95 RTT,ms,130.0,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_baseline,共享 FIFO,3,expC_baseline_c2000_run03_20261109T134726Z_1n9j2ujo,rtt_p95,成功应答的 P95 RTT,ms,136.0,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_baseline,共享 FIFO,1,expC_baseline_c2000_run01_20261109T134207Z_4fs0o1wx,rtt_success_count,RTT 成功应答样本数,包,248.0,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_baseline,共享 FIFO,2,expC_baseline_c2000_run02_20261109T134607Z_47qrkol0,rtt_success_count,RTT 成功应答样本数,包,250.0,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_baseline,共享 FIFO,3,expC_baseline_c2000_run03_20261109T134726Z_1n9j2ujo,rtt_success_count,RTT 成功应答样本数,包,249.0,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_baseline,共享 FIFO,1,expC_baseline_c2000_run01_20261109T134207Z_4fs0o1wx,tcp_received,后台 TCP 接收吞吐量,Mbit/s,1.5518922006594038,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_baseline,共享 FIFO,2,expC_baseline_c2000_run02_20261109T134607Z_47qrkol0,tcp_received,后台 TCP 接收吞吐量,Mbit/s,1.5518918902810817,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_baseline,共享 FIFO,3,expC_baseline_c2000_run03_20261109T134726Z_1n9j2ujo,tcp_received,后台 TCP 接收吞吐量,Mbit/s,1.5519160380854582,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_baseline,共享 FIFO,1,expC_baseline_c2000_run01_20261109T134207Z_4fs0o1wx,udp_jitter,UDP 逐秒抖动的时间均值,ms,5.396630813503884,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_baseline,共享 FIFO,2,expC_baseline_c2000_run02_20261109T134607Z_47qrkol0,udp_jitter,UDP 逐秒抖动的时间均值,ms,5.456840333537386,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_baseline,共享 FIFO,3,expC_baseline_c2000_run03_20261109T134726Z_1n9j2ujo,udp_jitter,UDP 逐秒抖动的时间均值,ms,5.54422230462877,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_baseline,共享 FIFO,1,expC_baseline_c2000_run01_20261109T134207Z_4fs0o1wx,udp_loss,UDP 丢包率,%,0.8268689796266303,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_baseline,共享 FIFO,2,expC_baseline_c2000_run02_20261109T134607Z_47qrkol0,udp_loss,UDP 丢包率,%,0.3583312004095214,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_baseline,共享 FIFO,3,expC_baseline_c2000_run03_20261109T134726Z_1n9j2ujo,udp_loss,UDP 丢包率,%,1.6559965855740504,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_baseline,共享 FIFO,1,expC_baseline_c2000_run01_20261109T134207Z_4fs0o1wx,udp_received,UDP 接收吞吐量,Mbit/s,0.297830286824491,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_baseline,共享 FIFO,2,expC_baseline_c2000_run02_20261109T134607Z_47qrkol0,udp_received,UDP 接收吞吐量,Mbit/s,0.298982423918594,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_baseline,共享 FIFO,3,expC_baseline_c2000_run03_20261109T134726Z_1n9j2ujo,udp_received,UDP 接收吞吐量,Mbit/s,0.2949376058987521,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_qos,分类 HTB,1,expC_qos_c2000_run01_20261109T134327Z__02q2oah,rtt_internal_gaps,RTT 序列的内部缺号数,个,0.0,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_qos,分类 HTB,2,expC_qos_c2000_run02_20261109T134447Z_0439qzhl,rtt_internal_gaps,RTT 序列的内部缺号数,个,0.0,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_qos,分类 HTB,3,expC_qos_c2000_run03_20261109T134846Z_izzzov02,rtt_internal_gaps,RTT 序列的内部缺号数,个,0.0,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_qos,分类 HTB,1,expC_qos_c2000_run01_20261109T134327Z__02q2oah,rtt_mean,成功应答的平均 RTT,ms,0.5598879668049792,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_qos,分类 HTB,2,expC_qos_c2000_run02_20261109T134447Z_0439qzhl,rtt_mean,成功应答的平均 RTT,ms,0.40555,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_qos,分类 HTB,3,expC_qos_c2000_run03_20261109T134846Z_izzzov02,rtt_mean,成功应答的平均 RTT,ms,0.3916058091286307,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_qos,分类 HTB,1,expC_qos_c2000_run01_20261109T134327Z__02q2oah,rtt_p95,成功应答的 P95 RTT,ms,1.4,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_qos,分类 HTB,2,expC_qos_c2000_run02_20261109T134447Z_0439qzhl,rtt_p95,成功应答的 P95 RTT,ms,0.574,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_qos,分类 HTB,3,expC_qos_c2000_run03_20261109T134846Z_izzzov02,rtt_p95,成功应答的 P95 RTT,ms,0.625,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_qos,分类 HTB,1,expC_qos_c2000_run01_20261109T134327Z__02q2oah,rtt_success_count,RTT 成功应答样本数,包,241.0,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_qos,分类 HTB,2,expC_qos_c2000_run02_20261109T134447Z_0439qzhl,rtt_success_count,RTT 成功应答样本数,包,240.0,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_qos,分类 HTB,3,expC_qos_c2000_run03_20261109T134846Z_izzzov02,rtt_success_count,RTT 成功应答样本数,包,241.0,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_qos,分类 HTB,1,expC_qos_c2000_run01_20261109T134327Z__02q2oah,tcp_received,后台 TCP 接收吞吐量,Mbit/s,1.5518673087122528,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_qos,分类 HTB,2,expC_qos_c2000_run02_20261109T134447Z_0439qzhl,tcp_received,后台 TCP 接收吞吐量,Mbit/s,1.5518931317951152,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_qos,分类 HTB,3,expC_qos_c2000_run03_20261109T134846Z_izzzov02,tcp_received,后台 TCP 接收吞吐量,Mbit/s,1.5519088991961536,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_qos,分类 HTB,1,expC_qos_c2000_run01_20261109T134327Z__02q2oah,udp_jitter,UDP 逐秒抖动的时间均值,ms,0.1109237286117464,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_qos,分类 HTB,2,expC_qos_c2000_run02_20261109T134447Z_0439qzhl,udp_jitter,UDP 逐秒抖动的时间均值,ms,0.10147075778058268,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_qos,分类 HTB,3,expC_qos_c2000_run03_20261109T134846Z_izzzov02,udp_jitter,UDP 逐秒抖动的时间均值,ms,0.11616489674797513,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_qos,分类 HTB,1,expC_qos_c2000_run01_20261109T134327Z__02q2oah,udp_loss,UDP 丢包率,%,0.0,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_qos,分类 HTB,2,expC_qos_c2000_run02_20261109T134447Z_0439qzhl,udp_loss,UDP 丢包率,%,0.0,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_qos,分类 HTB,3,expC_qos_c2000_run03_20261109T134846Z_izzzov02,udp_loss,UDP 丢包率,%,0.0,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_qos,分类 HTB,1,expC_qos_c2000_run01_20261109T134327Z__02q2oah,udp_received,UDP 接收吞吐量,Mbit/s,0.29998580376320677,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_qos,分类 HTB,2,expC_qos_c2000_run02_20261109T134447Z_0439qzhl,udp_received,UDP 接收吞吐量,Mbit/s,0.29997919211153024,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限
+C,C_qos,分类 HTB,3,expC_qos_c2000_run03_20261109T134846Z_izzzov02,udp_received,UDP 接收吞吐量,Mbit/s,0.3000017799725884,60 秒正式轮取后 50 秒，相同 2 Mbit/s 出口上限

@@ -1,0 +1,79 @@
+{
+  "A": {
+    "file": "A.csv",
+    "repository_path": "4/project/expA_summary.csv",
+    "url": "https://github.com/Arieaaa/CNC-GR/blob/main/4/project/expA_summary.csv",
+    "raw_url": "https://raw.githubusercontent.com/Arieaaa/CNC-GR/refs/heads/main/4/project/expA_summary.csv",
+    "sha256": "2d68ddf1d16dac4abb455f4480876722b7a830c2954021bb1e544959014dec2b",
+    "etag": "\"2db35f80ece84446b9c511d8da7fa74aab516f70b1ec473f417411af1999dd6f\"",
+    "source_rows": 12,
+    "columns": [
+      "experiment",
+      "stations",
+      "channels",
+      "run",
+      "tcp_total_mbps",
+      "tcp_per_station_avg_mbps",
+      "rtt_avg_max_ms",
+      "rtt_p95_max_ms",
+      "udp_loss_avg_pct",
+      "udp_loss_max_pct",
+      "udp_jitter_max_ms",
+      "udp_rate_per_station",
+      "udp_datagram_bytes",
+      "tcp_seconds",
+      "udp_seconds",
+      "omit_seconds",
+      "ping_interval_s",
+      "direction",
+      "raw_dir"
+    ],
+    "retrieved_at": "2026-11-11T03:34:33.516069+00:00"
+  },
+  "B": {
+    "file": "B.csv",
+    "repository_path": "5/project/实验B/实测/summary.csv",
+    "url": "https://github.com/Arieaaa/CNC-GR/blob/main/5/project/%E5%AE%9E%E9%AA%8CB/%E5%AE%9E%E6%B5%8B/summary.csv",
+    "raw_url": "https://raw.githubusercontent.com/Arieaaa/CNC-GR/refs/heads/main/5/project/%E5%AE%9E%E9%AA%8CB/%E5%AE%9E%E6%B5%8B/summary.csv",
+    "sha256": "9f1c487cc8c4fce0a4782e2a0425a9d4351e3d12279372f2953669f22c9fa997",
+    "etag": "\"1815e1e87cf32f250acc136d5c2d3ec754eeaa1a415504265ad7228cc3ba2966\"",
+    "source_rows": 10,
+    "columns": [
+      "run",
+      "phase",
+      "policy",
+      "events",
+      "policy_change_requests",
+      "first_new_x_m",
+      "first_event_gap_ms",
+      "sent",
+      "received",
+      "mean_rtt_ms",
+      "p95_rtt_ms"
+    ],
+    "retrieved_at": "2026-11-11T03:34:32.481877+00:00"
+  },
+  "C": {
+    "file": "C.csv",
+    "repository_path": "6/project/wifi-qos/results/formal_runs.csv",
+    "url": "https://github.com/Arieaaa/CNC-GR/blob/main/6/project/wifi-qos/results/formal_runs.csv",
+    "raw_url": "https://raw.githubusercontent.com/Arieaaa/CNC-GR/refs/heads/main/6/project/wifi-qos/results/formal_runs.csv",
+    "sha256": "e27ceff323da5b2baefa3a65bbcd579b4abf17445d1787fc9ad9888b7a96095c",
+    "etag": "\"2279cd3e8c08714a9c3ec49c08fb2a2d3c7cc513a1785fa2aae9944e46b6ba0e\"",
+    "source_rows": 6,
+    "columns": [
+      "mode",
+      "run",
+      "directory",
+      "udp_received_mbps",
+      "udp_loss_percent",
+      "udp_jitter_ms",
+      "rtt_mean_ms",
+      "rtt_p95_ms",
+      "tcp_received_mbps",
+      "rtt_successful_samples",
+      "rtt_internal_sequence_gaps"
+    ],
+    "retrieved_at": "2026-11-11T03:34:33.526625+00:00"
+  }
+}
