@@ -2,14 +2,19 @@
 import argparse, datetime, getpass, hashlib, html, json, pathlib, re, sys, time
 ROOT=pathlib.Path(__file__).resolve().parent
 
+def digest(path):
+ data=path.read_bytes()
+ if path.suffix.lower() in {'.md','.txt','.json','.py','.html','.cfg','.csv'}:data=data.replace(b'\r\n',b'\n')
+ return hashlib.sha256(data).hexdigest()
+
 def manifest():
- return {str(p.relative_to(ROOT.parent)):hashlib.sha256(p.read_bytes()).hexdigest() for p in ROOT.parent.rglob('*') if p.is_file() and p.name not in ('manifest.json',) and '__pycache__' not in p.parts and 'build' not in p.parts and p.suffix!='.zip'}
+ return {str(p.relative_to(ROOT.parent)):digest(p) for p in ROOT.parent.rglob('*') if p.is_file() and p.name not in ('manifest.json',) and '__pycache__' not in p.parts and 'build' not in p.parts and p.suffix!='.zip'}
 
 def verify():
  expected=json.loads((ROOT/'manifest.json').read_text(encoding='utf8'));bad=[]
  for n,h in expected.items():
   p=ROOT.parent/n
-  if not p.is_file() or hashlib.sha256(p.read_bytes()).hexdigest()!=h:bad.append(n)
+  if not p.is_file() or digest(p)!=h:bad.append(n)
  print(json.dumps({'checked':len(expected),'failures':bad},ensure_ascii=False));return bool(bad)
 
 def browse():
