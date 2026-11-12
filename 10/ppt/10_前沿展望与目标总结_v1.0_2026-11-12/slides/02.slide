@@ -1,0 +1,88 @@
+<Slide style={{ width: 1280, height: 720, background: '#FFFFFF', padding: '100px 60px 60px 60px', position: 'relative', fontFamily: '"Source Han Sans SC", "Noto Sans SC", "Microsoft YaHei", sans-serif', color: '#1A2230' }}>
+    <Box style={{ position: 'absolute', left: 0, top: 0, width: 1280, height: 6, background: '#E9ECF3' }} />
+    <Text style={{ position: 'absolute', left: 60, top: 22, width: 900, fontSize: 36, fontWeight: 'bold', color: '#5A86D6', lineHeight: 1.2 }}>第 2 主题 · 无线网络：四维与本组工作</Text>
+    <Text style={{ position: 'absolute', left: 950, top: 34, width: 270, fontSize: 16, color: '#8B97A8', textAlign: 'right', lineHeight: 1.3 }}>10 · 理论 / 实验 / 应用 / 前沿</Text>
+    <Box style={{ position: 'absolute', left: 60, top: 84, width: 1160, height: 1, background: '#D6DCE5' }} />
+
+    <Box style={{ width: 1160, height: 44, background: '#F4F7FC', borderLeft: '4px solid #5A86D6', justifyContent: 'center', paddingLeft: 16 }}>
+        <Text style={{ fontSize: 20, color: '#1A2230', lineHeight: 1.3 }}>■ 主题四维：理论给出稳定运行边界、实验给出证据、应用给出场景；本组覆盖前三维，前沿由本节展开</Text>
+    </Box>
+
+    <Box style={{ width: 1160, flexDirection: 'row', height: 450, marginTop: 14 }}>
+        <Box style={{ width: 760, flexDirection: 'column', paddingRight: 24 }}>
+            <Box style={{ width: 736, flexDirection: 'row', height: 34, borderBottom: '1px solid #5A86D6', alignItems: 'center', paddingLeft: 6 }}>
+                <Text style={{ width: 78, fontSize: 16, fontWeight: 'bold', color: '#5A86D6' }}>环节</Text>
+                <Text style={{ width: 150, fontSize: 16, fontWeight: 'bold', color: '#5A86D6' }}>承担</Text>
+                <Text style={{ width: 500, fontSize: 16, fontWeight: 'bold', color: '#5A86D6' }}>大致做了什么（细节由各位主讲展开）</Text>
+            </Box>
+            <Box style={{ width: 736, flexDirection: 'row', height: 82, borderBottom: '1px solid #D6DCE5', alignItems: 'center', paddingLeft: 6 }}>
+                <Text style={{ width: 78, fontSize: 22, fontWeight: 'bold', color: '#5A86D6', lineHeight: 1.3 }}>01</Text>
+                <Box style={{ width: 150, flexDirection: 'column' }}>
+                    <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#1A2230', lineHeight: 1.35 }}>目标与分工</Text>
+                    <Text style={{ fontSize: 15, color: '#4A5568', lineHeight: 1.35, marginTop: 4 }}>1 号 · 理论</Text>
+                </Box>
+                <Text style={{ width: 495, fontSize: 17, color: '#1A2230', lineHeight: 1.45 }}>把「网络好用」拆成三个可测目标：资源合理配置、移动业务连续性、实时业务保护。</Text>
+            </Box>
+            <Box style={{ width: 736, flexDirection: 'row', height: 82, borderBottom: '1px solid #D6DCE5', alignItems: 'center', paddingLeft: 6 }}>
+                <Text style={{ width: 78, fontSize: 22, fontWeight: 'bold', color: '#5A86D6', lineHeight: 1.3 }}>02</Text>
+                <Box style={{ width: 150, flexDirection: 'column' }}>
+                    <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#1A2230', lineHeight: 1.35 }}>原型与口径</Text>
+                    <Text style={{ fontSize: 15, color: '#4A5568', lineHeight: 1.35, marginTop: 4 }}>2–3 号 · 实验</Text>
+                </Box>
+                <Text style={{ width: 495, fontSize: 17, color: '#1A2230', lineHeight: 1.45 }}>双 AP、多终端与服务器的可运行原型；统一指标定义、时间戳与采集脚本。</Text>
+            </Box>
+            <Box style={{ width: 736, flexDirection: 'row', height: 82, borderBottom: '1px solid #D6DCE5', alignItems: 'center', paddingLeft: 6 }}>
+                <Text style={{ width: 78, fontSize: 22, fontWeight: 'bold', color: '#5A86D6', lineHeight: 1.3 }}>03</Text>
+                <Box style={{ width: 150, flexDirection: 'column' }}>
+                    <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#1A2230', lineHeight: 1.35 }}>三组对照</Text>
+                    <Text style={{ fontSize: 15, color: '#4A5568', lineHeight: 1.35, marginTop: 4 }}>4–6 号 · 实验</Text>
+                </Box>
+                <Text style={{ width: 495, fontSize: 17, color: '#1A2230', lineHeight: 1.45 }}>负载与信道、漫游切换、出口队列三组实验；每配置重复多轮，保留原始日志。</Text>
+            </Box>
+            <Box style={{ width: 736, flexDirection: 'row', height: 82, borderBottom: '1px solid #D6DCE5', alignItems: 'center', paddingLeft: 6 }}>
+                <Text style={{ width: 78, fontSize: 22, fontWeight: 'bold', color: '#5A86D6', lineHeight: 1.3 }}>04</Text>
+                <Box style={{ width: 150, flexDirection: 'column' }}>
+                    <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#1A2230', lineHeight: 1.35 }}>核查与诊断</Text>
+                    <Text style={{ fontSize: 15, color: '#4A5568', lineHeight: 1.35, marginTop: 4 }}>7 号 · 核查</Text>
+                </Box>
+                <Text style={{ width: 495, fontSize: 17, color: '#1A2230', lineHeight: 1.45 }}>异常轮复核、坐标错位定位、交错诊断，把「看起来有效」与「确实有效」分开。</Text>
+            </Box>
+            <Box style={{ width: 736, flexDirection: 'row', height: 82, alignItems: 'center', paddingLeft: 6 }}>
+                <Text style={{ width: 78, fontSize: 22, fontWeight: 'bold', color: '#5A86D6', lineHeight: 1.3 }}>05</Text>
+                <Box style={{ width: 150, flexDirection: 'column' }}>
+                    <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#1A2230', lineHeight: 1.35 }}>统计与呈现</Text>
+                    <Text style={{ fontSize: 15, color: '#4A5568', lineHeight: 1.35, marginTop: 4 }}>8–9 号 · 呈现</Text>
+                </Box>
+                <Text style={{ width: 495, fontSize: 17, color: '#1A2230', lineHeight: 1.45 }}>统一口径下的正式汇总、诊断说明与图表；结果可由原始输入重建。</Text>
+            </Box>
+        </Box>
+
+        <Box style={{ width: 400, borderLeft: '1px solid #D6DCE5', paddingLeft: 22, flexDirection: 'column' }}>
+            <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#4A5568', lineHeight: 1.3 }}>主题四维 ↔ 本组工作</Text>
+            <Box style={{ width: 375, height: 94, background: '#F7F9FC', borderLeft: '3px solid #D0342C', justifyContent: 'center', paddingLeft: 12, marginTop: 8 }}>
+                <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#D0342C', lineHeight: 1.35 }}>■ 理论</Text>
+                <Text style={{ width: 350, fontSize: 15, color: '#1A2230', lineHeight: 1.42, marginTop: 3 }}>共享信道竞争、动态拓扑、移动接入、时变链路 QoS → 1 号定目标、2/3 号定口径。</Text>
+            </Box>
+            <Box style={{ width: 375, height: 94, background: '#F7F9FC', borderLeft: '3px solid #D0342C', justifyContent: 'center', paddingLeft: 12, marginTop: 8 }}>
+                <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#D0342C', lineHeight: 1.35 }}>■ 实验</Text>
+                <Text style={{ width: 350, fontSize: 15, color: '#1A2230', lineHeight: 1.42, marginTop: 3 }}>高密度接入、节点移动、流量波动 → 吞吐量 / 时延 / 丢包率 → 4–6 号三组对照。</Text>
+            </Box>
+            <Box style={{ width: 375, height: 94, background: '#F7F9FC', borderLeft: '3px solid #D0342C', justifyContent: 'center', paddingLeft: 12, marginTop: 8 }}>
+                <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#D0342C', lineHeight: 1.35 }}>■ 应用</Text>
+                <Text style={{ width: 350, fontSize: 15, color: '#1A2230', lineHeight: 1.42, marginTop: 3 }}>园区无线覆盖、高密度 Wi-Fi、物联网泛在接入、移动终端漫游，是结论的适用边界。</Text>
+            </Box>
+            <Box style={{ width: 375, height: 94, background: '#F7F9FC', borderLeft: '3px solid #D0342C', justifyContent: 'center', paddingLeft: 12, marginTop: 8 }}>
+                <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#D0342C', lineHeight: 1.35 }}>■ 前沿</Text>
+                <Text style={{ width: 350, fontSize: 15, color: '#1A2230', lineHeight: 1.42, marginTop: 3 }}>软件定义无线、AI 智能负载均衡、网络自愈、零信任接入 → 见 P4 / P5。</Text>
+            </Box>
+        </Box>
+    </Box>
+
+    <Box style={{ width: 1160, height: 46, background: '#F4F7FC', justifyContent: 'center', paddingLeft: 16, marginTop: 6 }}>
+        <Text style={{ fontSize: 18, color: '#1A2230', lineHeight: 1.35 }}>本组交付的是可复现的条件—指标对照，不是「优化承诺」；具体数值见 4–8 号主讲与正式统计。</Text>
+    </Box>
+
+    <Box style={{ position: 'absolute', left: 60, top: 670, width: 1160, height: 1, background: '#E5E7EB' }} />
+    <Text style={{ position: 'absolute', left: 60, top: 678, width: 800, fontSize: 14, color: '#8B97A8', lineHeight: 1.4 }}>CNC-GR · 10 号　｜　四维口径依据：课程八大主题第 2 主题；状态口径：8 号正式统计 v1.0</Text>
+    <Text style={{ position: 'absolute', left: 1060, top: 678, width: 160, fontSize: 14, color: '#8B97A8', textAlign: 'right', lineHeight: 1.4 }}>02 / 05</Text>
+</Slide>

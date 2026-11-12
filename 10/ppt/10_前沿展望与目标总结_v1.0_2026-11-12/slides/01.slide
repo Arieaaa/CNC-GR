@@ -1,0 +1,17 @@
+<Slide style={{ width: 1280, height: 720, background: '#FFFFFF', padding: '0px', position: 'relative', fontFamily: '"Source Han Sans SC", "Noto Sans SC", "Microsoft YaHei", sans-serif', color: '#1A2230' }}>
+    <Box style={{ position: 'absolute', left: 0, top: 0, width: 1280, height: 6, background: '#E9ECF3' }} />
+    <Box style={{ position: 'absolute', left: 1040, top: -170, width: 400, height: 400, borderRadius: 200, background: '#F5F7FD' }} />
+    <Box style={{ position: 'absolute', left: -120, top: 570, width: 300, height: 300, borderRadius: 150, background: '#F5F7FD' }} />
+    <Box style={{ position: 'absolute', left: 100, top: 152, width: 1010, flexDirection: 'column' }}>
+        <Text style={{ fontSize: 58, fontWeight: 'bold', color: '#5A86D6', lineHeight: 1.2 }}>工程目标总结与前沿展望</Text>
+        <Box style={{ width: 900, height: 1, background: '#D6DCE5', marginTop: 28 }} />
+        <Text style={{ fontSize: 24, color: '#1A2230', lineHeight: 1.5, marginTop: 28 }}>八大主题 · 第 2 主题：无线网络（第 10 周，11 月 13 日）</Text>
+        <Text style={{ fontSize: 21, color: '#D0342C', fontWeight: 'bold', lineHeight: 1.6, marginTop: 12 }}>■ 理论　■ 实验　■ 应用　■ 前沿　　四维对齐，重点展开前沿</Text>
+        <Text style={{ fontSize: 20, color: '#4A5568', lineHeight: 1.6, marginTop: 12 }}>从三组实验现象，到 Wi-Fi 7 / Wi-Fi 8 与 AI 辅助运维</Text>
+        <Text style={{ fontSize: 18, color: '#4A5568', lineHeight: 1.6, marginTop: 18 }}>计算机网络与通信 · 课程小组汇报 · 第 10 位</Text>
+    </Box>
+    <Box style={{ position: 'absolute', left: 100, top: 596, width: 1010, flexDirection: 'column' }}>
+        <Box style={{ width: 1010, height: 1, background: '#D6DCE5' }} />
+        <Text style={{ fontSize: 16, color: '#8B97A8', lineHeight: 1.5, marginTop: 16 }}>面向校园多业务场景的无线网络服务保障与优化　｜　2026-11-13　｜　10 号</Text>
+    </Box>
+</Slide>

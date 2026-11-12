@@ -1,0 +1,46 @@
+<Slide style={{ width: 1280, height: 720, background: '#FFFFFF', padding: '100px 60px 60px 60px', position: 'relative', fontFamily: '"Source Han Sans SC", "Noto Sans SC", "Microsoft YaHei", sans-serif', color: '#1A2230' }}>
+    <Box style={{ position: 'absolute', left: 0, top: 0, width: 1280, height: 6, background: '#E9ECF3' }} />
+    <Text style={{ position: 'absolute', left: 60, top: 22, width: 900, fontSize: 36, fontWeight: 'bold', color: '#5A86D6', lineHeight: 1.2 }}>我们得到什么、还差什么：稳定运行边界</Text>
+    <Text style={{ position: 'absolute', left: 950, top: 34, width: 270, fontSize: 16, color: '#8B97A8', textAlign: 'right', lineHeight: 1.3 }}>10 · 理论 / 实验 / 应用 / 前沿</Text>
+    <Box style={{ position: 'absolute', left: 60, top: 84, width: 1160, height: 1, background: '#D6DCE5' }} />
+
+    <Box style={{ width: 1160, height: 44, background: '#F4F7FC', borderLeft: '4px solid #5A86D6', justifyContent: 'center', paddingLeft: 16 }}>
+        <Text style={{ fontSize: 20, color: '#1A2230', lineHeight: 1.3 }}>■ 理论：三条条件化认识界定无线网络的稳定运行边界；不报达标率，精确数值见 8 号正式统计</Text>
+    </Box>
+
+    <Box style={{ width: 1160, flexDirection: 'column', height: 450, marginTop: 14 }}>
+        <Box style={{ width: 1160, flexDirection: 'row', height: 34, borderBottom: '1px solid #5A86D6', alignItems: 'center', paddingLeft: 6 }}>
+            <Text style={{ width: 200, fontSize: 16, fontWeight: 'bold', color: '#5A86D6' }}>理论线 / 实验</Text>
+            <Text style={{ width: 940, fontSize: 16, fontWeight: 'bold', color: '#5A86D6' }}>大致现象与一句话认识</Text>
+        </Box>
+        <Box style={{ width: 1160, flexDirection: 'row', height: 132, borderBottom: '1px solid #D6DCE5', paddingTop: 14, paddingLeft: 6 }}>
+            <Text style={{ width: 200, fontSize: 18, fontWeight: 'bold', color: '#1A2230', lineHeight: 1.4 }}>共享信道竞争<br />实验 A</Text>
+            <Box style={{ width: 940, flexDirection: 'column' }}>
+                <Text style={{ width: 930, fontSize: 18, color: '#1A2230', lineHeight: 1.5 }}>终端变多后总吞吐先到顶，人均份额被摊薄；同信道与分信道没看到稳定差异。</Text>
+                <Text style={{ width: 930, fontSize: 18, color: '#5A86D6', lineHeight: 1.5, marginTop: 10 }}>认识：资源有限时，讨论人均份额比讨论峰值更有意义。</Text>
+            </Box>
+        </Box>
+        <Box style={{ width: 1160, flexDirection: 'row', height: 132, borderBottom: '1px solid #D6DCE5', paddingTop: 14, paddingLeft: 6 }}>
+            <Text style={{ width: 200, fontSize: 18, fontWeight: 'bold', color: '#1A2230', lineHeight: 1.4 }}>动态拓扑与漫游<br />实验 B</Text>
+            <Box style={{ width: 940, flexDirection: 'column' }}>
+                <Text style={{ width: 930, fontSize: 18, color: '#1A2230', lineHeight: 1.5 }}>更早切换不等于更短中断；切换空窗主要来自「先断后连」这一动作本身。</Text>
+                <Text style={{ width: 930, fontSize: 18, color: '#5A86D6', lineHeight: 1.5, marginTop: 10 }}>认识：移动场景里，晚一点切换可能比早一点切换中断更短。</Text>
+            </Box>
+        </Box>
+        <Box style={{ width: 1160, flexDirection: 'row', height: 132, paddingTop: 14, paddingLeft: 6 }}>
+            <Text style={{ width: 200, fontSize: 18, fontWeight: 'bold', color: '#1A2230', lineHeight: 1.4 }}>时变链路 QoS<br />实验 C</Text>
+            <Box style={{ width: 940, flexDirection: 'column' }}>
+                <Text style={{ width: 930, fontSize: 18, color: '#1A2230', lineHeight: 1.5 }}>分类加带宽保障把实时业务的时延尾巴压下来，后台总吞吐基本没动。</Text>
+                <Text style={{ width: 930, fontSize: 18, color: '#5A86D6', lineHeight: 1.5, marginTop: 10 }}>认识：保护的是时延尾巴，而不是总吞吐。</Text>
+            </Box>
+        </Box>
+    </Box>
+
+    <Box style={{ width: 1160, height: 46, background: '#F4F7FC', justifyContent: 'center', paddingLeft: 16, marginTop: 6 }}>
+        <Text style={{ fontSize: 18, color: '#1A2230', lineHeight: 1.35 }}>三点都是条件化结论，界定的是稳定运行边界，不构成达标承诺；接下来 7 分钟看前沿如何处理这些条件。</Text>
+    </Box>
+
+    <Box style={{ position: 'absolute', left: 60, top: 670, width: 1160, height: 1, background: '#E5E7EB' }} />
+    <Text style={{ position: 'absolute', left: 60, top: 678, width: 800, fontSize: 14, color: '#8B97A8', lineHeight: 1.4 }}>CNC-GR · 10 号　｜　数值来源：8 号正式统计与诊断说明 v1.0</Text>
+    <Text style={{ position: 'absolute', left: 1060, top: 678, width: 160, fontSize: 14, color: '#8B97A8', textAlign: 'right', lineHeight: 1.4 }}>03 / 05</Text>
+</Slide>
