@@ -1,0 +1,181 @@
+{
+  "progress": {
+    "state": "COMPLETE",
+    "completed": 9,
+    "total": 9,
+    "invalid_attempts": 0,
+    "started_ns": 1794412563365322653,
+    "current": "gate7_capacity",
+    "finished_ns": 1794412946499528531
+  },
+  "runs": [
+    {
+      "id": "gate7_baseline_static",
+      "status": "PASS",
+      "source_hashes": {
+        "analysis.py": "6feb493cae553b0df798b13b4413529964de08f771569ab07cc3fa4db8aab6b9",
+        "batch.py": "33eab2ae4684b7404a9beba7a45d716c99f85c5f1356431ca7d17a7e1e36089a",
+        "core.py": "5b964f524b7438913896a0bb6844ca3516d09d672cf3002553e166037156f14d",
+        "legacy.py": "e2e53215afaf27f676affb838431e8f00437ff0a2d87445730414b79bc2d829d",
+        "runner.py": "d0179ce10c8655a7ea1684f037d0f178e1660c4992b5d6f402cf42a26e2347ab",
+        "udp_phase.py": "8dcd66815f52f523363aa3fe104bb40272ea48e073ac0518474dc1b8b71fcd7d"
+      }
+    },
+    {
+      "id": "gate7_capacity",
+      "status": "PASS",
+      "source_hashes": {
+        "analysis.py": "6feb493cae553b0df798b13b4413529964de08f771569ab07cc3fa4db8aab6b9",
+        "batch.py": "33eab2ae4684b7404a9beba7a45d716c99f85c5f1356431ca7d17a7e1e36089a",
+        "core.py": "5b964f524b7438913896a0bb6844ca3516d09d672cf3002553e166037156f14d",
+        "legacy.py": "e2e53215afaf27f676affb838431e8f00437ff0a2d87445730414b79bc2d829d",
+        "runner.py": "d0179ce10c8655a7ea1684f037d0f178e1660c4992b5d6f402cf42a26e2347ab",
+        "udp_phase.py": "8dcd66815f52f523363aa3fe104bb40272ea48e073ac0518474dc1b8b71fcd7d"
+      },
+      "capacity": {
+        "capacity-sta1": {
+          "received_mbps": 36.490349925090186,
+          "analyzed_seconds": 20.000052000000004,
+          "interval_count": 20
+        },
+        "capacity-sta2": {
+          "received_mbps": 36.54285715571428,
+          "analyzed_seconds": 20.000009,
+          "interval_count": 20
+        }
+      }
+    },
+    {
+      "id": "gate7_fq_codel_600_dynamic",
+      "status": "PASS",
+      "source_hashes": {
+        "analysis.py": "6feb493cae553b0df798b13b4413529964de08f771569ab07cc3fa4db8aab6b9",
+        "batch.py": "33eab2ae4684b7404a9beba7a45d716c99f85c5f1356431ca7d17a7e1e36089a",
+        "core.py": "5b964f524b7438913896a0bb6844ca3516d09d672cf3002553e166037156f14d",
+        "legacy.py": "e2e53215afaf27f676affb838431e8f00437ff0a2d87445730414b79bc2d829d",
+        "runner.py": "d0179ce10c8655a7ea1684f037d0f178e1660c4992b5d6f402cf42a26e2347ab",
+        "udp_phase.py": "8dcd66815f52f523363aa3fe104bb40272ea48e073ac0518474dc1b8b71fcd7d"
+      }
+    },
+    {
+      "id": "gate7_fq_codel_static",
+      "status": "PASS",
+      "source_hashes": {
+        "analysis.py": "6feb493cae553b0df798b13b4413529964de08f771569ab07cc3fa4db8aab6b9",
+        "batch.py": "33eab2ae4684b7404a9beba7a45d716c99f85c5f1356431ca7d17a7e1e36089a",
+        "core.py": "5b964f524b7438913896a0bb6844ca3516d09d672cf3002553e166037156f14d",
+        "legacy.py": "e2e53215afaf27f676affb838431e8f00437ff0a2d87445730414b79bc2d829d",
+        "runner.py": "d0179ce10c8655a7ea1684f037d0f178e1660c4992b5d6f402cf42a26e2347ab",
+        "udp_phase.py": "8dcd66815f52f523363aa3fe104bb40272ea48e073ac0518474dc1b8b71fcd7d"
+      }
+    },
+    {
+      "id": "gate7_qos_1200_dynamic",
+      "status": "PASS",
+      "source_hashes": {
+        "analysis.py": "6feb493cae553b0df798b13b4413529964de08f771569ab07cc3fa4db8aab6b9",
+        "batch.py": "33eab2ae4684b7404a9beba7a45d716c99f85c5f1356431ca7d17a7e1e36089a",
+        "core.py": "5b964f524b7438913896a0bb6844ca3516d09d672cf3002553e166037156f14d",
+        "legacy.py": "e2e53215afaf27f676affb838431e8f00437ff0a2d87445730414b79bc2d829d",
+        "runner.py": "d0179ce10c8655a7ea1684f037d0f178e1660c4992b5d6f402cf42a26e2347ab",
+        "udp_phase.py": "8dcd66815f52f523363aa3fe104bb40272ea48e073ac0518474dc1b8b71fcd7d"
+      }
+    },
+    {
+      "id": "gate7_qos_600_dynamic",
+      "status": "PASS",
+      "source_hashes": {
+        "analysis.py": "6feb493cae553b0df798b13b4413529964de08f771569ab07cc3fa4db8aab6b9",
+        "batch.py": "33eab2ae4684b7404a9beba7a45d716c99f85c5f1356431ca7d17a7e1e36089a",
+        "core.py": "5b964f524b7438913896a0bb6844ca3516d09d672cf3002553e166037156f14d",
+        "legacy.py": "e2e53215afaf27f676affb838431e8f00437ff0a2d87445730414b79bc2d829d",
+        "runner.py": "d0179ce10c8655a7ea1684f037d0f178e1660c4992b5d6f402cf42a26e2347ab",
+        "udp_phase.py": "8dcd66815f52f523363aa3fe104bb40272ea48e073ac0518474dc1b8b71fcd7d"
+      }
+    },
+    {
+      "id": "gate7_qos_static",
+      "status": "PASS",
+      "source_hashes": {
+        "analysis.py": "6feb493cae553b0df798b13b4413529964de08f771569ab07cc3fa4db8aab6b9",
+        "batch.py": "33eab2ae4684b7404a9beba7a45d716c99f85c5f1356431ca7d17a7e1e36089a",
+        "core.py": "5b964f524b7438913896a0bb6844ca3516d09d672cf3002553e166037156f14d",
+        "legacy.py": "e2e53215afaf27f676affb838431e8f00437ff0a2d87445730414b79bc2d829d",
+        "runner.py": "d0179ce10c8655a7ea1684f037d0f178e1660c4992b5d6f402cf42a26e2347ab",
+        "udp_phase.py": "8dcd66815f52f523363aa3fe104bb40272ea48e073ac0518474dc1b8b71fcd7d"
+      }
+    },
+    {
+      "id": "gate7_udp_False",
+      "status": "PASS",
+      "source_hashes": {
+        "analysis.py": "6feb493cae553b0df798b13b4413529964de08f771569ab07cc3fa4db8aab6b9",
+        "batch.py": "33eab2ae4684b7404a9beba7a45d716c99f85c5f1356431ca7d17a7e1e36089a",
+        "core.py": "5b964f524b7438913896a0bb6844ca3516d09d672cf3002553e166037156f14d",
+        "legacy.py": "e2e53215afaf27f676affb838431e8f00437ff0a2d87445730414b79bc2d829d",
+        "runner.py": "d0179ce10c8655a7ea1684f037d0f178e1660c4992b5d6f402cf42a26e2347ab",
+        "udp_phase.py": "8dcd66815f52f523363aa3fe104bb40272ea48e073ac0518474dc1b8b71fcd7d"
+      },
+      "udp_phases": [
+        {
+          "phase": 0,
+          "sent_mbps": 0.2999466666666667,
+          "loss_percent": 0.0,
+          "delay_p95_ms": 0.383288
+        },
+        {
+          "phase": 1,
+          "sent_mbps": 0.89984,
+          "loss_percent": 0.0,
+          "delay_p95_ms": 0.284773
+        },
+        {
+          "phase": 2,
+          "sent_mbps": 0.300032,
+          "loss_percent": 0.0,
+          "delay_p95_ms": 0.484879
+        }
+      ],
+      "pacing": {
+        "p99_lateness_ms": 0.129037,
+        "missed_or_errors": 1
+      }
+    },
+    {
+      "id": "gate7_udp_True",
+      "status": "PASS",
+      "source_hashes": {
+        "analysis.py": "6feb493cae553b0df798b13b4413529964de08f771569ab07cc3fa4db8aab6b9",
+        "batch.py": "33eab2ae4684b7404a9beba7a45d716c99f85c5f1356431ca7d17a7e1e36089a",
+        "core.py": "5b964f524b7438913896a0bb6844ca3516d09d672cf3002553e166037156f14d",
+        "legacy.py": "e2e53215afaf27f676affb838431e8f00437ff0a2d87445730414b79bc2d829d",
+        "runner.py": "d0179ce10c8655a7ea1684f037d0f178e1660c4992b5d6f402cf42a26e2347ab",
+        "udp_phase.py": "8dcd66815f52f523363aa3fe104bb40272ea48e073ac0518474dc1b8b71fcd7d"
+      },
+      "udp_phases": [
+        {
+          "phase": 0,
+          "sent_mbps": 0.2999466666666667,
+          "loss_percent": 0.0,
+          "delay_p95_ms": 0.327514
+        },
+        {
+          "phase": 1,
+          "sent_mbps": 0.899584,
+          "loss_percent": 0.0,
+          "delay_p95_ms": 0.27161
+        },
+        {
+          "phase": 2,
+          "sent_mbps": 0.300032,
+          "loss_percent": 0.0,
+          "delay_p95_ms": 0.354534
+        }
+      ],
+      "pacing": {
+        "p99_lateness_ms": 0.125198,
+        "missed_or_errors": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "formal_runs": 6,
+  "checks_passed": true,
+  "runner_sha256": "e2e53215afaf27f676affb838431e8f00437ff0a2d87445730414b79bc2d829d",
+  "topology_sha256": "ff61cd8fa0e91d72c8a953948d83053899a62e2cedf1e6757b0e60830dc62c19",
+  "records": [
+    {
+      "directory": "expC_baseline_c2000_run01_20261109T134207Z_4fs0o1wx",
+      "mode": "baseline",
+      "run": 1,
+      "queue_snapshots": 60,
+      "configuration_stable": true,
+      "cpu_busy_percent": 54.470426409903716,
+      "cpu_steal_percent": 0.0,
+      "root_sent_bytes": 15125777,
+      "root_drops": 163,
+      "root_overlimits": 16096,
+      "peak_backlog_bytes": 32300,
+      "class_bytes": {
+        "1:1": 15125777,
+        "1:20": 15125777
+      },
+      "rtt_recomputed": true,
+      "rtt_internal_sequence_gaps": 2,
+      "metrics": {
+        "udp": {
+          "received_mbps": 0.297830286824491,
+          "analyzed_seconds": 50.000019,
+          "interval_count": 50,
+          "udp_loss_percent": 0.8268689796266303,
+          "udp_packets": 11731,
+          "udp_lost_packets": 97,
+          "udp_jitter_interval_mean_ms": 5.396630813503884,
+          "udp_jitter_last_ms": 4.96452150138901
+        },
+        "tcp": {
+          "received_mbps": 1.5518922006594038,
+          "analyzed_seconds": 50.000009,
+          "interval_count": 50
+        },
+        "rtt": {
+          "mean_ms": 99.00685483870967,
+          "p95_ms": 142.0,
+          "successful_samples": 248,
+          "probe_interval_seconds": 0.2,
+          "note": "P95仅含成功应答，缺失探测需结合原始ping日志核查"
+        }
+      }
+    },
+    {
+      "directory": "expC_baseline_c2000_run02_20261109T134607Z_47qrkol0",
+      "mode": "baseline",
+      "run": 2,
+      "queue_snapshots": 60,
+      "configuration_stable": true,
+      "cpu_busy_percent": 54.44813883707729,
+      "cpu_steal_percent": 0.0,
+      "root_sent_bytes": 15146044,
+      "root_drops": 82,
+      "root_overlimits": 16163,
+      "peak_backlog_bytes": 32098,
+      "class_bytes": {
+        "1:1": 15146044,
+        "1:20": 15146044
+      },
+      "rtt_recomputed": true,
+      "rtt_internal_sequence_gaps": 0,
+      "metrics": {
+        "udp": {
+          "received_mbps": 0.298982423918594,
+          "analyzed_seconds": 49.999995999999996,
+          "interval_count": 50,
+          "udp_loss_percent": 0.3583312004095214,
+          "udp_packets": 11721,
+          "udp_lost_packets": 42,
+          "udp_jitter_interval_mean_ms": 5.456840333537386,
+          "udp_jitter_last_ms": 5.132551479830354
+        },
+        "tcp": {
+          "received_mbps": 1.5518918902810817,
+          "analyzed_seconds": 50.000019,
+          "interval_count": 50
+        },
+        "rtt": {
+          "mean_ms": 94.8008,
+          "p95_ms": 130.0,
+          "successful_samples": 250,
+          "probe_interval_seconds": 0.2,
+          "note": "P95仅含成功应答，缺失探测需结合原始ping日志核查"
+        }
+      }
+    },
+    {
+      "directory": "expC_baseline_c2000_run03_20261109T134726Z_1n9j2ujo",
+      "mode": "baseline",
+      "run": 3,
+      "queue_snapshots": 60,
+      "configuration_stable": true,
+      "cpu_busy_percent": 54.394800974817215,
+      "cpu_steal_percent": 0.0,
+      "root_sent_bytes": 15154376,
+      "root_drops": 271,
+      "root_overlimits": 15963,
+      "peak_backlog_bytes": 32604,
+      "class_bytes": {
+        "1:1": 15154376,
+        "1:20": 15154376
+      },
+      "rtt_recomputed": true,
+      "rtt_internal_sequence_gaps": 1,
+      "metrics": {
+        "udp": {
+          "received_mbps": 0.2949376058987521,
+          "analyzed_seconds": 49.999999,
+          "interval_count": 50,
+          "udp_loss_percent": 1.6559965855740504,
+          "udp_packets": 11715,
+          "udp_lost_packets": 194,
+          "udp_jitter_interval_mean_ms": 5.54422230462877,
+          "udp_jitter_last_ms": 6.0002722109343285
+        },
+        "tcp": {
+          "received_mbps": 1.5519160380854582,
+          "analyzed_seconds": 49.999241,
+          "interval_count": 50
+        },
+        "rtt": {
+          "mean_ms": 100.68273092369478,
+          "p95_ms": 136.0,
+          "successful_samples": 249,
+          "probe_interval_seconds": 0.2,
+          "note": "P95仅含成功应答，缺失探测需结合原始ping日志核查"
+        }
+      }
+    },
+    {
+      "directory": "expC_qos_c2000_run01_20261109T134327Z__02q2oah",
+      "mode": "qos",
+      "run": 1,
+      "queue_snapshots": 60,
+      "configuration_stable": true,
+      "cpu_busy_percent": 53.501750875437715,
+      "cpu_steal_percent": 0.0,
+      "root_sent_bytes": 15197936,
+      "root_drops": 61,
+      "root_overlimits": 2407,
+      "peak_backlog_bytes": 24224,
+      "class_bytes": {
+        "1:10": 2868898,
+        "1:1": 15197936,
+        "1:20": 12329038
+      },
+      "rtt_recomputed": true,
+      "rtt_internal_sequence_gaps": 0,
+      "metrics": {
+        "udp": {
+          "received_mbps": 0.29998580376320677,
+          "analyzed_seconds": 49.999166,
+          "interval_count": 50,
+          "udp_loss_percent": 0.0,
+          "udp_packets": 11718,
+          "udp_lost_packets": 0,
+          "udp_jitter_interval_mean_ms": 0.1109237286117464,
+          "udp_jitter_last_ms": 0.04678921771325981
+        },
+        "tcp": {
+          "received_mbps": 1.5518673087122528,
+          "analyzed_seconds": 50.000811,
+          "interval_count": 50
+        },
+        "rtt": {
+          "mean_ms": 0.5598879668049792,
+          "p95_ms": 1.4,
+          "successful_samples": 241,
+          "probe_interval_seconds": 0.2,
+          "note": "P95仅含成功应答，缺失探测需结合原始ping日志核查"
+        }
+      }
+    },
+    {
+      "directory": "expC_qos_c2000_run02_20261109T134447Z_0439qzhl",
+      "mode": "qos",
+      "run": 2,
+      "queue_snapshots": 60,
+      "configuration_stable": true,
+      "cpu_busy_percent": 56.46338591947257,
+      "cpu_steal_percent": 0.0,
+      "root_sent_bytes": 15160289,
+      "root_drops": 64,
+      "root_overlimits": 2371,
+      "peak_backlog_bytes": 24224,
+      "class_bytes": {
+        "1:10": 2869002,
+        "1:1": 15160289,
+        "1:20": 12291287
+      },
+      "rtt_recomputed": true,
+      "rtt_internal_sequence_gaps": 0,
+      "metrics": {
+        "udp": {
+          "received_mbps": 0.29997919211153024,
+          "analyzed_seconds": 50.000268000000005,
+          "interval_count": 50,
+          "udp_loss_percent": 0.0,
+          "udp_packets": 11718,
+          "udp_lost_packets": 0,
+          "udp_jitter_interval_mean_ms": 0.10147075778058268,
+          "udp_jitter_last_ms": 0.08678875018429674
+        },
+        "tcp": {
+          "received_mbps": 1.5518931317951152,
+          "analyzed_seconds": 49.999979,
+          "interval_count": 50
+        },
+        "rtt": {
+          "mean_ms": 0.40555,
+          "p95_ms": 0.574,
+          "successful_samples": 240,
+          "probe_interval_seconds": 0.2,
+          "note": "P95仅含成功应答，缺失探测需结合原始ping日志核查"
+        }
+      }
+    },
+    {
+      "directory": "expC_qos_c2000_run03_20261109T134846Z_izzzov02",
+      "mode": "qos",
+      "run": 3,
+      "queue_snapshots": 60,
+      "configuration_stable": true,
+      "cpu_busy_percent": 54.018261084149046,
+      "cpu_steal_percent": 0.0,
+      "root_sent_bytes": 15170439,
+      "root_drops": 53,
+      "root_overlimits": 2369,
+      "peak_backlog_bytes": 24224,
+      "class_bytes": {
+        "1:10": 2868800,
+        "1:1": 15170439,
+        "1:20": 12301639
+      },
+      "rtt_recomputed": true,
+      "rtt_internal_sequence_gaps": 0,
+      "metrics": {
+        "udp": {
+          "received_mbps": 0.3000017799725884,
+          "analyzed_seconds": 50.00077,
+          "interval_count": 50,
+          "udp_loss_percent": 0.0,
+          "udp_packets": 11719,
+          "udp_lost_packets": 0,
+          "udp_jitter_interval_mean_ms": 0.11616489674797513,
+          "udp_jitter_last_ms": 0.03424710056141733
+        },
+        "tcp": {
+          "received_mbps": 1.5519088991961536,
+          "analyzed_seconds": 49.999471,
+          "interval_count": 50
+        },
+        "rtt": {
+          "mean_ms": 0.3916058091286307,
+          "p95_ms": 0.625,
+          "successful_samples": 241,
+          "probe_interval_seconds": 0.2,
+          "note": "P95仅含成功应答，缺失探测需结合原始ping日志核查"
+        }
+      }
+    }
+  ]
+}

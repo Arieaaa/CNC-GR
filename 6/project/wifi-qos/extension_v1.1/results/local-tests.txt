@@ -1,0 +1,49 @@
+test_internal_tcp_gap_is_rejected (test_analysis.AnalysisContract) ... ok
+test_mismatched_time_namespaces_are_rejected (test_analysis.AnalysisContract) ... ok
+test_missing_tcp_coverage_is_rejected (test_analysis.AnalysisContract) ... ok
+test_pacing_failure_is_invalid_even_when_received_loss_is_zero (test_analysis.AnalysisContract) ... ok
+test_tcp_window_keeps_only_intervals_certainly_inside_phase (test_analysis.AnalysisContract) ... ok
+test_audited_log_location_is_used_and_missing_data_fails (test_audit.EvidenceContract) ... ok
+test_duplicate_config_repeat_with_different_names_is_rejected (test_audit.EvidenceContract) ... ok
+test_dynamic_wrong_source_flow_is_rejected (test_audit.EvidenceContract) ... ok
+test_missing_formal_matrix_member_cannot_pass_audit (test_audit.EvidenceContract) ... ok
+test_sustained_resource_warning_does_not_automatically_exclude_data (test_audit.EvidenceContract) ... ok
+test_tcp_retransmissions_use_sender_and_bounded_phase (test_audit.EvidenceContract) ... ok
+test_complete_loss_has_no_fabricated_zero_delay (test_core.CoreContract) ... ok
+test_fq_keeps_total_shaper_and_separate_packet_limit (test_core.CoreContract) ... ok
+test_loss_duplicates_late_and_out_of_order_are_distinguished (test_core.CoreContract) ... ok
+test_management_interface_is_rejected (test_core.CoreContract) ... ok
+test_matrix_has_48_unique_runs_and_correct_duration (test_core.CoreContract) ... ok
+test_negative_delay_rejects_untrusted_clock (test_core.CoreContract) ... ok
+test_packet_includes_header_inside_160_bytes (test_core.CoreContract) ... ok
+test_phase_boundaries_do_not_change_flow_or_extend_phase (test_core.CoreContract) ... ok
+test_send_errors_are_not_network_loss (test_core.CoreContract) ... ok
+test_underprovision_keeps_requested_200_and_remaining_1800 (test_core.CoreContract) ... ok
+test_completed_run_restores_byte_exact_and_running_is_excluded (test_export.LosslessExport) ... ok
+test_cross_batch_name_collision_is_rejected_before_writing (test_export.LosslessExport) ... ok
+test_duplicate_index_names_are_rejected (test_export.LosslessExport) ... ok
+test_final_source_uses_audited_records_instead_of_compact_pass (test_postprocess.StatisticsContract) ... ok
+test_high_variation_requests_whole_comparison_to_five (test_postprocess.StatisticsContract) ... ok
+test_missing_delay_contributing_count_is_visible (test_postprocess.StatisticsContract) ... ok
+test_missing_delay_does_not_become_zero (test_postprocess.StatisticsContract) ... ok
+test_phase_table_does_not_copy_high_phase_loss_to_low_phase (test_postprocess.StatisticsContract) ... ok
+test_queue_summary_excludes_warmup_and_tail (test_postprocess.StatisticsContract) ... ok
+test_run_means_have_sample_sd_and_keep_replicate_count (test_postprocess.StatisticsContract) ... ok
+test_supplement_trigger_survives_repeat_four (test_postprocess.StatisticsContract) ... ok
+test_duplicate_tc_match_keys_preserve_protocol_and_source_port (test_runner.RuntimeAudit) ... ok
+test_existing_batch_provenance_is_never_overwritten (test_runner.RuntimeAudit) ... ok
+test_oversized_fq_packet_and_memory_drops_are_invalid (test_runner.RuntimeAudit) ... ok
+test_reversed_realtime_and_background_buffers_are_rejected (test_runner.RuntimeAudit) ... ok
+test_static_iperf_shutdown_noports_is_recorded_separately_from_overflow (test_runner.RuntimeAudit) ... ok
+test_tc_detailed_burst_keeps_size_before_cell_suffix (test_runner.RuntimeAudit) ... ok
+test_tc_microsecond_rounding_is_accepted_but_millisecond_drift_is_not (test_runner.RuntimeAudit) ... ok
+test_trailing_receiver_overflow_is_rejected_from_snmp_delta (test_runner.RuntimeAudit) ... ok
+test_valid_fq_configuration_is_accepted (test_runner.RuntimeAudit) ... ok
+test_wrong_fq_limit_is_rejected_before_traffic (test_runner.RuntimeAudit) ... ok
+test_wrong_rate_is_rejected_even_with_valid_qdiscs (test_runner.RuntimeAudit) ... ok
+test_real_socket_retains_one_flow_and_accounts_all_phases (test_udp.UDPIntegration) ... ok
+
+----------------------------------------------------------------------
+Ran 44 tests in 3.636s
+
+OK

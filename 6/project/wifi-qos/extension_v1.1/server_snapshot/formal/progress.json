@@ -1,0 +1,9 @@
+{
+  "state": "COMPLETE",
+  "completed": 48,
+  "total": 48,
+  "invalid_attempts": 0,
+  "started_ns": 1794412946578750781,
+  "current": "E4_fq_codel_r600_b65536_static_n3",
+  "finished_ns": 1794417328515709180
+}

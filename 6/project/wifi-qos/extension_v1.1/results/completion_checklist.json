@@ -1,0 +1,22 @@
+{
+  "client_date": "2026-11-12",
+  "valid_formal_runs": 72,
+  "static_configurations": 12,
+  "static_repeats_each": 5,
+  "dynamic_configurations": 4,
+  "dynamic_repeats_each": 3,
+  "raw_metric_recalculation_passed": true,
+  "source_and_topology_consistency_passed": true,
+  "publication_gates_passed": true,
+  "log_merge_verification": {
+    "merged_runs": 95,
+    "restored_files": 67230,
+    "content_and_merged_sha256_verified": true,
+    "downloaded_bytes": 217075395
+  },
+  "local_tests": 44,
+  "figure_pairs": 6,
+  "figure_visual_review_passed": true,
+  "server_cleanup_verified": true,
+  "archives_delivered": 0
+}

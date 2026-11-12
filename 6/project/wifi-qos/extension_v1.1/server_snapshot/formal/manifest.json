@@ -1,0 +1,482 @@
+[
+  {
+    "id": "E1_baseline_r600_b32768_static_n1",
+    "experiment": "E1",
+    "mode": "baseline",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 1,
+    "seconds": 60
+  },
+  {
+    "id": "E1_qos_r600_b32768_static_n1",
+    "experiment": "E1",
+    "mode": "qos",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 1,
+    "seconds": 60
+  },
+  {
+    "id": "E1_fq_codel_r600_b32768_static_n1",
+    "experiment": "E1",
+    "mode": "fq_codel",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 1,
+    "seconds": 60
+  },
+  {
+    "id": "E1_qos_r600_b32768_static_n2",
+    "experiment": "E1",
+    "mode": "qos",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 2,
+    "seconds": 60
+  },
+  {
+    "id": "E1_fq_codel_r600_b32768_static_n2",
+    "experiment": "E1",
+    "mode": "fq_codel",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 2,
+    "seconds": 60
+  },
+  {
+    "id": "E1_baseline_r600_b32768_static_n2",
+    "experiment": "E1",
+    "mode": "baseline",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 2,
+    "seconds": 60
+  },
+  {
+    "id": "E1_fq_codel_r600_b32768_static_n3",
+    "experiment": "E1",
+    "mode": "fq_codel",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 3,
+    "seconds": 60
+  },
+  {
+    "id": "E1_baseline_r600_b32768_static_n3",
+    "experiment": "E1",
+    "mode": "baseline",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 3,
+    "seconds": 60
+  },
+  {
+    "id": "E1_qos_r600_b32768_static_n3",
+    "experiment": "E1",
+    "mode": "qos",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 3,
+    "seconds": 60
+  },
+  {
+    "id": "E2_qos_r200_b32768_static_n1",
+    "experiment": "E2",
+    "mode": "qos",
+    "rt_kbit": 200,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 1,
+    "seconds": 60
+  },
+  {
+    "id": "E2_qos_r1000_b32768_static_n1",
+    "experiment": "E2",
+    "mode": "qos",
+    "rt_kbit": 1000,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 1,
+    "seconds": 60
+  },
+  {
+    "id": "E2_qos_r400_b32768_static_n1",
+    "experiment": "E2",
+    "mode": "qos",
+    "rt_kbit": 400,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 1,
+    "seconds": 60
+  },
+  {
+    "id": "E2_qos_r1000_b32768_static_n2",
+    "experiment": "E2",
+    "mode": "qos",
+    "rt_kbit": 1000,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 2,
+    "seconds": 60
+  },
+  {
+    "id": "E2_qos_r200_b32768_static_n2",
+    "experiment": "E2",
+    "mode": "qos",
+    "rt_kbit": 200,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 2,
+    "seconds": 60
+  },
+  {
+    "id": "E2_qos_r400_b32768_static_n2",
+    "experiment": "E2",
+    "mode": "qos",
+    "rt_kbit": 400,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 2,
+    "seconds": 60
+  },
+  {
+    "id": "E2_qos_r200_b32768_static_n3",
+    "experiment": "E2",
+    "mode": "qos",
+    "rt_kbit": 200,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 3,
+    "seconds": 60
+  },
+  {
+    "id": "E2_qos_r1000_b32768_static_n3",
+    "experiment": "E2",
+    "mode": "qos",
+    "rt_kbit": 1000,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 3,
+    "seconds": 60
+  },
+  {
+    "id": "E2_qos_r400_b32768_static_n3",
+    "experiment": "E2",
+    "mode": "qos",
+    "rt_kbit": 400,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 3,
+    "seconds": 60
+  },
+  {
+    "id": "E3_qos_r600_b32768_dynamic_n1",
+    "experiment": "E3",
+    "mode": "qos",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "dynamic",
+    "repeat": 1,
+    "seconds": 90
+  },
+  {
+    "id": "E3_qos_r1200_b32768_dynamic_n1",
+    "experiment": "E3",
+    "mode": "qos",
+    "rt_kbit": 1200,
+    "buffer_bytes": 32768,
+    "workload": "dynamic",
+    "repeat": 1,
+    "seconds": 90
+  },
+  {
+    "id": "E3_fq_codel_r600_b32768_dynamic_n1",
+    "experiment": "E3",
+    "mode": "fq_codel",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "dynamic",
+    "repeat": 1,
+    "seconds": 90
+  },
+  {
+    "id": "E3_baseline_r600_b32768_dynamic_n1",
+    "experiment": "E3",
+    "mode": "baseline",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "dynamic",
+    "repeat": 1,
+    "seconds": 90
+  },
+  {
+    "id": "E3_fq_codel_r600_b32768_dynamic_n2",
+    "experiment": "E3",
+    "mode": "fq_codel",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "dynamic",
+    "repeat": 2,
+    "seconds": 90
+  },
+  {
+    "id": "E3_qos_r1200_b32768_dynamic_n2",
+    "experiment": "E3",
+    "mode": "qos",
+    "rt_kbit": 1200,
+    "buffer_bytes": 32768,
+    "workload": "dynamic",
+    "repeat": 2,
+    "seconds": 90
+  },
+  {
+    "id": "E3_qos_r600_b32768_dynamic_n2",
+    "experiment": "E3",
+    "mode": "qos",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "dynamic",
+    "repeat": 2,
+    "seconds": 90
+  },
+  {
+    "id": "E3_baseline_r600_b32768_dynamic_n2",
+    "experiment": "E3",
+    "mode": "baseline",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "dynamic",
+    "repeat": 2,
+    "seconds": 90
+  },
+  {
+    "id": "E3_fq_codel_r600_b32768_dynamic_n3",
+    "experiment": "E3",
+    "mode": "fq_codel",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "dynamic",
+    "repeat": 3,
+    "seconds": 90
+  },
+  {
+    "id": "E3_qos_r600_b32768_dynamic_n3",
+    "experiment": "E3",
+    "mode": "qos",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "dynamic",
+    "repeat": 3,
+    "seconds": 90
+  },
+  {
+    "id": "E3_baseline_r600_b32768_dynamic_n3",
+    "experiment": "E3",
+    "mode": "baseline",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "dynamic",
+    "repeat": 3,
+    "seconds": 90
+  },
+  {
+    "id": "E3_qos_r1200_b32768_dynamic_n3",
+    "experiment": "E3",
+    "mode": "qos",
+    "rt_kbit": 1200,
+    "buffer_bytes": 32768,
+    "workload": "dynamic",
+    "repeat": 3,
+    "seconds": 90
+  },
+  {
+    "id": "E4_baseline_r600_b65536_static_n1",
+    "experiment": "E4",
+    "mode": "baseline",
+    "rt_kbit": 600,
+    "buffer_bytes": 65536,
+    "workload": "static",
+    "repeat": 1,
+    "seconds": 60
+  },
+  {
+    "id": "E4_fq_codel_r600_b16384_static_n1",
+    "experiment": "E4",
+    "mode": "fq_codel",
+    "rt_kbit": 600,
+    "buffer_bytes": 16384,
+    "workload": "static",
+    "repeat": 1,
+    "seconds": 60
+  },
+  {
+    "id": "E4_qos_r600_b65536_static_n1",
+    "experiment": "E4",
+    "mode": "qos",
+    "rt_kbit": 600,
+    "buffer_bytes": 65536,
+    "workload": "static",
+    "repeat": 1,
+    "seconds": 60
+  },
+  {
+    "id": "E4_fq_codel_r600_b65536_static_n1",
+    "experiment": "E4",
+    "mode": "fq_codel",
+    "rt_kbit": 600,
+    "buffer_bytes": 65536,
+    "workload": "static",
+    "repeat": 1,
+    "seconds": 60
+  },
+  {
+    "id": "E4_baseline_r600_b16384_static_n1",
+    "experiment": "E4",
+    "mode": "baseline",
+    "rt_kbit": 600,
+    "buffer_bytes": 16384,
+    "workload": "static",
+    "repeat": 1,
+    "seconds": 60
+  },
+  {
+    "id": "E4_qos_r600_b16384_static_n1",
+    "experiment": "E4",
+    "mode": "qos",
+    "rt_kbit": 600,
+    "buffer_bytes": 16384,
+    "workload": "static",
+    "repeat": 1,
+    "seconds": 60
+  },
+  {
+    "id": "E4_qos_r600_b16384_static_n2",
+    "experiment": "E4",
+    "mode": "qos",
+    "rt_kbit": 600,
+    "buffer_bytes": 16384,
+    "workload": "static",
+    "repeat": 2,
+    "seconds": 60
+  },
+  {
+    "id": "E4_fq_codel_r600_b16384_static_n2",
+    "experiment": "E4",
+    "mode": "fq_codel",
+    "rt_kbit": 600,
+    "buffer_bytes": 16384,
+    "workload": "static",
+    "repeat": 2,
+    "seconds": 60
+  },
+  {
+    "id": "E4_qos_r600_b65536_static_n2",
+    "experiment": "E4",
+    "mode": "qos",
+    "rt_kbit": 600,
+    "buffer_bytes": 65536,
+    "workload": "static",
+    "repeat": 2,
+    "seconds": 60
+  },
+  {
+    "id": "E4_fq_codel_r600_b65536_static_n2",
+    "experiment": "E4",
+    "mode": "fq_codel",
+    "rt_kbit": 600,
+    "buffer_bytes": 65536,
+    "workload": "static",
+    "repeat": 2,
+    "seconds": 60
+  },
+  {
+    "id": "E4_baseline_r600_b65536_static_n2",
+    "experiment": "E4",
+    "mode": "baseline",
+    "rt_kbit": 600,
+    "buffer_bytes": 65536,
+    "workload": "static",
+    "repeat": 2,
+    "seconds": 60
+  },
+  {
+    "id": "E4_baseline_r600_b16384_static_n2",
+    "experiment": "E4",
+    "mode": "baseline",
+    "rt_kbit": 600,
+    "buffer_bytes": 16384,
+    "workload": "static",
+    "repeat": 2,
+    "seconds": 60
+  },
+  {
+    "id": "E4_fq_codel_r600_b16384_static_n3",
+    "experiment": "E4",
+    "mode": "fq_codel",
+    "rt_kbit": 600,
+    "buffer_bytes": 16384,
+    "workload": "static",
+    "repeat": 3,
+    "seconds": 60
+  },
+  {
+    "id": "E4_baseline_r600_b65536_static_n3",
+    "experiment": "E4",
+    "mode": "baseline",
+    "rt_kbit": 600,
+    "buffer_bytes": 65536,
+    "workload": "static",
+    "repeat": 3,
+    "seconds": 60
+  },
+  {
+    "id": "E4_qos_r600_b65536_static_n3",
+    "experiment": "E4",
+    "mode": "qos",
+    "rt_kbit": 600,
+    "buffer_bytes": 65536,
+    "workload": "static",
+    "repeat": 3,
+    "seconds": 60
+  },
+  {
+    "id": "E4_baseline_r600_b16384_static_n3",
+    "experiment": "E4",
+    "mode": "baseline",
+    "rt_kbit": 600,
+    "buffer_bytes": 16384,
+    "workload": "static",
+    "repeat": 3,
+    "seconds": 60
+  },
+  {
+    "id": "E4_qos_r600_b16384_static_n3",
+    "experiment": "E4",
+    "mode": "qos",
+    "rt_kbit": 600,
+    "buffer_bytes": 16384,
+    "workload": "static",
+    "repeat": 3,
+    "seconds": 60
+  },
+  {
+    "id": "E4_fq_codel_r600_b65536_static_n3",
+    "experiment": "E4",
+    "mode": "fq_codel",
+    "rt_kbit": 600,
+    "buffer_bytes": 65536,
+    "workload": "static",
+    "repeat": 3,
+    "seconds": 60
+  }
+]

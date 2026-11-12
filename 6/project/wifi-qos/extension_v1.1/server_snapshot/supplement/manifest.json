@@ -1,0 +1,242 @@
+[
+  {
+    "id": "SUP_baseline_r600_b32768_static_n4",
+    "experiment": "E1",
+    "mode": "baseline",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 4,
+    "seconds": 60
+  },
+  {
+    "id": "SUP_qos_r200_b32768_static_n4",
+    "experiment": "E2",
+    "mode": "qos",
+    "rt_kbit": 200,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 4,
+    "seconds": 60
+  },
+  {
+    "id": "SUP_fq_codel_r600_b16384_static_n4",
+    "experiment": "E4",
+    "mode": "fq_codel",
+    "rt_kbit": 600,
+    "buffer_bytes": 16384,
+    "workload": "static",
+    "repeat": 4,
+    "seconds": 60
+  },
+  {
+    "id": "SUP_baseline_r600_b16384_static_n4",
+    "experiment": "E4",
+    "mode": "baseline",
+    "rt_kbit": 600,
+    "buffer_bytes": 16384,
+    "workload": "static",
+    "repeat": 4,
+    "seconds": 60
+  },
+  {
+    "id": "SUP_qos_r600_b65536_static_n4",
+    "experiment": "E4",
+    "mode": "qos",
+    "rt_kbit": 600,
+    "buffer_bytes": 65536,
+    "workload": "static",
+    "repeat": 4,
+    "seconds": 60
+  },
+  {
+    "id": "SUP_qos_r600_b32768_static_n4",
+    "experiment": "E1",
+    "mode": "qos",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 4,
+    "seconds": 60
+  },
+  {
+    "id": "SUP_qos_r600_b16384_static_n4",
+    "experiment": "E4",
+    "mode": "qos",
+    "rt_kbit": 600,
+    "buffer_bytes": 16384,
+    "workload": "static",
+    "repeat": 4,
+    "seconds": 60
+  },
+  {
+    "id": "SUP_qos_r1000_b32768_static_n4",
+    "experiment": "E2",
+    "mode": "qos",
+    "rt_kbit": 1000,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 4,
+    "seconds": 60
+  },
+  {
+    "id": "SUP_baseline_r600_b65536_static_n4",
+    "experiment": "E4",
+    "mode": "baseline",
+    "rt_kbit": 600,
+    "buffer_bytes": 65536,
+    "workload": "static",
+    "repeat": 4,
+    "seconds": 60
+  },
+  {
+    "id": "SUP_fq_codel_r600_b65536_static_n4",
+    "experiment": "E4",
+    "mode": "fq_codel",
+    "rt_kbit": 600,
+    "buffer_bytes": 65536,
+    "workload": "static",
+    "repeat": 4,
+    "seconds": 60
+  },
+  {
+    "id": "SUP_fq_codel_r600_b32768_static_n4",
+    "experiment": "E1",
+    "mode": "fq_codel",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 4,
+    "seconds": 60
+  },
+  {
+    "id": "SUP_qos_r400_b32768_static_n4",
+    "experiment": "E2",
+    "mode": "qos",
+    "rt_kbit": 400,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 4,
+    "seconds": 60
+  },
+  {
+    "id": "SUP_fq_codel_r600_b16384_static_n5",
+    "experiment": "E4",
+    "mode": "fq_codel",
+    "rt_kbit": 600,
+    "buffer_bytes": 16384,
+    "workload": "static",
+    "repeat": 5,
+    "seconds": 60
+  },
+  {
+    "id": "SUP_baseline_r600_b32768_static_n5",
+    "experiment": "E1",
+    "mode": "baseline",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 5,
+    "seconds": 60
+  },
+  {
+    "id": "SUP_qos_r600_b16384_static_n5",
+    "experiment": "E4",
+    "mode": "qos",
+    "rt_kbit": 600,
+    "buffer_bytes": 16384,
+    "workload": "static",
+    "repeat": 5,
+    "seconds": 60
+  },
+  {
+    "id": "SUP_qos_r1000_b32768_static_n5",
+    "experiment": "E2",
+    "mode": "qos",
+    "rt_kbit": 1000,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 5,
+    "seconds": 60
+  },
+  {
+    "id": "SUP_fq_codel_r600_b65536_static_n5",
+    "experiment": "E4",
+    "mode": "fq_codel",
+    "rt_kbit": 600,
+    "buffer_bytes": 65536,
+    "workload": "static",
+    "repeat": 5,
+    "seconds": 60
+  },
+  {
+    "id": "SUP_qos_r600_b32768_static_n5",
+    "experiment": "E1",
+    "mode": "qos",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 5,
+    "seconds": 60
+  },
+  {
+    "id": "SUP_qos_r200_b32768_static_n5",
+    "experiment": "E2",
+    "mode": "qos",
+    "rt_kbit": 200,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 5,
+    "seconds": 60
+  },
+  {
+    "id": "SUP_baseline_r600_b65536_static_n5",
+    "experiment": "E4",
+    "mode": "baseline",
+    "rt_kbit": 600,
+    "buffer_bytes": 65536,
+    "workload": "static",
+    "repeat": 5,
+    "seconds": 60
+  },
+  {
+    "id": "SUP_fq_codel_r600_b32768_static_n5",
+    "experiment": "E1",
+    "mode": "fq_codel",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 5,
+    "seconds": 60
+  },
+  {
+    "id": "SUP_qos_r600_b65536_static_n5",
+    "experiment": "E4",
+    "mode": "qos",
+    "rt_kbit": 600,
+    "buffer_bytes": 65536,
+    "workload": "static",
+    "repeat": 5,
+    "seconds": 60
+  },
+  {
+    "id": "SUP_qos_r400_b32768_static_n5",
+    "experiment": "E2",
+    "mode": "qos",
+    "rt_kbit": 400,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "repeat": 5,
+    "seconds": 60
+  },
+  {
+    "id": "SUP_baseline_r600_b16384_static_n5",
+    "experiment": "E4",
+    "mode": "baseline",
+    "rt_kbit": 600,
+    "buffer_bytes": 16384,
+    "workload": "static",
+    "repeat": 5,
+    "seconds": 60
+  }
+]

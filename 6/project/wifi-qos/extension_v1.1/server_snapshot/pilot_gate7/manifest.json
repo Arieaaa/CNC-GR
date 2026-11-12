@@ -1,0 +1,133 @@
+[
+  {
+    "id": "gate7_fq_codel_static",
+    "mode": "fq_codel",
+    "workload": "static",
+    "seconds": 15,
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "warmup": 5
+  },
+  {
+    "id": "gate7_baseline_static",
+    "mode": "baseline",
+    "workload": "static",
+    "seconds": 15,
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "warmup": 5
+  },
+  {
+    "id": "gate7_qos_static",
+    "mode": "qos",
+    "workload": "static",
+    "seconds": 15,
+    "rt_kbit": 200,
+    "buffer_bytes": 32768,
+    "warmup": 5
+  },
+  {
+    "id": "gate7_qos_600_dynamic",
+    "mode": "qos",
+    "workload": "dynamic",
+    "seconds": 15,
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "durations": [
+      5,
+      5,
+      5
+    ],
+    "rates": [
+      300,
+      900,
+      300
+    ],
+    "warmup": 2
+  },
+  {
+    "id": "gate7_qos_1200_dynamic",
+    "mode": "qos",
+    "workload": "dynamic",
+    "seconds": 15,
+    "rt_kbit": 1200,
+    "buffer_bytes": 32768,
+    "durations": [
+      5,
+      5,
+      5
+    ],
+    "rates": [
+      300,
+      900,
+      300
+    ],
+    "warmup": 2
+  },
+  {
+    "id": "gate7_fq_codel_600_dynamic",
+    "mode": "fq_codel",
+    "workload": "dynamic",
+    "seconds": 15,
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "durations": [
+      5,
+      5,
+      5
+    ],
+    "rates": [
+      300,
+      900,
+      300
+    ],
+    "warmup": 2
+  },
+  {
+    "id": "gate7_udp_True",
+    "mode": "baseline",
+    "workload": "dynamic",
+    "seconds": 15,
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "durations": [
+      5,
+      5,
+      5
+    ],
+    "rates": [
+      300,
+      900,
+      300
+    ],
+    "warmup": 2,
+    "no_tcp": true,
+    "sample": true
+  },
+  {
+    "id": "gate7_udp_False",
+    "mode": "baseline",
+    "workload": "dynamic",
+    "seconds": 15,
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "durations": [
+      5,
+      5,
+      5
+    ],
+    "rates": [
+      300,
+      900,
+      300
+    ],
+    "warmup": 2,
+    "no_tcp": true,
+    "sample": false
+  },
+  {
+    "id": "gate7_capacity",
+    "workload": "capacity",
+    "seconds": 30
+  }
+]

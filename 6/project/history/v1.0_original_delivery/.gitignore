@@ -1,0 +1,4 @@
+wifi-qos/logs/
+**/__pycache__/
+*.pyc
+wifi-qos/.matplotlib/

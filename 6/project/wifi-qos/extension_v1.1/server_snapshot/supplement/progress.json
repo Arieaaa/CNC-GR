@@ -1,0 +1,9 @@
+{
+  "state": "COMPLETE",
+  "completed": 24,
+  "total": 24,
+  "invalid_attempts": 0,
+  "started_ns": 1794450351782667648,
+  "current": "SUP_baseline_r600_b16384_static_n5",
+  "finished_ns": 1794452357606166935
+}

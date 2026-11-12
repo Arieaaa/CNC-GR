@@ -1,0 +1,848 @@
+[
+  {
+    "version": "v1.0",
+    "role": "preliminary_validation",
+    "mode": "baseline",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "n": 3,
+    "metrics": {
+      "udp_received_mbps": {
+        "mean": 0.29725010554727904,
+        "sample_sd": 0.0020838896178132413
+      },
+      "udp_loss_percent": {
+        "mean": 0.9470655885367341,
+        "sample_sd": 0.6571295774492788
+      },
+      "udp_jitter_ms": {
+        "mean": 5.465897817223347,
+        "sample_sd": 0.07421145848962882
+      },
+      "tcp_received_mbps": {
+        "mean": 1.5519000430086478,
+        "sample_sd": 1.3853012138212443e-05
+      },
+      "rtt_p95_ms": {
+        "mean": 136.0,
+        "sample_sd": 6.0
+      },
+      "rtt_mean_ms": {
+        "mean": 98.16346192080148,
+        "sample_sd": 3.0303071722619976
+      }
+    }
+  },
+  {
+    "version": "v1.0",
+    "role": "preliminary_validation",
+    "mode": "qos",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "n": 3,
+    "metrics": {
+      "udp_received_mbps": {
+        "mean": 0.2999889252824418,
+        "sample_sd": 1.1612957355774358e-05
+      },
+      "udp_loss_percent": {
+        "mean": 0.0,
+        "sample_sd": 0.0
+      },
+      "udp_jitter_ms": {
+        "mean": 0.1095197943801014,
+        "sample_sd": 0.007446992916160779
+      },
+      "tcp_received_mbps": {
+        "mean": 1.551889779901174,
+        "sample_sd": 2.0996868397983317e-05
+      },
+      "rtt_p95_ms": {
+        "mean": 0.8663333333333333,
+        "sample_sd": 0.4628718325123417
+      },
+      "rtt_mean_ms": {
+        "mean": 0.4523479253112033,
+        "sample_sd": 0.09339301637770663
+      }
+    }
+  },
+  {
+    "version": "v1.1",
+    "role": "primary",
+    "mode": "baseline",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "n": 5,
+    "metrics": {
+      "udp_received_mbps": {
+        "n": 5,
+        "mean": 0.2999959606053874,
+        "sample_sd": 6.308210958221402e-05
+      },
+      "udp_loss_percent": {
+        "n": 5,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      },
+      "udp_jitter_ms": {
+        "n": 5,
+        "mean": 4.75481310650162,
+        "sample_sd": 0.059280555845992296
+      },
+      "tcp_received_mbps": {
+        "n": 5,
+        "mean": 1.5407650492942688,
+        "sample_sd": 1.747429981527794e-05
+      },
+      "rtt_p95_ms": {
+        "n": 5,
+        "mean": 40.96,
+        "sample_sd": 0.36469165057621017
+      },
+      "tcp_retransmits": {
+        "n": 5,
+        "mean": 0,
+        "sample_sd": 0.0
+      },
+      "tcp_retransmits_per_second": {
+        "n": 5,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      }
+    }
+  },
+  {
+    "version": "v1.1",
+    "role": "primary",
+    "mode": "fq_codel",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "n": 5,
+    "metrics": {
+      "udp_received_mbps": {
+        "n": 5,
+        "mean": 0.29998591880059466,
+        "sample_sd": 1.1466191415554302e-05
+      },
+      "udp_loss_percent": {
+        "n": 5,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      },
+      "udp_jitter_ms": {
+        "n": 5,
+        "mean": 2.9584963541084117,
+        "sample_sd": 0.011717717143017763
+      },
+      "tcp_received_mbps": {
+        "n": 5,
+        "mean": 1.5407636657790582,
+        "sample_sd": 1.8952216586491147e-05
+      },
+      "rtt_p95_ms": {
+        "n": 5,
+        "mean": 6.64,
+        "sample_sd": 0.12020815280171314
+      },
+      "tcp_retransmits": {
+        "n": 5,
+        "mean": 0,
+        "sample_sd": 0.0
+      },
+      "tcp_retransmits_per_second": {
+        "n": 5,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      }
+    }
+  },
+  {
+    "version": "v1.1",
+    "role": "primary",
+    "mode": "qos",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "n": 5,
+    "metrics": {
+      "udp_received_mbps": {
+        "n": 5,
+        "mean": 0.30000583479755455,
+        "sample_sd": 1.7903333091895264e-06
+      },
+      "udp_loss_percent": {
+        "n": 5,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      },
+      "udp_jitter_ms": {
+        "n": 5,
+        "mean": 0.11332016367579203,
+        "sample_sd": 0.031102073222809456
+      },
+      "tcp_received_mbps": {
+        "n": 5,
+        "mean": 1.5407672188513113,
+        "sample_sd": 1.104551653787767e-05
+      },
+      "rtt_p95_ms": {
+        "n": 5,
+        "mean": 0.4608,
+        "sample_sd": 0.12037524662487717
+      },
+      "tcp_retransmits": {
+        "n": 5,
+        "mean": 0,
+        "sample_sd": 0.0
+      },
+      "tcp_retransmits_per_second": {
+        "n": 5,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      }
+    }
+  },
+  {
+    "version": "v1.1",
+    "role": "primary",
+    "mode": "qos",
+    "rt_kbit": 1000,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "n": 5,
+    "metrics": {
+      "udp_received_mbps": {
+        "n": 5,
+        "mean": 0.2999952960492055,
+        "sample_sd": 1.4895691495809693e-05
+      },
+      "udp_loss_percent": {
+        "n": 5,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      },
+      "udp_jitter_ms": {
+        "n": 5,
+        "mean": 0.08611933169716388,
+        "sample_sd": 0.0202597758384169
+      },
+      "tcp_received_mbps": {
+        "n": 5,
+        "mean": 1.5407570938188477,
+        "sample_sd": 6.567382201102229e-06
+      },
+      "rtt_p95_ms": {
+        "n": 5,
+        "mean": 0.4984,
+        "sample_sd": 0.12027801129050977
+      },
+      "tcp_retransmits": {
+        "n": 5,
+        "mean": 0,
+        "sample_sd": 0.0
+      },
+      "tcp_retransmits_per_second": {
+        "n": 5,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      }
+    }
+  },
+  {
+    "version": "v1.1",
+    "role": "primary",
+    "mode": "qos",
+    "rt_kbit": 200,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "n": 5,
+    "metrics": {
+      "udp_received_mbps": {
+        "n": 5,
+        "mean": 0.1568349955859099,
+        "sample_sd": 1.3771015904703018e-05
+      },
+      "udp_loss_percent": {
+        "n": 5,
+        "mean": 47.72339411480496,
+        "sample_sd": 0.0037953404467508125
+      },
+      "udp_jitter_ms": {
+        "n": 5,
+        "mean": 1.0515190068867544,
+        "sample_sd": 0.03189803178929974
+      },
+      "tcp_received_mbps": {
+        "n": 5,
+        "mean": 1.7119501044653416,
+        "sample_sd": 1.0866399840328306e-05
+      },
+      "rtt_p95_ms": {
+        "n": 5,
+        "mean": 330.2,
+        "sample_sd": 0.4472135954999579
+      },
+      "tcp_retransmits": {
+        "n": 5,
+        "mean": 0,
+        "sample_sd": 0.0
+      },
+      "tcp_retransmits_per_second": {
+        "n": 5,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      }
+    }
+  },
+  {
+    "version": "v1.1",
+    "role": "primary",
+    "mode": "qos",
+    "rt_kbit": 400,
+    "buffer_bytes": 32768,
+    "workload": "static",
+    "n": 5,
+    "metrics": {
+      "udp_received_mbps": {
+        "n": 5,
+        "mean": 0.29999192075715614,
+        "sample_sd": 1.3350664814936627e-05
+      },
+      "udp_loss_percent": {
+        "n": 5,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      },
+      "udp_jitter_ms": {
+        "n": 5,
+        "mean": 0.0897207316218536,
+        "sample_sd": 0.030095105403831396
+      },
+      "tcp_received_mbps": {
+        "n": 5,
+        "mean": 1.5407648541817751,
+        "sample_sd": 1.447799001836028e-07
+      },
+      "rtt_p95_ms": {
+        "n": 5,
+        "mean": 0.4298,
+        "sample_sd": 0.04313583197296652
+      },
+      "tcp_retransmits": {
+        "n": 5,
+        "mean": 0,
+        "sample_sd": 0.0
+      },
+      "tcp_retransmits_per_second": {
+        "n": 5,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      }
+    }
+  },
+  {
+    "version": "v1.1",
+    "role": "primary",
+    "mode": "baseline",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "dynamic",
+    "n": 3,
+    "metrics": {
+      "udp_received_mbps": {
+        "n": 3,
+        "mean": 0.8997831111111111,
+        "sample_sd": 0.00017243528039790566
+      },
+      "udp_loss_percent": {
+        "n": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      },
+      "udp_delay_p95_ms": {
+        "n": 3,
+        "mean": 55.663212333333334,
+        "sample_sd": 0.04061539788471046
+      },
+      "on_time_percent": {
+        "n": 3,
+        "mean": 82.85492780929553,
+        "sample_sd": 0.2518647877803921
+      },
+      "tcp_received_mbps": {
+        "n": 3,
+        "mean": 0.7864214020364176,
+        "sample_sd": 1.100148003848491e-06
+      },
+      "rtt_p95_ms": {
+        "n": 3,
+        "mean": 51.63333333333333,
+        "sample_sd": 1.0214368964029692
+      },
+      "recovery_seconds": {
+        "n": 3,
+        "mean": 0,
+        "sample_sd": 0.0
+      },
+      "tcp_retransmits": {
+        "n": 3,
+        "mean": 0,
+        "sample_sd": 0.0
+      },
+      "tcp_retransmits_per_second": {
+        "n": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      }
+    }
+  },
+  {
+    "version": "v1.1",
+    "role": "primary",
+    "mode": "fq_codel",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "dynamic",
+    "n": 3,
+    "metrics": {
+      "udp_received_mbps": {
+        "n": 3,
+        "mean": 0.8998684444444445,
+        "sample_sd": 0.00017243528039796973
+      },
+      "udp_loss_percent": {
+        "n": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      },
+      "udp_delay_p95_ms": {
+        "n": 3,
+        "mean": 6.005387333333333,
+        "sample_sd": 0.004819114683563234
+      },
+      "on_time_percent": {
+        "n": 3,
+        "mean": 100.0,
+        "sample_sd": 0.0
+      },
+      "tcp_received_mbps": {
+        "n": 3,
+        "mean": 0.8238907941947387,
+        "sample_sd": 7.49343026365829e-06
+      },
+      "rtt_p95_ms": {
+        "n": 3,
+        "mean": 10.799999999999999,
+        "sample_sd": 0.17320508075688815
+      },
+      "recovery_seconds": {
+        "n": 3,
+        "mean": 0,
+        "sample_sd": 0.0
+      },
+      "tcp_retransmits": {
+        "n": 3,
+        "mean": 0,
+        "sample_sd": 0.0
+      },
+      "tcp_retransmits_per_second": {
+        "n": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      }
+    }
+  },
+  {
+    "version": "v1.1",
+    "role": "primary",
+    "mode": "qos",
+    "rt_kbit": 1200,
+    "buffer_bytes": 32768,
+    "workload": "dynamic",
+    "n": 3,
+    "metrics": {
+      "udp_received_mbps": {
+        "n": 3,
+        "mean": 0.8998115555555555,
+        "sample_sd": 8.881774931055196e-05
+      },
+      "udp_loss_percent": {
+        "n": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      },
+      "udp_delay_p95_ms": {
+        "n": 3,
+        "mean": 0.277256,
+        "sample_sd": 0.00569355345983506
+      },
+      "on_time_percent": {
+        "n": 3,
+        "mean": 100.0,
+        "sample_sd": 0.0
+      },
+      "tcp_received_mbps": {
+        "n": 3,
+        "mean": 0.823880427278253,
+        "sample_sd": 2.2576319609340443e-05
+      },
+      "rtt_p95_ms": {
+        "n": 3,
+        "mean": 0.49,
+        "sample_sd": 0.010000000000000009
+      },
+      "recovery_seconds": {
+        "n": 3,
+        "mean": 0,
+        "sample_sd": 0.0
+      },
+      "tcp_retransmits": {
+        "n": 3,
+        "mean": 0,
+        "sample_sd": 0.0
+      },
+      "tcp_retransmits_per_second": {
+        "n": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      }
+    }
+  },
+  {
+    "version": "v1.1",
+    "role": "primary",
+    "mode": "qos",
+    "rt_kbit": 600,
+    "buffer_bytes": 32768,
+    "workload": "dynamic",
+    "n": 3,
+    "metrics": {
+      "udp_received_mbps": {
+        "n": 3,
+        "mean": 0.4747093333333333,
+        "sample_sd": 0.0
+      },
+      "udp_loss_percent": {
+        "n": 3,
+        "mean": 47.23846539997111,
+        "sample_sd": 0.01589290674832398
+      },
+      "udp_delay_p95_ms": {
+        "n": 3,
+        "mean": 109.15535933333334,
+        "sample_sd": 0.004016099143864037
+      },
+      "on_time_percent": {
+        "n": 3,
+        "mean": 0.379374687039575,
+        "sample_sd": 0.0001142757990172345
+      },
+      "tcp_received_mbps": {
+        "n": 3,
+        "mean": 1.3481714220072682,
+        "sample_sd": 1.4108992510133503e-05
+      },
+      "rtt_p95_ms": {
+        "n": 3,
+        "mean": 110.0,
+        "sample_sd": 0.0
+      },
+      "recovery_seconds": {
+        "n": 3,
+        "mean": 1,
+        "sample_sd": 0.0
+      },
+      "tcp_retransmits": {
+        "n": 3,
+        "mean": 0,
+        "sample_sd": 0.0
+      },
+      "tcp_retransmits_per_second": {
+        "n": 3,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      }
+    }
+  },
+  {
+    "version": "v1.1",
+    "role": "primary",
+    "mode": "baseline",
+    "rt_kbit": 600,
+    "buffer_bytes": 16384,
+    "workload": "static",
+    "n": 5,
+    "metrics": {
+      "udp_received_mbps": {
+        "n": 5,
+        "mean": 0.2999964851684527,
+        "sample_sd": 3.402841650559091e-05
+      },
+      "udp_loss_percent": {
+        "n": 5,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      },
+      "udp_jitter_ms": {
+        "n": 5,
+        "mean": 4.7520042841132755,
+        "sample_sd": 0.062259046401308464
+      },
+      "tcp_received_mbps": {
+        "n": 5,
+        "mean": 1.540769765839829,
+        "sample_sd": 1.0839203965047572e-05
+      },
+      "rtt_p95_ms": {
+        "n": 5,
+        "mean": 25.759999999999998,
+        "sample_sd": 0.08944271909999148
+      },
+      "tcp_retransmits": {
+        "n": 5,
+        "mean": 0,
+        "sample_sd": 0.0
+      },
+      "tcp_retransmits_per_second": {
+        "n": 5,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      }
+    }
+  },
+  {
+    "version": "v1.1",
+    "role": "primary",
+    "mode": "baseline",
+    "rt_kbit": 600,
+    "buffer_bytes": 65536,
+    "workload": "static",
+    "n": 5,
+    "metrics": {
+      "udp_received_mbps": {
+        "n": 5,
+        "mean": 0.30002666284394647,
+        "sample_sd": 4.971843175672882e-05
+      },
+      "udp_loss_percent": {
+        "n": 5,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      },
+      "udp_jitter_ms": {
+        "n": 5,
+        "mean": 4.728192607913513,
+        "sample_sd": 0.030584907954918906
+      },
+      "tcp_received_mbps": {
+        "n": 5,
+        "mean": 1.5407683633662712,
+        "sample_sd": 3.306564495607909e-06
+      },
+      "rtt_p95_ms": {
+        "n": 5,
+        "mean": 40.96,
+        "sample_sd": 0.42190046219458044
+      },
+      "tcp_retransmits": {
+        "n": 5,
+        "mean": 0,
+        "sample_sd": 0.0
+      },
+      "tcp_retransmits_per_second": {
+        "n": 5,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      }
+    }
+  },
+  {
+    "version": "v1.1",
+    "role": "primary",
+    "mode": "fq_codel",
+    "rt_kbit": 600,
+    "buffer_bytes": 16384,
+    "workload": "static",
+    "n": 5,
+    "metrics": {
+      "udp_received_mbps": {
+        "n": 5,
+        "mean": 0.29998204912929577,
+        "sample_sd": 1.231304506597276e-06
+      },
+      "udp_loss_percent": {
+        "n": 5,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      },
+      "udp_jitter_ms": {
+        "n": 5,
+        "mean": 2.946272115473449,
+        "sample_sd": 0.021945755058111326
+      },
+      "tcp_received_mbps": {
+        "n": 5,
+        "mean": 1.54075118243367,
+        "sample_sd": 1.087590716523706e-05
+      },
+      "rtt_p95_ms": {
+        "n": 5,
+        "mean": 6.640000000000001,
+        "sample_sd": 0.030822070014845018
+      },
+      "tcp_retransmits": {
+        "n": 5,
+        "mean": 0,
+        "sample_sd": 0.0
+      },
+      "tcp_retransmits_per_second": {
+        "n": 5,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      }
+    }
+  },
+  {
+    "version": "v1.1",
+    "role": "primary",
+    "mode": "fq_codel",
+    "rt_kbit": 600,
+    "buffer_bytes": 65536,
+    "workload": "static",
+    "n": 5,
+    "metrics": {
+      "udp_received_mbps": {
+        "n": 5,
+        "mean": 0.29998576278310995,
+        "sample_sd": 1.0574051791506528e-05
+      },
+      "udp_loss_percent": {
+        "n": 5,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      },
+      "udp_jitter_ms": {
+        "n": 5,
+        "mean": 2.950463385524796,
+        "sample_sd": 0.01781754229869728
+      },
+      "tcp_received_mbps": {
+        "n": 5,
+        "mean": 1.540757194470059,
+        "sample_sd": 1.0124807351592678e-05
+      },
+      "rtt_p95_ms": {
+        "n": 5,
+        "mean": 6.646,
+        "sample_sd": 0.06188699378706319
+      },
+      "tcp_retransmits": {
+        "n": 5,
+        "mean": 0,
+        "sample_sd": 0.0
+      },
+      "tcp_retransmits_per_second": {
+        "n": 5,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      }
+    }
+  },
+  {
+    "version": "v1.1",
+    "role": "primary",
+    "mode": "qos",
+    "rt_kbit": 600,
+    "buffer_bytes": 16384,
+    "workload": "static",
+    "n": 5,
+    "metrics": {
+      "udp_received_mbps": {
+        "n": 5,
+        "mean": 0.29999680203001494,
+        "sample_sd": 1.480622998487732e-05
+      },
+      "udp_loss_percent": {
+        "n": 5,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      },
+      "udp_jitter_ms": {
+        "n": 5,
+        "mean": 0.11116651323822656,
+        "sample_sd": 0.019100829998360134
+      },
+      "tcp_received_mbps": {
+        "n": 5,
+        "mean": 1.5407648982101945,
+        "sample_sd": 3.5578769438395983e-06
+      },
+      "rtt_p95_ms": {
+        "n": 5,
+        "mean": 0.3956,
+        "sample_sd": 0.012177848742696727
+      },
+      "tcp_retransmits": {
+        "n": 5,
+        "mean": 0,
+        "sample_sd": 0.0
+      },
+      "tcp_retransmits_per_second": {
+        "n": 5,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      }
+    }
+  },
+  {
+    "version": "v1.1",
+    "role": "primary",
+    "mode": "qos",
+    "rt_kbit": 600,
+    "buffer_bytes": 65536,
+    "workload": "static",
+    "n": 5,
+    "metrics": {
+      "udp_received_mbps": {
+        "n": 5,
+        "mean": 0.3000065236088134,
+        "sample_sd": 1.5156489060327322e-06
+      },
+      "udp_loss_percent": {
+        "n": 5,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      },
+      "udp_jitter_ms": {
+        "n": 5,
+        "mean": 0.0796760522954518,
+        "sample_sd": 0.014053833906417684
+      },
+      "tcp_received_mbps": {
+        "n": 5,
+        "mean": 1.5407656780267291,
+        "sample_sd": 3.6523423557596426e-06
+      },
+      "rtt_p95_ms": {
+        "n": 5,
+        "mean": 0.4172,
+        "sample_sd": 0.022818851855428653
+      },
+      "tcp_retransmits": {
+        "n": 5,
+        "mean": 0,
+        "sample_sd": 0.0
+      },
+      "tcp_retransmits_per_second": {
+        "n": 5,
+        "mean": 0.0,
+        "sample_sd": 0.0
+      }
+    }
+  }
+]

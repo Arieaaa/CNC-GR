@@ -1,0 +1,150 @@
+[
+  {
+    "mode": "baseline",
+    "total_kbit": 2000,
+    "rt_kbit": 600,
+    "udp_kbit": 300,
+    "seconds": 60,
+    "warmup": 10,
+    "runner_sha256": "e2e53215afaf27f676affb838431e8f00437ff0a2d87445730414b79bc2d829d",
+    "topology_sha256": "ff61cd8fa0e91d72c8a953948d83053899a62e2cedf1e6757b0e60830dc62c19",
+    "n": 3,
+    "unique_repeat_ids": 3,
+    "meets_repeat_minimum": true,
+    "udp_received_mbps": {
+      "mean": 0.29725010554727904,
+      "sample_sd": 0.0020838896178132413
+    },
+    "udp_loss_percent": {
+      "mean": 0.9470655885367341,
+      "sample_sd": 0.6571295774492788
+    },
+    "udp_jitter_interval_mean_ms": {
+      "mean": 5.465897817223347,
+      "sample_sd": 0.07421145848962882
+    },
+    "tcp_received_mbps": {
+      "mean": 1.5519000430086478,
+      "sample_sd": 1.3853012138212443e-05
+    },
+    "rtt_mean_ms": {
+      "mean": 98.16346192080148,
+      "sample_sd": 3.0303071722619976
+    },
+    "rtt_p95_ms": {
+      "mean": 136.0,
+      "sample_sd": 6.0
+    }
+  },
+  {
+    "mode": "baseline",
+    "total_kbit": 2000,
+    "rt_kbit": 600,
+    "udp_kbit": 300,
+    "seconds": 15,
+    "warmup": 10,
+    "runner_sha256": "e2e53215afaf27f676affb838431e8f00437ff0a2d87445730414b79bc2d829d",
+    "topology_sha256": "ff61cd8fa0e91d72c8a953948d83053899a62e2cedf1e6757b0e60830dc62c19",
+    "n": 1,
+    "unique_repeat_ids": 1,
+    "meets_repeat_minimum": false,
+    "udp_received_mbps": {
+      "mean": 0.30181717893175614,
+      "sample_sd": null
+    },
+    "udp_loss_percent": {
+      "mean": 0.0,
+      "sample_sd": null
+    },
+    "udp_jitter_interval_mean_ms": {
+      "mean": 5.488247961214309,
+      "sample_sd": null
+    },
+    "tcp_received_mbps": {
+      "mean": 1.6776622107577388,
+      "sample_sd": null
+    },
+    "rtt_mean_ms": {
+      "mean": 102.728,
+      "sample_sd": null
+    },
+    "rtt_p95_ms": {
+      "mean": 136.0,
+      "sample_sd": null
+    }
+  },
+  {
+    "mode": "qos",
+    "total_kbit": 2000,
+    "rt_kbit": 600,
+    "udp_kbit": 300,
+    "seconds": 60,
+    "warmup": 10,
+    "runner_sha256": "e2e53215afaf27f676affb838431e8f00437ff0a2d87445730414b79bc2d829d",
+    "topology_sha256": "ff61cd8fa0e91d72c8a953948d83053899a62e2cedf1e6757b0e60830dc62c19",
+    "n": 3,
+    "unique_repeat_ids": 3,
+    "meets_repeat_minimum": true,
+    "udp_received_mbps": {
+      "mean": 0.2999889252824418,
+      "sample_sd": 1.1612957355774358e-05
+    },
+    "udp_loss_percent": {
+      "mean": 0.0,
+      "sample_sd": 0.0
+    },
+    "udp_jitter_interval_mean_ms": {
+      "mean": 0.1095197943801014,
+      "sample_sd": 0.007446992916160779
+    },
+    "tcp_received_mbps": {
+      "mean": 1.551889779901174,
+      "sample_sd": 2.0996868397983317e-05
+    },
+    "rtt_mean_ms": {
+      "mean": 0.4523479253112033,
+      "sample_sd": 0.09339301637770663
+    },
+    "rtt_p95_ms": {
+      "mean": 0.8663333333333333,
+      "sample_sd": 0.4628718325123417
+    }
+  },
+  {
+    "mode": "qos",
+    "total_kbit": 2000,
+    "rt_kbit": 600,
+    "udp_kbit": 300,
+    "seconds": 15,
+    "warmup": 10,
+    "runner_sha256": "e2e53215afaf27f676affb838431e8f00437ff0a2d87445730414b79bc2d829d",
+    "topology_sha256": "ff61cd8fa0e91d72c8a953948d83053899a62e2cedf1e6757b0e60830dc62c19",
+    "n": 1,
+    "unique_repeat_ids": 1,
+    "meets_repeat_minimum": false,
+    "udp_received_mbps": {
+      "mean": 0.3000236593422703,
+      "sample_sd": null
+    },
+    "udp_loss_percent": {
+      "mean": 0.0,
+      "sample_sd": null
+    },
+    "udp_jitter_interval_mean_ms": {
+      "mean": 0.04597297506012781,
+      "sample_sd": null
+    },
+    "tcp_received_mbps": {
+      "mean": 1.6774830619085965,
+      "sample_sd": null
+    },
+    "rtt_mean_ms": {
+      "mean": 0.345875,
+      "sample_sd": null
+    },
+    "rtt_p95_ms": {
+      "mean": 0.559,
+      "sample_sd": null
+    }
+  }
+]

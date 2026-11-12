@@ -1,0 +1,10 @@
+{
+  "shared_lock_available": true,
+  "units": "Result=success\nId=wifi-expc-v11-full7.service\nActiveState=inactive\n\nResult=success\nId=wifi-expc-v11-supplement.service\nActiveState=inactive\n",
+  "processes": {
+    "iperf3": "",
+    "wmediumd": ""
+  },
+  "bridges": [],
+  "experiment_links_remaining": []
+}

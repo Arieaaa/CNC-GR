@@ -1,0 +1,30 @@
+{
+  "versions": {
+    "v1.0": {
+      "role": "preliminary_validation",
+      "formal_runs": 6,
+      "merged_logs": 11,
+      "original_files": 4343,
+      "log_index": "history/v1.0_original_delivery/wifi-qos/merged_logs/index.json",
+      "audit": "history/v1.0_original_delivery/wifi-qos/results/audit.json",
+      "audit_sha256": "2d7fcd9357e0f2b2b3b626e8c931ae4b445ff9a36f94379b510a3a2d48b3afcc",
+      "summary": "history/v1.0_original_delivery/wifi-qos/results/summary.json",
+      "summary_sha256": "425ebdf1c64adc8b7b348ff0b5e1d0ec6d7cf4ec34a1cf97ed62e00db9949faa"
+    },
+    "v1.1": {
+      "role": "primary",
+      "formal_runs": 72,
+      "merged_logs": 95,
+      "original_files": 67230,
+      "log_index": "wifi-qos/extension_v1.1/merged_logs/index.json",
+      "audit": "wifi-qos/extension_v1.1/results/audit.json",
+      "audit_sha256": "87295aeeda31672795ed5664fcb69478b5ed4b63c64d412402900bfd6a9c1c20",
+      "summary": "wifi-qos/extension_v1.1/results/summary.json",
+      "summary_sha256": "6ab238fe5c0831328296702df85f54605f6e24fd2953e820db803ffd0310e211"
+    }
+  },
+  "total_formal_runs": 78,
+  "canonical_merged_logs": 106,
+  "canonical_original_files": 71573,
+  "statistics_policy": "Group by version, workload, mode, guarantee and buffer; do not pool versions."
+}

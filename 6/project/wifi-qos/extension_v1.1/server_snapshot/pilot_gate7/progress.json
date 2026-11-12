@@ -1,0 +1,9 @@
+{
+  "state": "COMPLETE",
+  "completed": 9,
+  "total": 9,
+  "invalid_attempts": 0,
+  "started_ns": 1794412563365322653,
+  "current": "gate7_capacity",
+  "finished_ns": 1794412946499528531
+}

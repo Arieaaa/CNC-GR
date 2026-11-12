@@ -1,0 +1,17 @@
+{
+  "checks_passed": true,
+  "total_unique_formal_runs": 78,
+  "version_counts": {
+    "v1.0": 6,
+    "v1.1": 72
+  },
+  "group_count": 18,
+  "dynamic_phase_rows": 36,
+  "canonical_log_files": 106,
+  "canonical_original_files": 71573,
+  "source_audits_passed": true,
+  "source_group_means_and_sd_rechecked": true,
+  "original_delivery_sha256_entries_verified": 46,
+  "extension_sha256_entries_verified": 170,
+  "data_policy": "Versions retained; no cross-version pooled statistics; archive copies are not additional samples."
+}
